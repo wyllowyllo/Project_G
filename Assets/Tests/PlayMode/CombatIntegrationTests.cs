@@ -257,7 +257,8 @@ namespace Tests.PlayMode
 
         private void SetMeleeAttackerComboSettings(MeleeAttacker attacker, ComboSettings settings)
         {
-            var serializedObject = new UnityEditor.SerializedObject(attacker);
+            var comboHandler = attacker.GetComponent<ComboAttackHandler>();
+            var serializedObject = new UnityEditor.SerializedObject(comboHandler);
             serializedObject.FindProperty("_comboSettings").objectReferenceValue = settings;
             serializedObject.ApplyModifiedPropertiesWithoutUndo();
         }
