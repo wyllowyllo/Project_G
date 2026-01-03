@@ -3,7 +3,7 @@ using Combat.Damage;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace Tests
+namespace Tests.PlayMode
 {
     [TestFixture]
     public class DamageCalculatorTests

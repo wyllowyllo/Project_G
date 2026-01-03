@@ -2,7 +2,7 @@ using Combat.Core;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace Tests
+namespace Tests.PlayMode
 {
     [TestFixture]
     public class HealthTests

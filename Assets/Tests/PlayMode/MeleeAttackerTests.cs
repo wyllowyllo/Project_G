@@ -1,13 +1,12 @@
 using System.Collections;
 using Combat.Attack;
 using Combat.Core;
-using Combat.Data;
 using Combat.Damage;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace Tests
+namespace Tests.PlayMode
 {
     [TestFixture]
     public class MeleeAttackerTests
