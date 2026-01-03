@@ -269,6 +269,12 @@ namespace Tests.PlayMode
             {
                 Stats = new CombatStats(attackDamage, criticalChance, criticalMultiplier, defense);
             }
+
+            public CombatantAttackStats GetAttackStats()
+                => new CombatantAttackStats(
+                    Stats.AttackDamage.Value,
+                    Stats.CriticalChance.Value,
+                    Stats.CriticalMultiplier.Value);
         }
 
         private class MockHealthProvider : IHealthProvider
