@@ -82,6 +82,9 @@ namespace Tests.PlayMode
         [Test]
         public void ComboAttack_ThreeHits_AppliesIncreasingDamage()
         {
+            // Set defender health high enough to survive multiple hits
+            SetHealthMaxHealth(_defenderObject, 1000f);
+
             // Set up combo settings with multipliers
             var comboSettings = ScriptableObject.CreateInstance<ComboSettings>();
             SetComboSettingsData(comboSettings, new float[] { 1.0f, 1.1f, 1.3f });
@@ -160,6 +163,9 @@ namespace Tests.PlayMode
         [UnityTest]
         public IEnumerator InvincibilityFrame_PreventsConsecutiveDamage()
         {
+            // Set defender health high enough to survive hits
+            SetHealthMaxHealth(_defenderObject, 1000f);
+
             // Set up auto invincibility on hit
             var hitReactionSettings = ScriptableObject.CreateInstance<HitReactionSettings>();
             SetHitReactionSettings(hitReactionSettings, invincibilityDuration: 0.5f, autoInvincibility: true);
@@ -214,9 +220,9 @@ namespace Tests.PlayMode
             var statsData = ScriptableObject.CreateInstance<CombatStatsData>();
             var serializedData = new UnityEditor.SerializedObject(statsData);
             serializedData.FindProperty("_baseAttackDamage").floatValue = attackDamage;
-            serializedData.FindProperty("_baseCriticalChance").floatValue = critChance;
-            serializedData.FindProperty("_baseCriticalMultiplier").floatValue = critMult;
-            serializedData.FindProperty("_baseDefense").floatValue = defense;
+            serializedData.FindProperty("_criticalChance").floatValue = critChance;
+            serializedData.FindProperty("_criticalMultiplier").floatValue = critMult;
+            serializedData.FindProperty("_defense").floatValue = defense;
             serializedData.ApplyModifiedPropertiesWithoutUndo();
 
             var serializedCombatant = new UnityEditor.SerializedObject(combatant);
@@ -227,6 +233,19 @@ namespace Tests.PlayMode
             var awakeMethod = typeof(Combatant).GetMethod("Awake",
                 System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
             awakeMethod?.Invoke(combatant, null);
+        }
+
+        private void SetHealthMaxHealth(GameObject obj, float maxHealth)
+        {
+            var health = obj.GetComponent<Health>();
+            var serializedObject = new UnityEditor.SerializedObject(health);
+            serializedObject.FindProperty("_maxHealth").floatValue = maxHealth;
+            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+
+            // Re-initialize by calling Awake
+            var awakeMethod = typeof(Health).GetMethod("Awake",
+                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            awakeMethod?.Invoke(health, null);
         }
 
         private void SetMeleeAttackerHitbox(MeleeAttacker attacker, HitboxTrigger hitbox)

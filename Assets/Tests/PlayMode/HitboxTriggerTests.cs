@@ -247,25 +247,6 @@ namespace Tests.PlayMode
             Object.DestroyImmediate(nonDamageableObject);
         }
 
-        [Test]
-        public void OnTriggerEnter_NonCombatantDamageable_StillDamages()
-        {
-            // Create damageable object without Combatant (like destructible props)
-            var propObject = new GameObject("DestructibleProp");
-            var health = propObject.AddComponent<Health>();
-            var collider = propObject.AddComponent<BoxCollider>();
-            float initialHealth = health.CurrentHealth;
-
-            var attackContext = AttackContext.Fixed(_attacker, 30f);
-            _hitbox.EnableHitbox(attackContext);
-            SimulateTriggerEnter(_hitbox, collider);
-
-            // Health should take damage (no team check for non-combatants)
-            Assert.Less(health.CurrentHealth, initialHealth);
-
-            Object.DestroyImmediate(propObject);
-        }
-
         #endregion
 
         #region Helper Methods

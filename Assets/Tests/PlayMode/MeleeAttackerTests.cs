@@ -32,6 +32,10 @@ namespace Tests.PlayMode
 
             _meleeAttacker = _attackerObject.AddComponent<MeleeAttacker>();
             SetMeleeAttackerHitbox(_meleeAttacker, _hitbox);
+
+            // Re-trigger OnEnable to subscribe to hitbox events (since _hitbox was null during initial OnEnable)
+            _meleeAttacker.enabled = false;
+            _meleeAttacker.enabled = true;
         }
 
         [TearDown]
