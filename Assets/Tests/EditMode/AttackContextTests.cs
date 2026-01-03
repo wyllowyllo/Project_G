@@ -8,16 +8,27 @@ namespace Tests.EditMode
     public class AttackContextTests
     {
         private MockCombatant _attacker;
+        private GameObject _attackerObject;
 
         [SetUp]
         public void SetUp()
         {
+            _attackerObject = new GameObject("Attacker");
+            _attackerObject.transform.position = new Vector3(1f, 2f, 3f);
+
             _attacker = new MockCombatant(
                 attackDamage: 100f,
                 criticalChance: 0.2f,
                 criticalMultiplier: 1.5f,
-                defense: 10f
+                defense: 10f,
+                transform: _attackerObject.transform
             );
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            Object.DestroyImmediate(_attackerObject);
         }
 
         #region Factory Method Tests
@@ -27,7 +38,6 @@ namespace Tests.EditMode
         {
             var context = AttackContext.Scaled(_attacker, baseMultiplier: 1.5f, buffMultiplier: 1.2f, type: DamageType.Skill);
 
-            Assert.AreEqual(_attacker, context.Attacker);
             Assert.AreEqual(DamageSource.AttackScaled, context.Source);
             Assert.AreEqual(1.5f, context.BaseValue);
             Assert.AreEqual(1.2f, context.Multiplier);
@@ -35,11 +45,22 @@ namespace Tests.EditMode
         }
 
         [Test]
+        public void AttackContext_Scaled_SnapshotsAttackerStats()
+        {
+            var context = AttackContext.Scaled(_attacker, baseMultiplier: 1f, buffMultiplier: 1f);
+
+            Assert.AreEqual(100f, context.AttackDamage);
+            Assert.AreEqual(0.2f, context.CriticalChance);
+            Assert.AreEqual(1.5f, context.CriticalMultiplier);
+            Assert.AreEqual(CombatTeam.Player, context.AttackerTeam);
+            Assert.AreEqual(new Vector3(1f, 2f, 3f), context.AttackerPosition);
+        }
+
+        [Test]
         public void AttackContext_Fixed_SetsCorrectProperties()
         {
             var context = AttackContext.Fixed(_attacker, damage: 50f, multiplier: 2f, type: DamageType.True);
 
-            Assert.AreEqual(_attacker, context.Attacker);
             Assert.AreEqual(DamageSource.Fixed, context.Source);
             Assert.AreEqual(50f, context.BaseValue);
             Assert.AreEqual(2f, context.Multiplier);
@@ -51,7 +72,6 @@ namespace Tests.EditMode
         {
             var context = AttackContext.MaxHpPercent(_attacker, percent: 0.15f, multiplier: 1.1f, type: DamageType.Normal);
 
-            Assert.AreEqual(_attacker, context.Attacker);
             Assert.AreEqual(DamageSource.MaxHpPercent, context.Source);
             Assert.AreEqual(0.15f, context.BaseValue);
             Assert.AreEqual(1.1f, context.Multiplier);
@@ -63,7 +83,6 @@ namespace Tests.EditMode
         {
             var context = AttackContext.CurrentHpPercent(_attacker, percent: 0.2f, multiplier: 0.8f, type: DamageType.Skill);
 
-            Assert.AreEqual(_attacker, context.Attacker);
             Assert.AreEqual(DamageSource.CurrentHpPercent, context.Source);
             Assert.AreEqual(0.2f, context.BaseValue);
             Assert.AreEqual(0.8f, context.Multiplier);
@@ -94,13 +113,14 @@ namespace Tests.EditMode
 
         private class MockCombatant : ICombatant
         {
-            public Transform Transform => null;
+            public Transform Transform { get; }
             public CombatStats Stats { get; }
             public CombatTeam Team => CombatTeam.Player;
 
-            public MockCombatant(float attackDamage, float criticalChance, float criticalMultiplier, float defense)
+            public MockCombatant(float attackDamage, float criticalChance, float criticalMultiplier, float defense, Transform transform)
             {
                 Stats = new CombatStats(attackDamage, criticalChance, criticalMultiplier, defense);
+                Transform = transform;
             }
         }
 

@@ -170,7 +170,7 @@ namespace Tests.PlayMode
 
             // Create damage with hit direction
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
-            var damageInfo = new DamageInfo(10f, false, _attacker, hitContext);
+            var damageInfo = new DamageInfo(10f, false, hitContext);
             _target.TakeDamage(damageInfo);
 
             yield return new WaitForFixedUpdate();
@@ -186,7 +186,7 @@ namespace Tests.PlayMode
         private DamageInfo CreateDamageInfo(float amount, bool isCritical = false)
         {
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
-            return new DamageInfo(amount, isCritical, null, hitContext);
+            return new DamageInfo(amount, isCritical, hitContext);
         }
 
         private void SetCombatantTeam(Combatant combatant, CombatTeam team)

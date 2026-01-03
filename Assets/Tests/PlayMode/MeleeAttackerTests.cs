@@ -340,7 +340,7 @@ namespace Tests.PlayMode
         private DamageInfo CreateDamageInfo(float amount, bool isCritical = false)
         {
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
-            return new DamageInfo(amount, isCritical, null, hitContext);
+            return new DamageInfo(amount, isCritical, hitContext);
         }
 
         private void SetMeleeAttackerHitbox(MeleeAttacker attacker, HitboxTrigger hitbox)

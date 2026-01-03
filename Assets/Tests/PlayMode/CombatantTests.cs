@@ -411,7 +411,7 @@ namespace Tests.PlayMode
         private DamageInfo CreateDamageInfo(float amount, bool isCritical = false, ICombatant attacker = null)
         {
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
-            return new DamageInfo(amount, isCritical, attacker, hitContext);
+            return new DamageInfo(amount, isCritical, hitContext);
         }
 
         private void SetHitReactionSettings(HitReactionSettings settings, 

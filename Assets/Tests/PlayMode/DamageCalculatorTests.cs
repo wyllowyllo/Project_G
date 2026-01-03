@@ -252,7 +252,16 @@ namespace Tests.PlayMode
 
         private class MockCombatant : ICombatant
         {
-            public Transform Transform => null;
+            private static readonly GameObject _sharedGameObject;
+            private static readonly Transform _sharedTransform;
+
+            static MockCombatant()
+            {
+                _sharedGameObject = new GameObject("MockCombatant");
+                _sharedTransform = _sharedGameObject.transform;
+            }
+
+            public Transform Transform => _sharedTransform;
             public CombatStats Stats { get; }
             public CombatTeam Team => CombatTeam.Player;
 
