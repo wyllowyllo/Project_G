@@ -671,6 +671,7 @@ GameObject:
   - component: {fileID: 1500312470}
   - component: {fileID: 1500312469}
   - component: {fileID: 1500312473}
+  - component: {fileID: 1500312474}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
@@ -800,6 +801,43 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &1500312474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500312468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86c14309501bce4eb70a60286c3298d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SjEnemy
+  maxHealth: 100
+  currentHealth: 0
+  isInvincible: 0
+  knockbackResistance: 1
+  knockbackDuration: 0.3
+  canBeKnockedBack: 1
+  damageMaterial: {fileID: 0}
+  damageFlashDuration: 0.1
+  damageNumberPrefab: {fileID: 0}
+  deathDelay: 1
+  deathEffectPrefab: {fileID: 0}
+  healthBarPosition: {fileID: 0}
+  healthBarPrefab: {fileID: 0}
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  OnKnockback:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1553515356
 GameObject:
   m_ObjectHideFlags: 0
