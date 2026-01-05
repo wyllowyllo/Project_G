@@ -191,8 +191,7 @@ MonoBehaviour:
     - {fileID: 1395348330}
     monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
     aggroRange: 12
-    ringRadius: 3.5
-    maxAttackSlots: 2
+    maxAttackSlots: 8
   _spawnDelay: 1
   _spawnOnStart: 1
   _showDebugGizmos: 1
