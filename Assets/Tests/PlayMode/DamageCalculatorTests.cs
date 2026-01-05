@@ -275,6 +275,10 @@ namespace Tests.PlayMode
                     Stats.AttackDamage.Value,
                     Stats.CriticalChance.Value,
                     Stats.CriticalMultiplier.Value);
+
+            public float GetDefense() => Stats.Defense.Value;
+
+            public bool IsAlly(CombatTeam team) => Team == team;
         }
 
         private class MockHealthProvider : IHealthProvider
