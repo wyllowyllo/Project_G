@@ -133,17 +133,17 @@ namespace Tests.PlayMode
 
         #endregion
 
-        #region StatModifier Tests
+        #region BaseValue Tests
 
         [Test]
-        public void LevelUp_AppliesAttackModifier()
+        public void LevelUp_IncreasesBaseAttackDamage()
         {
-            float initialAttack = _combatant.Stats.AttackDamage.Value;
+            float initialAttack = _combatant.Stats.AttackDamage.BaseValue;
 
             _progression.AddExperience(_config.GetRequiredXp(2));
 
             float expectedBonus = _config.GetAttackBonus(2);
-            Assert.AreEqual(initialAttack + expectedBonus, _combatant.Stats.AttackDamage.Value);
+            Assert.AreEqual(initialAttack + expectedBonus, _combatant.Stats.AttackDamage.BaseValue);
         }
 
         #endregion
