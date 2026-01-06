@@ -1,11 +1,10 @@
 {
-    "name": "ProjectG.Tests.EditMode",
+    "name": "ProjectG.Tests.Shared",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "ProjectG",
-        "ProjectG.Tests.Shared"
+        "ProjectG"
     ],
     "includePlatforms": [
         "Editor"
