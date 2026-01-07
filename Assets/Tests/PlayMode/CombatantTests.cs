@@ -96,9 +96,10 @@ namespace Tests.PlayMode
         public IEnumerator TakeDamage_WithAutoInvincibility_SetsInvincible()
         {
             // Create a HitReactionSettings with auto invincibility enabled
-            var hitReactionSettings = ScriptableObject.CreateInstance<HitReactionSettings>();
-            SetHitReactionSettings(hitReactionSettings, invincibilityDuration: 0.5f, autoInvincibility: true);
-            SetCombatantHitReactionSettings(_combatant, hitReactionSettings);
+            var hitReactionSettings = HitReactionSettings.CreateForTest(
+                invincibilityDuration: 0.5f,
+                autoInvincibility: true);
+            _combatant.SetHitReactionSettingsForTest(hitReactionSettings);
 
             var damageInfo = CreateDamageInfo(10f);
             _combatant.TakeDamage(damageInfo);
@@ -112,9 +113,10 @@ namespace Tests.PlayMode
         [UnityTest]
         public IEnumerator TakeDamage_WithAutoHitStun_SetsStunned()
         {
-            var hitReactionSettings = ScriptableObject.CreateInstance<HitReactionSettings>();
-            SetHitReactionSettings(hitReactionSettings, hitStunDuration: 0.3f, autoHitStun: true);
-            SetCombatantHitReactionSettings(_combatant, hitReactionSettings);
+            var hitReactionSettings = HitReactionSettings.CreateForTest(
+                hitStunDuration: 0.3f,
+                autoHitStun: true);
+            _combatant.SetHitReactionSettingsForTest(hitReactionSettings);
 
             var damageInfo = CreateDamageInfo(10f);
             _combatant.TakeDamage(damageInfo);
@@ -412,25 +414,6 @@ namespace Tests.PlayMode
         {
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
             return new DamageInfo(amount, isCritical, hitContext);
-        }
-
-        private void SetHitReactionSettings(HitReactionSettings settings, 
-            float invincibilityDuration = 0.5f, bool autoInvincibility = true,
-            float hitStunDuration = 0.2f, bool autoHitStun = true)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(settings);
-            serializedObject.FindProperty("_invincibilityDuration").floatValue = invincibilityDuration;
-            serializedObject.FindProperty("_autoInvincibilityOnHit").boolValue = autoInvincibility;
-            serializedObject.FindProperty("_hitStunDuration").floatValue = hitStunDuration;
-            serializedObject.FindProperty("_autoHitStunOnHit").boolValue = autoHitStun;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
-
-        private void SetCombatantHitReactionSettings(Combatant combatant, HitReactionSettings settings)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_hitReactionSettings").objectReferenceValue = settings;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
         }
 
         #endregion

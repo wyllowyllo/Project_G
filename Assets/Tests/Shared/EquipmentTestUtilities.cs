@@ -1,7 +1,6 @@
 using Combat.Core;
 using Combat.Data;
 using Equipment;
-using UnityEditor;
 using UnityEngine;
 
 namespace Tests.Shared
@@ -16,16 +15,7 @@ namespace Tests.Shared
             float criticalChanceBonus = 0f,
             string equipmentName = "TestEquipment")
         {
-            var data = ScriptableObject.CreateInstance<EquipmentData>();
-            var so = new SerializedObject(data);
-            so.FindProperty("_equipmentName").stringValue = equipmentName;
-            so.FindProperty("_slot").enumValueIndex = (int)slot;
-            so.FindProperty("_grade").enumValueIndex = (int)grade;
-            so.FindProperty("_attackBonus").floatValue = attackBonus;
-            so.FindProperty("_defenseBonus").floatValue = defenseBonus;
-            so.FindProperty("_criticalChanceBonus").floatValue = criticalChanceBonus;
-            so.ApplyModifiedPropertiesWithoutUndo();
-            return data;
+            return EquipmentData.CreateForTest(slot, grade, attackBonus, defenseBonus, criticalChanceBonus, equipmentName);
         }
 
         public static DropTableData CreateDropTableData(
@@ -35,15 +25,7 @@ namespace Tests.Shared
             int uniqueWeight = 12,
             int legendaryWeight = 3)
         {
-            var data = ScriptableObject.CreateInstance<DropTableData>();
-            var so = new SerializedObject(data);
-            so.FindProperty("_dropChance").floatValue = dropChance;
-            so.FindProperty("_normalWeight").intValue = normalWeight;
-            so.FindProperty("_rareWeight").intValue = rareWeight;
-            so.FindProperty("_uniqueWeight").intValue = uniqueWeight;
-            so.FindProperty("_legendaryWeight").intValue = legendaryWeight;
-            so.ApplyModifiedPropertiesWithoutUndo();
-            return data;
+            return DropTableData.CreateForTest(dropChance, normalWeight, rareWeight, uniqueWeight, legendaryWeight);
         }
 
         public static void SetDropTablePools(
@@ -53,31 +35,7 @@ namespace Tests.Shared
             EquipmentData[] uniquePool = null,
             EquipmentData[] legendaryPool = null)
         {
-            var so = new SerializedObject(dropTable);
-
-            SetArrayProperty(so, "_normalPool", normalPool);
-            SetArrayProperty(so, "_rarePool", rarePool);
-            SetArrayProperty(so, "_uniquePool", uniquePool);
-            SetArrayProperty(so, "_legendaryPool", legendaryPool);
-
-            so.ApplyModifiedPropertiesWithoutUndo();
-        }
-
-        private static void SetArrayProperty(SerializedObject so, string propertyName, EquipmentData[] items)
-        {
-            var prop = so.FindProperty(propertyName);
-            if (items == null)
-            {
-                prop.arraySize = 0;
-            }
-            else
-            {
-                prop.arraySize = items.Length;
-                for (int i = 0; i < items.Length; i++)
-                {
-                    prop.GetArrayElementAtIndex(i).objectReferenceValue = items[i];
-                }
-            }
+            dropTable.SetPoolsForTest(normalPool, rarePool, uniquePool, legendaryPool);
         }
 
         public static GameObject CreatePlayerWithEquipment(
@@ -91,9 +49,7 @@ namespace Tests.Shared
             obj.AddComponent<Health>();
 
             combatant = obj.AddComponent<Combatant>();
-            var combatantSo = new SerializedObject(combatant);
-            combatantSo.FindProperty("_statsData").objectReferenceValue = statsData;
-            combatantSo.ApplyModifiedPropertiesWithoutUndo();
+            combatant.SetStatsDataForTest(statsData);
 
             playerEquipment = obj.AddComponent<PlayerEquipment>();
 
@@ -102,7 +58,7 @@ namespace Tests.Shared
             return obj;
         }
 
-public static DroppedEquipment CreateDroppedEquipmentPrefab()
+        public static DroppedEquipment CreateDroppedEquipmentPrefab()
         {
             var obj = new GameObject("DroppedEquipmentPrefab");
             var dropped = obj.AddComponent<DroppedEquipment>();
@@ -119,10 +75,8 @@ public static DroppedEquipment CreateDroppedEquipmentPrefab()
             health = obj.AddComponent<Health>();
             equipmentDrop = obj.AddComponent<EquipmentDropOnDeath>();
 
-            var so = new SerializedObject(equipmentDrop);
-            so.FindProperty("_dropTable").objectReferenceValue = dropTable;
-            so.FindProperty("_droppedEquipmentPrefab").objectReferenceValue = droppedEquipmentPrefab;
-            so.ApplyModifiedPropertiesWithoutUndo();
+            equipmentDrop.SetDropTableForTest(dropTable);
+            equipmentDrop.SetDroppedEquipmentPrefabForTest(droppedEquipmentPrefab);
 
             return obj;
         }

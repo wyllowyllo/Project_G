@@ -128,5 +128,84 @@ namespace Tests.PlayMode
         }
 
         #endregion
+
+        #region Injection Tests
+
+        [Test]
+        public void SetDropTable_WhenEmpty_SetsTable()
+        {
+            var monster = new GameObject("Monster");
+            monster.AddComponent<Health>();
+            var dropper = monster.AddComponent<EquipmentDropOnDeath>();
+
+            dropper.SetDropTable(_dropTable);
+            dropper.SetDroppedEquipmentPrefab(_droppedEquipmentPrefab);
+
+            monster.GetComponent<Health>().TakeDamage(100f);
+
+            var dropped = Object.FindFirstObjectByType<DroppedEquipment>();
+            Assert.IsNotNull(dropped);
+
+            Object.DestroyImmediate(monster);
+        }
+
+        [Test]
+        public void SetDropTable_WhenAlreadySet_IgnoresNewTable()
+        {
+            var otherWeapon = EquipmentTestUtilities.CreateEquipmentData(
+                EquipmentSlot.Helmet, EquipmentGrade.Rare, defenseBonus: 20f);
+            var otherTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
+            EquipmentTestUtilities.SetDropTablePools(otherTable, rarePool: new[] { otherWeapon });
+
+            _equipmentDrop.SetDropTable(otherTable);
+
+            _monsterHealth.TakeDamage(100f);
+
+            var dropped = Object.FindFirstObjectByType<DroppedEquipment>();
+            Assert.IsNotNull(dropped);
+            Assert.AreEqual(_testWeapon, dropped.EquipmentData);
+
+            Object.DestroyImmediate(otherTable);
+            Object.DestroyImmediate(otherWeapon);
+        }
+
+        [Test]
+        public void SetDroppedEquipmentPrefab_WhenEmpty_SetsPrefab()
+        {
+            var monster = new GameObject("Monster");
+            monster.AddComponent<Health>();
+            var dropper = monster.AddComponent<EquipmentDropOnDeath>();
+
+            dropper.SetDropTable(_dropTable);
+            dropper.SetDroppedEquipmentPrefab(_droppedEquipmentPrefab);
+
+            monster.GetComponent<Health>().TakeDamage(100f);
+
+            var dropped = Object.FindFirstObjectByType<DroppedEquipment>();
+            Assert.IsNotNull(dropped);
+
+            Object.DestroyImmediate(monster);
+        }
+
+        [Test]
+        public void SetDroppedEquipmentPrefab_WhenAlreadySet_IgnoresNewPrefab()
+        {
+            var otherPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab();
+            otherPrefab.gameObject.name = "OtherPrefab";
+
+            _equipmentDrop.SetDroppedEquipmentPrefab(otherPrefab);
+
+            _monsterHealth.TakeDamage(100f);
+
+            var allDropped = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None);
+            var spawned = System.Array.Find(allDropped, d => d.EquipmentData != null);
+
+            Assert.IsNotNull(spawned);
+            Assert.AreNotEqual("OtherPrefab(Clone)", spawned.gameObject.name);
+
+            Object.DestroyImmediate(otherPrefab.gameObject);
+        }
+
+        #endregion
     }
 }
