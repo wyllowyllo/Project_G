@@ -47,7 +47,7 @@ MonoBehaviour:
   _groupCenter: {x: 0, y: 0, z: 0}
   _aggroRange: 12
   _maxAttackSlots: 2
-  _directorTickInterval: 0.4
+  _directorTickInterval: 5
   _sideAngleCenter: 90
   _sideAngleSigma: 35
   _sideAngleWeight: 3
@@ -59,10 +59,9 @@ MonoBehaviour:
   _losBlockMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  _frontConeAngle: 55
-  _frontCrowdCount: 4
-  _frontCrowdExtraDist: 1
-  _frontKeepCount: 2
+  _frontConeAngle: 70
+  _frontCrowdCount: 3
+  _frontCrowdExtraDist: 2
   _crowdReliefAngles:
   - 70
   - -70
