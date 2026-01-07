@@ -69,10 +69,45 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 0.25815892
+        functionName: OnAttackHitStart
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.33888888
+        functionName: OnComboWindowStart
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5092593
+        functionName: OnAttackHitEnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.76666665
+        functionName: OnComboWindowEnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.93572986
         functionName: StopTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: OnAttackAnimationEnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

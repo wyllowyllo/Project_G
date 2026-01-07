@@ -1861,8 +1861,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
   _team: 0
-  _statsData: {fileID: 0}
-  _hitReactionSettings: {fileID: 0}
+  _statsData: {fileID: 11400000, guid: 1c0a2d0706a7c2347bdaf7f77f36b51d, type: 2}
+  _hitReactionSettings: {fileID: 11400000, guid: 551b470a19262454bb130af2f2c6d737, type: 2}
 --- !u!114 &1457489499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2010,8 +2010,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
   _team: 0
-  _statsData: {fileID: 11400000, guid: 1c0a2d0706a7c2347bdaf7f77f36b51d, type: 2}
-  _hitReactionSettings: {fileID: 11400000, guid: 551b470a19262454bb130af2f2c6d737, type: 2}
+  _statsData: {fileID: 0}
+  _hitReactionSettings: {fileID: 0}
 --- !u!1 &1485847403
 GameObject:
   m_ObjectHideFlags: 0
