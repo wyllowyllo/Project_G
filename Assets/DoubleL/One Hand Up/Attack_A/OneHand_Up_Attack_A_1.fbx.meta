@@ -42,7 +42,7 @@ ModelImporter:
       takeName: OneHand_Up_Attack_A_1
       internalID: 2691850682750431876
       firstFrame: 0
-      lastFrame: 75
+      lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -62,14 +62,14 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.06296296
+      - time: 0.25250545
         functionName: StartTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.46296296
+      - time: 0.93572986
         functionName: StopTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
