@@ -1795,42 +1795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  comboAttacks:
-  - comboName: Light Attack 1
-    damage: 100
-    knockbackForce: 3
-    attackRange: 2
-    animationDuration: 2
-    damageFrame: 0.3
-    comboWindowStart: 0.4
-    comboWindowEnd: 0.9
-  - comboName: Light Attack 2
-    damage: 120
-    knockbackForce: 4
-    attackRange: 2.2
-    animationDuration: 2
-    damageFrame: 0.35
-    comboWindowStart: 0.45
-    comboWindowEnd: 0.9
-  - comboName: Light Attack 3 (Finisher)
-    damage: 180
-    knockbackForce: 8
-    attackRange: 2.5
-    animationDuration: 2
-    damageFrame: 0.4
-    comboWindowStart: 0.5
-    comboWindowEnd: 0.95
-  comboTimeout: 2
-  canMoveWhileAttacking: 0
-  inputBufferDuration: 2
-  showDebugLogs: 1
-  attackPoint: {fileID: 0}
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 512
-  detectionRadius: 2
-  attackVFX: []
-  hitVFX: []
   OnComboStarted:
     m_PersistentCalls:
       m_Calls: []
@@ -1959,6 +1923,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5908784111b852242ac5d910e80520da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PlayerVFXController
+  _attackVFX: []
+  _attackVFXSpawnPoint: {fileID: 0}
+  _hitVFX: []
+  _vfxLifetime: 2
 --- !u!114 &1457489503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1971,6 +1939,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31087958b22c7cd4db7b8abc586fff0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PlayerTargetController
+  _detectionRadius: 5
+  _targetLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &1457489504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,6 +1955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b784ac0c134dbd3489a2cc73918ea668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PlayerAnimationController
+  _attackAnimationSpeed: 1
 --- !u!114 &1457489505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1995,6 +1968,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b057ff76b69474c98787a7686cf174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PlayerInputHandler
+  _bufferDuration: 0.3
+  _enableBuffer: 1
 --- !u!114 &1457489506
 MonoBehaviour:
   m_ObjectHideFlags: 0
