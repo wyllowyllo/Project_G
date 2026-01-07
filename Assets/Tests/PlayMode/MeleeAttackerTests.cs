@@ -345,16 +345,12 @@ namespace Tests.PlayMode
 
         private void SetMeleeAttackerHitbox(MeleeAttacker attacker, HitboxTrigger hitbox)
         {
-            var serializedObject = new UnityEditor.SerializedObject(attacker);
-            serializedObject.FindProperty("_hitbox").objectReferenceValue = hitbox;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            attacker.SetHitboxForTest(hitbox);
         }
 
         private void SetCombatantTeam(Combatant combatant, CombatTeam team)
         {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_team").enumValueIndex = (int)team;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            combatant.SetTeamForTest(team);
         }
 
         #endregion

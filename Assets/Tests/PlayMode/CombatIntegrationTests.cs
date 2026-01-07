@@ -90,8 +90,7 @@ namespace Tests.PlayMode
             SetHealthMaxHealth(_defenderObject, 1000f);
 
             // Set up combo settings with multipliers
-            var comboSettings = ScriptableObject.CreateInstance<ComboSettings>();
-            SetComboSettingsData(comboSettings, new float[] { 1.0f, 1.1f, 1.3f });
+            var comboSettings = ComboSettings.CreateForTest(new float[] { 1.0f, 1.1f, 1.3f });
             SetMeleeAttackerComboSettings(_meleeAttacker, comboSettings);
 
             float[] damageDealt = new float[3];
@@ -171,8 +170,9 @@ namespace Tests.PlayMode
             SetHealthMaxHealth(_defenderObject, 1000f);
 
             // Set up auto invincibility on hit
-            var hitReactionSettings = ScriptableObject.CreateInstance<HitReactionSettings>();
-            SetHitReactionSettings(hitReactionSettings, invincibilityDuration: 0.5f, autoInvincibility: true);
+            var hitReactionSettings = HitReactionSettings.CreateForTest(
+                invincibilityDuration: 0.5f,
+                autoInvincibility: true);
             SetCombatantHitReactionSettings(_defender, hitReactionSettings);
 
             float initialHealth = _defender.CurrentHealth;
@@ -214,89 +214,35 @@ namespace Tests.PlayMode
 
         private void SetCombatantTeam(Combatant combatant, CombatTeam team)
         {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_team").enumValueIndex = (int)team;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            combatant.SetTeamForTest(team);
         }
 
         private void SetCombatantStats(Combatant combatant, float attackDamage, float critChance, float critMult, float defense)
         {
-            var statsData = ScriptableObject.CreateInstance<CombatStatsData>();
-            var serializedData = new UnityEditor.SerializedObject(statsData);
-            serializedData.FindProperty("_baseAttackDamage").floatValue = attackDamage;
-            serializedData.FindProperty("_criticalChance").floatValue = critChance;
-            serializedData.FindProperty("_criticalMultiplier").floatValue = critMult;
-            serializedData.FindProperty("_defense").floatValue = defense;
-            serializedData.ApplyModifiedPropertiesWithoutUndo();
-
-            var serializedCombatant = new UnityEditor.SerializedObject(combatant);
-            serializedCombatant.FindProperty("_statsData").objectReferenceValue = statsData;
-            serializedCombatant.ApplyModifiedPropertiesWithoutUndo();
-
-            // Re-initialize stats by calling Awake again through reflection
-            var awakeMethod = typeof(Combatant).GetMethod("Awake",
-                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            awakeMethod?.Invoke(combatant, null);
+            var statsData = CombatStatsData.CreateForTest(attackDamage, critChance, critMult, defense);
+            combatant.SetStatsDataForTest(statsData);
         }
 
         private void SetHealthMaxHealth(GameObject obj, float maxHealth)
         {
             var health = obj.GetComponent<Health>();
-            var serializedObject = new UnityEditor.SerializedObject(health);
-            serializedObject.FindProperty("_maxHealth").floatValue = maxHealth;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-
-            // Re-initialize by calling Awake
-            var awakeMethod = typeof(Health).GetMethod("Awake",
-                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            awakeMethod?.Invoke(health, null);
+            health.SetMaxHealthForTest(maxHealth);
         }
 
         private void SetMeleeAttackerHitbox(MeleeAttacker attacker, HitboxTrigger hitbox)
         {
-            var serializedObject = new UnityEditor.SerializedObject(attacker);
-            serializedObject.FindProperty("_hitbox").objectReferenceValue = hitbox;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            attacker.SetHitboxForTest(hitbox);
         }
 
         private void SetMeleeAttackerComboSettings(MeleeAttacker attacker, ComboSettings settings)
         {
             var comboHandler = attacker.GetComponent<ComboAttackHandler>();
-            var serializedObject = new UnityEditor.SerializedObject(comboHandler);
-            serializedObject.FindProperty("_comboSettings").objectReferenceValue = settings;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
-
-        private void SetComboSettingsData(ComboSettings settings, float[] multipliers)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(settings);
-            var arrayProperty = serializedObject.FindProperty("_comboDamageMultipliers");
-            arrayProperty.ClearArray();
-            for (int i = 0; i < multipliers.Length; i++)
-            {
-                arrayProperty.InsertArrayElementAtIndex(i);
-                arrayProperty.GetArrayElementAtIndex(i).floatValue = multipliers[i];
-            }
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
-
-        private void SetHitReactionSettings(HitReactionSettings settings,
-            float invincibilityDuration = 0.5f, bool autoInvincibility = true,
-            float hitStunDuration = 0.2f, bool autoHitStun = true)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(settings);
-            serializedObject.FindProperty("_invincibilityDuration").floatValue = invincibilityDuration;
-            serializedObject.FindProperty("_autoInvincibilityOnHit").boolValue = autoInvincibility;
-            serializedObject.FindProperty("_hitStunDuration").floatValue = hitStunDuration;
-            serializedObject.FindProperty("_autoHitStunOnHit").boolValue = autoHitStun;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            comboHandler.SetComboSettingsForTest(settings);
         }
 
         private void SetCombatantHitReactionSettings(Combatant combatant, HitReactionSettings settings)
         {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_hitReactionSettings").objectReferenceValue = settings;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
+            combatant.SetHitReactionSettingsForTest(settings);
         }
 
         #endregion
