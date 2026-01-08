@@ -156,6 +156,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!134 &75916438
+PhysicsMaterial:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 2
+  m_DynamicFriction: 0.6
+  m_StaticFriction: 0.6
+  m_Bounciness: 0
+  m_FrictionCombine: 0
+  m_BounceCombine: 0
 --- !u!1 &111742256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &363563731
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1149,6 +1162,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363563730}
+  m_CullTransparentMesh: 1
+--- !u!1 &401250993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401250994}
+  - component: {fileID: 401250996}
+  - component: {fileID: 401250995}
+  m_Layer: 5
+  m_Name: ImageExpComplete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &401250994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401250993}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1533284811}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &401250995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401250993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.968332, b: 0.6933962, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: dbda16879a1d8ae408a4f8592c21729a, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &401250996
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401250993}
   m_CullTransparentMesh: 1
 --- !u!1001 &443060079
 PrefabInstance:
@@ -1713,6 +1801,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593984045}
   m_CullTransparentMesh: 1
+--- !u!21 &650323322
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LiberationSans SDF Material (Instance)
+  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 28684132378477856, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _FaceDilate: 0
+    - _GradientScale: 10
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 1
+    - _ScaleRatioC: 0.73125
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 1024
+    - _TextureWidth: 1024
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &685950317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,7 +2009,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1879,7 +2034,7 @@ GameObject:
   - component: {fileID: 731512682}
   - component: {fileID: 731512681}
   m_Layer: 5
-  m_Name: HpText
+  m_Name: ExpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1927,10 +2082,12 @@ MonoBehaviour:
   m_text: 100/100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
+  m_sharedMaterial: {fileID: 650323322}
+  m_fontSharedMaterials:
+  - {fileID: 650323322}
+  m_fontMaterial: {fileID: 650323322}
+  m_fontMaterials:
+  - {fileID: 650323322}
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
@@ -2411,7 +2568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &874780326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2834,7 +2991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2869,6 +3026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1234238788}
   - component: {fileID: 1234238789}
+  - component: {fileID: 1234238790}
   m_Layer: 5
   m_Name: PlayerExpBar
   m_TagString: Untagged
@@ -2946,10 +3104,26 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1234238790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234238787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2841c8506e3bda840ae1862e0baee146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::UIExp
+  _expbar: {fileID: 1234238789}
+  _expLerpSpeed: 5
+  _imageExpComplete: {fileID: 0}
+  _expText: {fileID: 731512681}
 --- !u!114 &1323695294 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -4142734643639941905, guid: 804cb3db7f1f8284a8b921eaf235d5c8, type: 3}
@@ -3376,7 +3550,6 @@ GameObject:
   - component: {fileID: 1457489494}
   - component: {fileID: 1457489493}
   - component: {fileID: 1457489496}
-  - component: {fileID: 1457489508}
   - component: {fileID: 1457489499}
   - component: {fileID: 1457489507}
   - component: {fileID: 1457489506}
@@ -3670,6 +3843,7 @@ MonoBehaviour:
   HpSlider: {fileID: 789771487}
   BackSlider: {fileID: 1610818726}
   _hpFillImage: {fileID: 1623059968}
+  _backHpFillImage: {fileID: 586063068}
   _levelText: {fileID: 593984047}
   _hpText: {fileID: 549172306}
   _level: 30
@@ -3775,21 +3949,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Combat.Attack.MeleeAttacker
   _hitbox: {fileID: 1452843304}
   _damageType: 0
---- !u!114 &1457489508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457489488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06985558d042470db2fc8ce84c545ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
-  _team: 0
-  _statsData: {fileID: 0}
-  _hitReactionSettings: {fileID: 0}
 --- !u!1 &1463534102
 GameObject:
   m_ObjectHideFlags: 0
@@ -4037,7 +4196,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500312468}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 75916438}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4217,7 +4376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533284811}
   m_Layer: 5
-  m_Name: HpFill
+  m_Name: ExpFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4236,6 +4395,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 727013564}
+  - {fileID: 401250994}
   m_Father: {fileID: 1234238788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
@@ -5169,7 +5329,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954973103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -5253,12 +5413,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5299,8 +5459,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 789771486}
   - {fileID: 1610818725}
+  - {fileID: 789771486}
   - {fileID: 1234238788}
   - {fileID: 184944967}
   - {fileID: 1492611727}
