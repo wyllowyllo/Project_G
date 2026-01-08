@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Reflection;
 using Combat.Attack;
 using Combat.Core;
 using NUnit.Framework;
@@ -21,7 +22,7 @@ namespace Tests.PlayMode
             _attackerObject = new GameObject("TestAttacker");
             _attackerObject.AddComponent<Health>();
             _attacker = _attackerObject.AddComponent<Combatant>();
-            SetCombatantTeam(_attacker, CombatTeam.Player);
+            _attacker.SetTeamForTest(CombatTeam.Player);
 
             // Create hitbox child object
             var hitboxObject = new GameObject("Hitbox");
@@ -202,7 +203,7 @@ namespace Tests.PlayMode
         [Test]
         public void OnTriggerEnter_SingleTargetMode_DisablesAfterFirstHit()
         {
-            SetHitboxMultipleTargets(_hitbox, false);
+            _hitbox.SetHitMultipleTargetsForTest(false);
 
             var targetObject = CreateEnemyTarget();
 
@@ -279,7 +280,7 @@ namespace Tests.PlayMode
             targetObject.AddComponent<Health>();
             var combatant = targetObject.AddComponent<Combatant>();
             var collider = targetObject.AddComponent<BoxCollider>();
-            SetCombatantTeam(combatant, CombatTeam.Enemy);
+            combatant.SetTeamForTest(CombatTeam.Enemy);
             return targetObject;
         }
 
@@ -289,29 +290,15 @@ namespace Tests.PlayMode
             targetObject.AddComponent<Health>();
             var combatant = targetObject.AddComponent<Combatant>();
             var collider = targetObject.AddComponent<BoxCollider>();
-            SetCombatantTeam(combatant, CombatTeam.Player);
+            combatant.SetTeamForTest(CombatTeam.Player);
             return targetObject;
         }
 
         private void SimulateTriggerEnter(HitboxTrigger hitbox, Collider other)
         {
             var method = typeof(HitboxTrigger).GetMethod("OnTriggerEnter",
-                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                BindingFlags.NonPublic | BindingFlags.Instance);
             method?.Invoke(hitbox, new object[] { other });
-        }
-
-        private void SetCombatantTeam(Combatant combatant, CombatTeam team)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_team").enumValueIndex = (int)team;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
-
-        private void SetHitboxMultipleTargets(HitboxTrigger hitbox, bool hitMultiple)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(hitbox);
-            serializedObject.FindProperty("_hitMultipleTargets").boolValue = hitMultiple;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
         }
 
         #endregion

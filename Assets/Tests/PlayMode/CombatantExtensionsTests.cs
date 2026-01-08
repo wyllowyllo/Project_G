@@ -20,12 +20,12 @@ namespace Tests.PlayMode
             _attackerObject = new GameObject("TestAttacker");
             _attackerObject.AddComponent<Health>();
             _attacker = _attackerObject.AddComponent<Combatant>();
-            SetCombatantTeam(_attacker, CombatTeam.Player);
+            _attacker.SetTeamForTest(CombatTeam.Player);
 
             _targetObject = new GameObject("TestTarget");
             _targetObject.AddComponent<Health>();
             _target = _targetObject.AddComponent<Combatant>();
-            SetCombatantTeam(_target, CombatTeam.Enemy);
+            _target.SetTeamForTest(CombatTeam.Enemy);
         }
 
         [TearDown]
@@ -187,13 +187,6 @@ namespace Tests.PlayMode
         {
             var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
             return new DamageInfo(amount, isCritical, hitContext);
-        }
-
-        private void SetCombatantTeam(Combatant combatant, CombatTeam team)
-        {
-            var serializedObject = new UnityEditor.SerializedObject(combatant);
-            serializedObject.FindProperty("_team").enumValueIndex = (int)team;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
         }
 
         #endregion
