@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Monster.EnemyGroup
   _groupCenter: {x: 0, y: 0, z: 0}
   _aggroRange: 12
-  _maxAttackSlots: 0
+  _maxAttackSlots: 2
   _directorTickInterval: 5
   _sideAngleCenter: 90
   _sideAngleSigma: 35
