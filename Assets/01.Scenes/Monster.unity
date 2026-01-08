@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9604b8042af00e4d9e951d9e6bc1f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Wave.SpawnGroup
-  _enemyGroupPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
+  _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1264768450}
     monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9604b8042af00e4d9e951d9e6bc1f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Wave.SpawnGroup
-  _enemyGroupPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
+  _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1024615628}
     monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9604b8042af00e4d9e951d9e6bc1f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Wave.SpawnGroup
-  _enemyGroupPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
+  _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1148686632}
     monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
