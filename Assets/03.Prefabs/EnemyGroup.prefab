@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Monster.EnemyGroup
   _groupCenter: {x: 0, y: 0, z: 0}
   _aggroRange: 12
-  _maxAttackSlots: 2
+  _maxAttackSlots: 0
   _directorTickInterval: 5
   _sideAngleCenter: 90
   _sideAngleSigma: 35
@@ -59,16 +59,9 @@ MonoBehaviour:
   _losBlockMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  _frontConeAngle: 70
-  _frontCrowdCount: 3
-  _frontCrowdExtraDist: 2
-  _crowdReliefAngles:
-  - 70
-  - -70
-  - 110
-  - -110
-  - 150
-  - -150
-  - 180
-  _angleOccupancySigma: 20
+  _sectorCount: 12
+  _sectorScanExtraDist: 2
+  _relocatePerTick: 3
+  _sectorSpreadJitterDeg: 10
+  _avoidFrontBias: 0.3
   _showDebugGizmos: 1
