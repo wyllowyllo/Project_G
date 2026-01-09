@@ -111,7 +111,7 @@ namespace Tests.PlayMode
             _meleeAttacker.Attack();
 
             Assert.AreEqual(1, comboEventCount);
-            Assert.IsTrue(_meleeAttacker.IsAttacking);
+            Assert.AreEqual(ComboState.Attacking, _meleeAttacker.CurrentState);
         }
 
         [Test]
@@ -142,7 +142,7 @@ namespace Tests.PlayMode
         public void TryAttack_WithinComboWindow_ContinuesCombo()
         {
             _meleeAttacker.TryAttack(); // Step 1
-            _meleeAttacker.OnAttackAnimationEnd(); // End attack animation
+            _meleeAttacker.OnComboWindowStart(); // Simulate combo window
 
             _meleeAttacker.TryAttack(); // Step 2
 
@@ -156,14 +156,16 @@ namespace Tests.PlayMode
             _meleeAttacker.OnComboReset += () => resetFired = true;
 
             _meleeAttacker.TryAttack(); // Step 1
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
 
-            // Wait for combo window to expire (default 0.8s + safety margin)
-            yield return new WaitForSeconds(1.2f);
+            // Wait for combo window to expire (default 2.0s + safety margin)
+            yield return new WaitForSeconds(2.5f);
 
-            _meleeAttacker.TryAttack(); // Should reset and start at step 1
-
+            // 타이머 만료로 이미 리셋됨
             Assert.IsTrue(resetFired);
+            Assert.AreEqual(0, _meleeAttacker.CurrentComboStep);
+
+            _meleeAttacker.TryAttack(); // 새 콤보 시작
             Assert.AreEqual(1, _meleeAttacker.CurrentComboStep);
         }
 
@@ -172,13 +174,13 @@ namespace Tests.PlayMode
         {
             // Default max combo steps is 3
             _meleeAttacker.TryAttack(); // Step 1
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 2
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 3
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 4 -> wraps to 1
 
@@ -195,7 +197,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             Assert.AreEqual(1.0f, _meleeAttacker.CurrentMultiplier);
 
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
             _meleeAttacker.TryAttack();
             Assert.AreEqual(1.1f, _meleeAttacker.CurrentMultiplier);
         }
@@ -204,14 +206,14 @@ namespace Tests.PlayMode
         public void ResetCombo_ResetsToInitialState()
         {
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.OnComboWindowStart();
             _meleeAttacker.TryAttack();
 
             _meleeAttacker.ResetCombo();
 
             Assert.AreEqual(0, _meleeAttacker.CurrentComboStep);
             Assert.AreEqual(1f, _meleeAttacker.CurrentMultiplier);
-            Assert.IsFalse(_meleeAttacker.IsAttacking);
+            Assert.AreEqual(ComboState.Idle, _meleeAttacker.CurrentState);
         }
 
         [UnityTest]
@@ -221,14 +223,17 @@ namespace Tests.PlayMode
             _meleeAttacker.OnComboReset += () => resetFired = true;
 
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackAnimationEnd();
             Assert.AreEqual(1, _meleeAttacker.CurrentComboStep);
 
-            // Wait for combo window to expire (default 0.8s + safety margin)
-            yield return new WaitForSeconds(1.2f);
+            // ComboWindow 상태에서 타이머 시작
+            _meleeAttacker.OnComboWindowStart();
+
+            // Wait for combo window to expire (default 2.0s + safety margin)
+            yield return new WaitForSeconds(2.5f);
 
             Assert.IsTrue(resetFired);
             Assert.AreEqual(0, _meleeAttacker.CurrentComboStep);
+            Assert.AreEqual(ComboState.Idle, _meleeAttacker.CurrentState);
         }
 
         #endregion
