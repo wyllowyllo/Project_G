@@ -285,7 +285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &445071828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &746168265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,6 +1087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime
       objectReference: {fileID: 0}
+    - target: {fileID: 6216399907116798116, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e4c94591aa068f844a7047929b707641, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1177,15 +1181,15 @@ MonoBehaviour:
   _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1148686632}
-    monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
+    monsterPrefab: {fileID: 5710055614459436209, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
   - spawnPoint: {fileID: 843713171}
-    monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
+    monsterPrefab: {fileID: 5710055614459436209, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
   - spawnPoint: {fileID: 1084821726}
-    monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
+    monsterPrefab: {fileID: 5710055614459436209, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
   - spawnPoint: {fileID: 1225831054}
-    monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
+    monsterPrefab: {fileID: 5710055614459436209, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
   - spawnPoint: {fileID: 41850555}
-    monsterPrefab: {fileID: 4347920964284313728, guid: 039057cedc6de04498db7e5903446787, type: 3}
+    monsterPrefab: {fileID: 5710055614459436209, guid: 0e74254fb7ae8ba48a9cffc4f415845b, type: 3}
   _spawnOnStart: 1
   _showDebugGizmos: 1
 --- !u!1 &1049258342

@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.AI.MonsterController
   _currentState: 0
-  _monsterData: {fileID: 0}
+  _monsterData: {fileID: 11400000, guid: 662f644746477dc4b89f03f5a9cf7c67, type: 2}
   _playerTransform: {fileID: 0}
 --- !u!114 &3085817843645170517
 MonoBehaviour:
@@ -360,6 +360,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -9.674543
       objectReference: {fileID: 0}
+    - target: {fileID: 95457531584545886, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e4c94591aa068f844a7047929b707641, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
