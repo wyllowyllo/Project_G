@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lv.30
+  m_text: Lv.1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3120,9 +3120,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2841c8506e3bda840ae1862e0baee146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::UIExp
+  _playerProgression: {fileID: 0}
   _expbar: {fileID: 1234238789}
   _expLerpSpeed: 5
   _imageExpComplete: {fileID: 401250995}
+  _expAnimationDuration: 0.35
+  _expAnimationEase: 9
   _expText: {fileID: 731512681}
 --- !u!114 &1323695294 stripped
 MonoBehaviour:
@@ -3562,6 +3565,7 @@ GameObject:
   - component: {fileID: 1457489501}
   - component: {fileID: 1457489503}
   - component: {fileID: 1457489502}
+  - component: {fileID: 1457489508}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -3851,7 +3855,7 @@ MonoBehaviour:
   _smoothBackSpeed: 10
   _backHpDelay: 0.3
   _firstLevel: 1
-  _uiExp: {fileID: 1234238790}
+  _playerProgression: {fileID: 1457489508}
 --- !u!114 &1457489501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,6 +3955,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Combat.Attack.MeleeAttacker
   _hitbox: {fileID: 1452843304}
   _damageType: 0
+--- !u!114 &1457489508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457489488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f945968b37614bd197a3806eff34efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
+  _config: {fileID: 11400000, guid: 4bc3df7112686440182de5f79dc4c0ef, type: 2}
 --- !u!1 &1463534102
 GameObject:
   m_ObjectHideFlags: 0
