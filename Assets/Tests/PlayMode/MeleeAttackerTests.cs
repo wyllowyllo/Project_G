@@ -142,7 +142,7 @@ namespace Tests.PlayMode
         public void TryAttack_WithinComboWindow_ContinuesCombo()
         {
             _meleeAttacker.TryAttack(); // Step 1
-            _meleeAttacker.SetState(ComboState.ComboWindow); // Simulate combo window
+            _meleeAttacker.OnComboWindowStart(); // Simulate combo window
 
             _meleeAttacker.TryAttack(); // Step 2
 
@@ -174,13 +174,13 @@ namespace Tests.PlayMode
         {
             // Default max combo steps is 3
             _meleeAttacker.TryAttack(); // Step 1
-            _meleeAttacker.SetState(ComboState.ComboWindow);
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 2
-            _meleeAttacker.SetState(ComboState.ComboWindow);
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 3
-            _meleeAttacker.SetState(ComboState.ComboWindow);
+            _meleeAttacker.OnComboWindowStart();
 
             _meleeAttacker.TryAttack(); // Step 4 -> wraps to 1
 
@@ -197,7 +197,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             Assert.AreEqual(1.0f, _meleeAttacker.CurrentMultiplier);
 
-            _meleeAttacker.SetState(ComboState.ComboWindow);
+            _meleeAttacker.OnComboWindowStart();
             _meleeAttacker.TryAttack();
             Assert.AreEqual(1.1f, _meleeAttacker.CurrentMultiplier);
         }
@@ -206,7 +206,7 @@ namespace Tests.PlayMode
         public void ResetCombo_ResetsToInitialState()
         {
             _meleeAttacker.TryAttack();
-            _meleeAttacker.SetState(ComboState.Idle);
+            _meleeAttacker.OnComboWindowStart();
             _meleeAttacker.TryAttack();
 
             _meleeAttacker.ResetCombo();
