@@ -1593,7 +1593,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1457489492}
   - component: {fileID: 1457489491}
-  - component: {fileID: 1457489490}
   - component: {fileID: 1457489489}
   - component: {fileID: 1457489494}
   - component: {fileID: 1457489493}
@@ -1642,55 +1641,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!23 &1457489490
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457489488}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1457489491
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1808,6 +1758,8 @@ MonoBehaviour:
   OnComboReset:
     m_PersistentCalls:
       m_Calls: []
+  _dodgeInvincibilityDuration: 0.2
+  _canMoveWhileDodging: 1
 --- !u!114 &1457489496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1827,6 +1779,7 @@ MonoBehaviour:
   _cameraTransform: {fileID: 0}
   _useCameraForward: 1
   _maxStableSlopeAngle: 60
+  _applyRootMotion: 0
 --- !u!95 &1457489497
 Animator:
   serializedVersion: 7
@@ -1837,7 +1790,7 @@ Animator:
   m_GameObject: {fileID: 1457489488}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-  m_Controller: {fileID: 9100000, guid: d99015d8b340c9a4aa4e6dfd18a9f9e3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0dcb708a456c64205b7876075867625f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1893,12 +1846,24 @@ MonoBehaviour:
   HpSlider: {fileID: 789771487}
   BackSlider: {fileID: 1610818726}
   _hpFillImage: {fileID: 1623059968}
+  _backHpFillImage: {fileID: 0}
   _levelText: {fileID: 593984047}
   _hpText: {fileID: 549172306}
   _level: 30
   _smoothSpeed: 5
   _smoothBackSpeed: 10
   _backHpDelay: 0.3
+  _firstLevel: 1
+  _highHpColor:
+    serializedVersion: 2
+    rgba: 4278566656
+  _mediumHpColor:
+    serializedVersion: 2
+    rgba: 4278242559
+  _lowHpColor:
+    serializedVersion: 2
+    rgba: 4283256319
+  _playerProgression: {fileID: 0}
 --- !u!114 &1457489501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1929,6 +1894,7 @@ MonoBehaviour:
   _hitVFX: []
   _damagedVFX: {fileID: 0}
   _vfxLifetime: 2
+  _weaponTrail: {fileID: 759018176}
 --- !u!114 &1457489503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1972,6 +1938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::PlayerInputHandler
   _bufferDuration: 0.5
   _enableBuffer: 1
+  _dodgeKey: 304
 --- !u!114 &1457489506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2319,6 +2286,11 @@ MonoBehaviour:
   damageNumberPrefab: {fileID: 0}
   deathDelay: 1
   deathEffectPrefab: {fileID: 0}
+  damageToPlayer: 10
+  damageCooldown: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
   healthBarPosition: {fileID: 0}
   healthBarPrefab: {fileID: 0}
   OnHealthChanged:

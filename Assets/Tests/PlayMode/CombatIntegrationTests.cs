@@ -109,7 +109,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
+            _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
             _defender.Heal(1000f); // Reset health
 
@@ -117,7 +117,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
+            _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
             _defender.Heal(1000f);
 
@@ -181,7 +181,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
+            _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
 
             float healthAfterFirstHit = _defender.CurrentHealth;

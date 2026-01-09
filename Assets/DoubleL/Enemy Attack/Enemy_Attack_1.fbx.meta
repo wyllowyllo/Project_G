@@ -62,34 +62,6 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.16153847
-        functionName: StartTrail
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.28846154
-        functionName: OnAttackHitStart
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.5461539
-        functionName: OnAttackHitEnd
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.76153845
-        functionName: StopTrail
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       - time: 1
         functionName: OnAttackAnimationEnd
         data: 
