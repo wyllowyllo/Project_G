@@ -3122,7 +3122,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::UIExp
   _playerProgression: {fileID: 0}
   _expbar: {fileID: 1234238789}
-  _expLerpSpeed: 5
   _imageExpComplete: {fileID: 401250995}
   _expAnimationDuration: 0.35
   _expAnimationEase: 9
@@ -3855,6 +3854,15 @@ MonoBehaviour:
   _smoothBackSpeed: 10
   _backHpDelay: 0.3
   _firstLevel: 1
+  _highHpColor:
+    serializedVersion: 2
+    rgba: 4278566656
+  _mediumHpColor:
+    serializedVersion: 2
+    rgba: 4278242559
+  _lowHpColor:
+    serializedVersion: 2
+    rgba: 4283256319
   _playerProgression: {fileID: 1457489508}
 --- !u!114 &1457489501
 MonoBehaviour:
