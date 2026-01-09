@@ -62,7 +62,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.10021787
+      - time: 0.1317636
         functionName: StartTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
@@ -72,21 +72,14 @@ ModelImporter:
       - time: 0.32962963
         functionName: OnAttackHitStart
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.42777777
-        functionName: OnComboWindowStart
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.63148147
         functionName: OnAttackHitEnd
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -97,17 +90,10 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.90000004
-        functionName: OnComboWindowEnd
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       - time: 1
         functionName: OnAttackAnimationEnd
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
