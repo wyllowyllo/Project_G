@@ -42,7 +42,7 @@ ModelImporter:
       takeName: OneHand_Up_Attack_A_3
       internalID: -7421084484080138699
       firstFrame: 10
-      lastFrame: 60
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -62,52 +62,38 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.017429192
+      - time: 0.19408534
         functionName: StartTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.29629633
+      - time: 0.44231224
+        functionName: OnAttackHitStart
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.648265
+        functionName: OnAttackHitEnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6496087
         functionName: StopTrail
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 988792906e92739449474a43267e2e84, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.39814818
-        functionName: OnAttackHitStart
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.5
-        functionName: OnComboWindowStart
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.6962962
-        functionName: OnAttackHitEnd
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.95555556
-        functionName: OnComboWindowEnd
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       - time: 1
         functionName: OnAttackAnimationEnd
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: a680b1f95993d4c6f8790ead509cf4b4, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
