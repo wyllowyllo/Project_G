@@ -1180,7 +1180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &401250994
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.968332, b: 0.6933962, a: 1}
+  m_Color: {r: 1, g: 0.9830673, b: 0.8349056, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3122,7 +3122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::UIExp
   _expbar: {fileID: 1234238789}
   _expLerpSpeed: 5
-  _imageExpComplete: {fileID: 0}
+  _imageExpComplete: {fileID: 401250995}
   _expText: {fileID: 731512681}
 --- !u!114 &1323695294 stripped
 MonoBehaviour:
