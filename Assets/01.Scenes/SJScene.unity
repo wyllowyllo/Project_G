@@ -3850,6 +3850,8 @@ MonoBehaviour:
   _smoothSpeed: 5
   _smoothBackSpeed: 10
   _backHpDelay: 0.3
+  _firstLevel: 1
+  _uiExp: {fileID: 1234238790}
 --- !u!114 &1457489501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5302,7 +5304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1954973104
 RectTransform:
   m_ObjectHideFlags: 0
