@@ -258,7 +258,7 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
 
-            _meleeAttacker.OnAttackHitEnd();
+            _meleeAttacker.ForceDisableHitbox();
 
             var collider = _hitbox.GetComponent<Collider>();
             Assert.IsFalse(collider.enabled);
@@ -279,7 +279,7 @@ namespace Tests.PlayMode
         {
             SetMeleeAttackerHitbox(_meleeAttacker, null);
 
-            Assert.DoesNotThrow(() => _meleeAttacker.OnAttackHitEnd());
+            Assert.DoesNotThrow(() => _meleeAttacker.ForceDisableHitbox());
         }
 
         #endregion
