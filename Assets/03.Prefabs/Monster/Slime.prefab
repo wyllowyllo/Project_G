@@ -370,8 +370,28 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4065624273618060, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7615161322129837652}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1931298151966786, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1846396539087239083}
   m_SourcePrefab: {fileID: 100100000, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+--- !u!1 &6273769747528154296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1931298151966786, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+  m_PrefabInstance: {fileID: 6275261237673350394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1846396539087239083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273769747528154296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7733589ac88a4324b8bc99b1b59800ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.AI.MonsterAnimationEventReceiver
 --- !u!4 &6275842432287559798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4065624273618060, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
