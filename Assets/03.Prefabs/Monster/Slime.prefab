@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3085817843645170517}
   - component: {fileID: 8701152518642688281}
   - component: {fileID: 1834168920557721098}
-  - component: {fileID: 7259199500626419163}
+  - component: {fileID: 3952624177279394622}
   - component: {fileID: 7014938373450101261}
   - component: {fileID: 2201471716738421509}
   - component: {fileID: 6494239090798905283}
@@ -130,7 +130,7 @@ MonoBehaviour:
   _hitbox: {fileID: 2140948960356595146}
   _lightAttackMultiplier: 1
   _heavyAttackMultiplier: 1.5
---- !u!114 &7259199500626419163
+--- !u!114 &3952624177279394622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,12 +139,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5710055614459436209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8b1027a27e6a48e4ab3d836213267ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f2d081328cb8ea40abb08645ecd8ecf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: ProjectG::Combat.Sample.EnemyCombatSample
-  _destroyDelay: 1
-  _useObjectPooling: 0
-  _animator: {fileID: 6216399907116798116}
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterFeedback
+  _navAgent: {fileID: 0}
+  _knockbackForce: 2
   _hitVFXPrefab: {fileID: 0}
   _criticalHitVFXPrefab: {fileID: 0}
   _deathVFXPrefab: {fileID: 0}
@@ -460,11 +459,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1846396539087239083}
   m_SourcePrefab: {fileID: 100100000, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
---- !u!95 &6216399907116798116 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95457531584545886, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
-  m_PrefabInstance: {fileID: 6275261237673350394}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6273769747528154296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1931298151966786, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
