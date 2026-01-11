@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b580d73a3c1472a8c6cfcb2e73f086, type: 3}
-  m_Name: EnemyCombatStats
+  m_Name: SlimeCombatStats
   m_EditorClassIdentifier: ProjectG::Combat.Data.CombatStatsData
   _baseAttackDamage: 10
-  _criticalChance: 0.1
+  _criticalChance: 0
   _criticalMultiplier: 1.5
   _defense: 0
