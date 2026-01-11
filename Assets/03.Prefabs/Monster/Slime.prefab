@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterFeedback
   _navAgent: {fileID: 0}
-  _knockbackForce: 0.5
+  _knockbackForce: 1
   _hitVFXPrefab: {fileID: 0}
   _criticalHitVFXPrefab: {fileID: 0}
   _deathVFXPrefab: {fileID: 0}
