@@ -77,7 +77,8 @@ namespace Tests.PlayMode
 
             // Perform attack and hit
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
 
             Assert.Less(_defender.CurrentHealth, initialHealth);
@@ -107,7 +108,8 @@ namespace Tests.PlayMode
 
             // First attack
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session1 = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session1);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
             _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
@@ -115,7 +117,8 @@ namespace Tests.PlayMode
 
             // Second attack
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session2 = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session2);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
             _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
@@ -123,7 +126,8 @@ namespace Tests.PlayMode
 
             // Third attack
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session3 = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session3);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
 
             // Verify increasing damage
@@ -143,7 +147,8 @@ namespace Tests.PlayMode
             _defender.OnDamaged += info => wasCritical = info.IsCritical;
 
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
 
             Assert.IsTrue(wasCritical);
@@ -156,7 +161,8 @@ namespace Tests.PlayMode
             SetCombatantStats(_attacker, attackDamage: 1000f, critChance: 0f, critMult: 1f, defense: 0f);
 
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
 
             Assert.IsFalse(_defender.IsAlive);
@@ -179,7 +185,8 @@ namespace Tests.PlayMode
 
             // First hit
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session1 = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session1);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
             _meleeAttacker.ForceDisableHitbox();
             _meleeAttacker.OnComboWindowStart();
@@ -193,7 +200,8 @@ namespace Tests.PlayMode
 
             // Second attack during invincibility
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session2 = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session2);
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
 
             Assert.AreEqual(healthAfterFirstHit, _defender.CurrentHealth, "Second hit should not deal damage during invincibility");

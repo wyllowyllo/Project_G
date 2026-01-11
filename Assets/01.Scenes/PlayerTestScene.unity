@@ -1855,7 +1855,8 @@ MonoBehaviour:
   _rotationSpeed: 15
   _acceleration: 20
   _deceleration: 25
-  _cameraTransform: {fileID: 0}
+  _cameraTransform: {fileID: 129504102}
+  _cinemachineCameraController: {fileID: 1609646335}
   _useCameraForward: 1
   _maxStableSlopeAngle: 60
   _canMoveWhileDodging: 0
@@ -2871,7 +2872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Player.CinemachineCameraController
   _cinemachineCamera: {fileID: 1609646331}
   _orbitalFollow: {fileID: 1609646330}
-  _rotationComposer: {fileID: 1609646329}
   _minScale: 0.5
   _maxScale: 2
   _zoomSpeed: 0.5
@@ -2880,7 +2880,6 @@ MonoBehaviour:
   _sprintFOV: 55
   _lockOnFOV: 45
   _fovSmoothTime: 0.3
-  _lockOnScreenY: 0.4
 --- !u!1 &1610818724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4931,6 +4930,14 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: d99015d8b340c9a4aa4e6dfd18a9f9e3, type: 2}
     - target: {fileID: 9500000, guid: 49f2055d53eeb4e5a92af590a44bddee, type: 3}
       propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400040, guid: 49f2055d53eeb4e5a92af590a44bddee, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400042, guid: 49f2055d53eeb4e5a92af590a44bddee, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
