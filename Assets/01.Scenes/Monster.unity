@@ -449,9 +449,11 @@ GameObject:
   - component: {fileID: 672531352}
   - component: {fileID: 672531351}
   - component: {fileID: 672531355}
-  - component: {fileID: 672531357}
-  - component: {fileID: 672531356}
   - component: {fileID: 672531358}
+  - component: {fileID: 672531362}
+  - component: {fileID: 672531361}
+  - component: {fileID: 672531360}
+  - component: {fileID: 672531359}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -576,38 +578,6 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &672531356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672531350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e863388555e344fada103379b38e28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Player.PlayerHealth
-  _maxHealth: 100
-  _isInvincible: 0
---- !u!114 &672531357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672531350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7f71bd75283d6448a5b57737b2bd426, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Player.TestPlayerController
-  _moveSpeed: 5
-  _rotationSpeed: 10
-  _cameraTransform: {fileID: 2086019650}
-  _cameraDistance: 5
-  _cameraHeight: 2
-  _mouseSensitivity: 2
 --- !u!114 &672531358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +684,66 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &672531359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672531350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f71bd75283d6448a5b57737b2bd426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Test.TestPlayer.TestPlayerController
+  _moveSpeed: 5
+  _rotationSpeed: 10
+  _cameraTransform: {fileID: 0}
+  _cameraDistance: 5
+  _cameraHeight: 2
+  _mouseSensitivity: 2
+--- !u!114 &672531360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672531350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff65b45dcfbc72243a4d5746da89e5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Test.TestPlayer.CombatTestPlayer
+  _selfDamageAmount: 10
+  _invincibilityDuration: 2
+--- !u!114 &672531361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672531350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06985558d042470db2fc8ce84c545ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
+  _team: 0
+  _statsData: {fileID: 0}
+  _hitReactionSettings: {fileID: 0}
+--- !u!114 &672531362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672531350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68305a35759f4b939de48d6e09f04fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Core.Health
+  _maxHealth: 100
 --- !u!1 &694971828
 GameObject:
   m_ObjectHideFlags: 0
