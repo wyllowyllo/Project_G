@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
   m_Name: SlimeData
   m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
-  _attackMode: 0
+  _attackMode: 2
   _enablePushback: 0
   _monsterName: Test
   _monsterLevel: 1
   _attackRange: 3
+  _lightAttackRange: 1.5
+  _heavyAttackRange: 2.5
   _attackCooldown: 3
   _moveSpeed: 3.5
   _rotationSpeed: 120
