@@ -109,16 +109,16 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.ForceDisableHitbox();
+            _meleeAttacker.OnComboWindowStart();
             _defender.Heal(1000f); // Reset health
 
             // Second attack
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.ForceDisableHitbox();
+            _meleeAttacker.OnComboWindowStart();
             _defender.Heal(1000f);
 
             // Third attack
@@ -181,8 +181,8 @@ namespace Tests.PlayMode
             _meleeAttacker.TryAttack();
             _meleeAttacker.OnAttackHitStart();
             SimulateTriggerEnter(_hitbox, _defenderObject.GetComponent<Collider>());
-            _meleeAttacker.OnAttackHitEnd();
-            _meleeAttacker.OnAttackAnimationEnd();
+            _meleeAttacker.ForceDisableHitbox();
+            _meleeAttacker.OnComboWindowStart();
 
             float healthAfterFirstHit = _defender.CurrentHealth;
             Assert.Less(healthAfterFirstHit, initialHealth, "First hit should deal damage");
