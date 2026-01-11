@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
   _attackMode: 0
   _enablePushback: 0
-  _monsterName: Test
+  _monsterName: Slime
   _monsterLevel: 1
-  _attackRange: 3
+  _attackRange: 2.5
   _lightAttackRange: 1.5
   _heavyAttackRange: 2.5
   _attackCooldown: 3
@@ -24,9 +24,9 @@ MonoBehaviour:
   _rotationSpeed: 120
   _detectionRange: 12
   _engageRange: 10
-  _preferredMinDistance: 2
-  _preferredMaxDistance: 4
-  _strafeSpeed: 2.5
+  _preferredMinDistance: 1.5
+  _preferredMaxDistance: 3.5
+  _strafeSpeed: 1.5
   _tetherRadius: 20
   _windupTime: 0.3
   _executeTime: 0.2
@@ -37,11 +37,12 @@ MonoBehaviour:
   _lightAttackChance: 0.45
   _heavyAttackChance: 0.15
   _heavyAttackCooldown: 3
-  _circleAngularSpeed: 30
+  _circleAngularSpeed: 20
   _strafeMinDuration: 1.5
   _strafeMaxDuration: 3.5
   _strafePauseChance: 0.2
   _directionChangeChance: 0.3
   _speedLerpFactor: 3
+  _knockbackForce: 2
   _experienceReward: 10
   _goldReward: 5
