@@ -244,11 +244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129504099}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14223024, y: -0.0000000052082227, z: 7.4837503e-10, w: 0.9898336}
-  m_LocalPosition: {x: 0, y: 2.25, z: -4}
+  m_LocalRotation: {x: 0.055110678, y: 1.2293105e-17, z: -6.785125e-19, w: 0.99848026}
+  m_LocalPosition: {x: 0, y: 1.4289353, z: -3.873829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1609646332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &129504103
@@ -2680,7 +2681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRotationComposer
   Composition:
-    ScreenPosition: {x: 0, y: 0.2}
+    ScreenPosition: {x: 0, y: 0}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
@@ -2689,7 +2690,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0, y: 1, z: 0}
   Damping: {x: 0.5, y: 0.5}
   Lookahead:
     Enabled: 0
@@ -2740,7 +2741,7 @@ MonoBehaviour:
       Time: 2
     Restrictions: 0
   VerticalAxis:
-    Value: 17.5
+    Value: 9.7
     Center: 17.5
     Range: {x: -10, y: 45}
     Wrap: 0
@@ -2810,12 +2811,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609646326}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14223023, y: -0.00000000507383, z: -1.8691591e-10, w: 0.98983365}
-  m_LocalPosition: {x: 0, y: 2.25, z: -4}
+  m_LocalRotation: {x: 5.967894e-34, y: 2.3187775e-10, z: -2.5675045e-11, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 129504102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1609646334
 MonoBehaviour:
@@ -2875,22 +2876,11 @@ MonoBehaviour:
   _maxScale: 2
   _zoomSpeed: 0.5
   _zoomSmoothTime: 0.2
-  _closeUpFocusHeight: 1.6
-  _midFocusHeight: 1
-  _farFocusHeight: 0.5
-  _adjustScreenPosition: 0
-  _screenYAtTop: 0.35
-  _screenYAtMiddle: 0.5
-  _screenYAtBottom: 0.65
-  _screenPositionSmoothTime: 0.2
   _normalFOV: 50
   _sprintFOV: 55
   _lockOnFOV: 45
   _fovSmoothTime: 0.3
   _lockOnScreenY: 0.4
-  _closeUpVerticalRestriction: 0.4
-  _midVerticalRestriction: 0.1
-  _farVerticalRestriction: 0
 --- !u!1 &1610818724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,5 +4956,4 @@ SceneRoots:
   - {fileID: 1500312472}
   - {fileID: 2074232742}
   - {fileID: 685950320}
-  - {fileID: 1609646332}
   - {fileID: 185036614}
