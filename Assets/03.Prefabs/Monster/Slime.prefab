@@ -44,8 +44,10 @@ GameObject:
   - component: {fileID: 2237425458331800162}
   - component: {fileID: 3085817843645170517}
   - component: {fileID: 8701152518642688281}
+  - component: {fileID: 1834168920557721098}
   - component: {fileID: 7014938373450101261}
   - component: {fileID: 2201471716738421509}
+  - component: {fileID: 6494239090798905283}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -110,8 +112,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
   _team: 1
-  _statsData: {fileID: 0}
+  _statsData: {fileID: 11400000, guid: 9b7f811a245717640b15128ba13150ea, type: 2}
   _hitReactionSettings: {fileID: 0}
+--- !u!114 &1834168920557721098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710055614459436209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 796ed305e9fe9564eb7176dc9aeebdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterAttacker
+  _hitbox: {fileID: 2140948960356595146}
+  _lightAttackMultiplier: 1
+  _heavyAttackMultiplier: 1.5
 --- !u!195 &7014938373450101261
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -155,6 +172,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!54 &6494239090798905283
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710055614459436209}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8293834644207973112
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,6 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7615161322129837652}
   - component: {fileID: 387906678639280945}
+  - component: {fileID: 2140948960356595146}
   m_Layer: 0
   m_Name: AttackCollider
   m_TagString: Untagged
@@ -208,6 +253,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &2140948960356595146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8293834644207973112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da9ec942d23947b4a53d213ca342679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Attack.HitboxTrigger
+  _hitMultipleTargets: 1
 --- !u!1001 &6275261237673350394
 PrefabInstance:
   m_ObjectHideFlags: 0
