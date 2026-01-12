@@ -192,7 +192,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 20000
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineDeoccluder
   CollideAgainst:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 9
   IgnoreTag: 
   TransparentLayers:
     serializedVersion: 2
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 1962076813446573125}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -596,10 +596,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.25
+  m_Height: 1.6
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!54 &7103939886064612000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -640,9 +640,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KinematicCharacterController.KinematicCharacterMotor
   Capsule: {fileID: 4839439398352381907}
-  CapsuleRadius: 0.5
-  CapsuleHeight: 2
-  CapsuleYOffset: 1
+  CapsuleRadius: 0.25
+  CapsuleHeight: 1.6
+  CapsuleYOffset: 0.8
   CapsulePhysicsMaterial: {fileID: 0}
   GroundDetectionExtraDistance: 0
   MaxStableSlopeAngle: 60
@@ -653,9 +653,9 @@ MonoBehaviour:
   StepHandling: 1
   MaxStepHeight: 0.5
   AllowSteppingWithoutStableGrounding: 0
-  MinRequiredStepDepth: 0.1
+  MinRequiredStepDepth: 0
   LedgeAndDenivelationHandling: 1
-  MaxStableDistanceFromLedge: 0.5
+  MaxStableDistanceFromLedge: 0
   MaxVelocityForLedgeSnap: 0
   MaxStableDenivelationAngle: 180
   InteractiveRigidbodyHandling: 1
@@ -689,6 +689,10 @@ MonoBehaviour:
   _cinemachineCameraController: {fileID: 7015301310756298436}
   _useCameraForward: 1
   _maxStableSlopeAngle: 60
+  _gravity: {x: 0, y: -30, z: 0}
+  _maxAirMoveSpeed: 10
+  _airAccelerationSpeed: 5
+  _drag: 0.1
   _canMoveWhileDodging: 0
 --- !u!114 &7884106653273530431
 MonoBehaviour:
@@ -703,8 +707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
   _team: 0
-  _statsData: {fileID: 0}
-  _hitReactionSettings: {fileID: 0}
+  _statsData: {fileID: 11400000, guid: 4043ddea27ffe491a80abb47f9527874, type: 2}
+  _hitReactionSettings: {fileID: 11400000, guid: 9d888fa59f679446f80b5ddcd87b78a0, type: 2}
 --- !u!114 &7478901190490381952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,7 +940,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4448824847059235598}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 726325959c0cb064597e2f1bd5eb6b21, type: 3}
   m_Name: 
