@@ -17508,6 +17508,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 209980907}
     - target: {fileID: 7114677859182961398, guid: 785f0463fabf9764996710660103d6c1, type: 3}
+      propertyPath: _framingUp
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114677859182961398, guid: 785f0463fabf9764996710660103d6c1, type: 3}
       propertyPath: _viewerCamera
       value: 
       objectReference: {fileID: 2075559141}
