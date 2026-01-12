@@ -244,8 +244,9 @@ namespace Tests.PlayMode
         public void OnAttackHitStart_EnablesHitboxWithContext()
         {
             _meleeAttacker.TryAttack();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
 
-            _meleeAttacker.OnAttackHitStart();
+            _meleeAttacker.OnAttackHitStart(session);
 
             // Hitbox collider should be enabled
             var collider = _hitbox.GetComponent<Collider>();
@@ -256,7 +257,8 @@ namespace Tests.PlayMode
         public void OnAttackHitEnd_DisablesHitbox()
         {
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session);
 
             _meleeAttacker.ForceDisableHitbox();
 
@@ -270,8 +272,9 @@ namespace Tests.PlayMode
             SetMeleeAttackerHitbox(_meleeAttacker, null);
 
             _meleeAttacker.TryAttack();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
 
-            Assert.DoesNotThrow(() => _meleeAttacker.OnAttackHitStart());
+            Assert.DoesNotThrow(() => _meleeAttacker.OnAttackHitStart(session));
         }
 
         [Test]
@@ -325,7 +328,8 @@ namespace Tests.PlayMode
 
             // Perform attack
             _meleeAttacker.TryAttack();
-            _meleeAttacker.OnAttackHitStart();
+            var session = _meleeAttacker.StartNewSession(_meleeAttacker.CurrentComboStep);
+            _meleeAttacker.OnAttackHitStart(session);
 
             // Wait for physics
             yield return new WaitForFixedUpdate();
