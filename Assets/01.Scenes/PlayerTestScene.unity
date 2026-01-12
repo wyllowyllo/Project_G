@@ -1691,6 +1691,7 @@ GameObject:
   - component: {fileID: 1457489502}
   - component: {fileID: 1457489509}
   - component: {fileID: 1457489510}
+  - component: {fileID: 1457489511}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -2110,6 +2111,19 @@ MonoBehaviour:
   stretchRange: 0
   giveWorldHeightOffset: 0
   worldHeightOffset: 0
+--- !u!114 &1457489511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457489488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f945968b37614bd197a3806eff34efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
+  _config: {fileID: 11400000, guid: 4bc3df7112686440182de5f79dc4c0ef, type: 2}
 --- !u!1 &1485847403
 GameObject:
   m_ObjectHideFlags: 0
