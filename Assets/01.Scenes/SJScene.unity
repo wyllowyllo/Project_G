@@ -1942,6 +1942,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::EquipmentTooltipDebugger
   _testEquipmentData: {fileID: 11400000, guid: 21dc04e10a5724b54a1852953040af93, type: 2}
+  _droppedEquipment: {fileID: 0}
+  _tooltipController: {fileID: 0}
+  _playerTransform: {fileID: 0}
 --- !u!1001 &443060079
 PrefabInstance:
   m_ObjectHideFlags: 0
