@@ -5407,7 +5407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.87058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10279,8 +10279,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::CharacterViewer
   _viewerPanel: {fileID: 821306617}
   _viewerCamera: {fileID: 1977327143}
+  _characterDisplay: {fileID: 213850539}
   _player: {fileID: 1100965293}
   _playerEquipment: {fileID: 1100965271}
+  _playerMovement: {fileID: 0}
+  _renderTextureWidth: 1024
+  _renderTextureHeight: 1024
+  _backgroundColor: {r: 0, g: 0, b: 0, a: 0}
   _rotationSpeed: 100
   _cameraDistance: 2.5
   _cameraHeight: 1
@@ -10289,6 +10294,8 @@ MonoBehaviour:
   _zoomSpeed: 2
   _minDistance: 1
   _maxDistance: 5
+  _characterViewerLayer: CharacterViewer
+  _autoSetupLayers: 1
 --- !u!4 &1722222060
 Transform:
   m_ObjectHideFlags: 0
@@ -11342,10 +11349,10 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977327140}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -11371,12 +11378,12 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 8192
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 8dc6001df813fa6449470759b8044d00, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 198b7039138e5f44e9c498554bea2547, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
