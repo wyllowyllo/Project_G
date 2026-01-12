@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8701152518642688281}
   - component: {fileID: 1834168920557721098}
   - component: {fileID: 3952624177279394622}
+  - component: {fileID: 811032936930998909}
   - component: {fileID: 7014938373450101261}
   - component: {fileID: 2201471716738421509}
   - component: {fileID: 6494239090798905283}
@@ -180,6 +181,27 @@ MonoBehaviour:
   _sfxVolume: 1
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
+  _feedbackSettings: {fileID: 0}
+  _hitFlashController: {fileID: 0}
+--- !u!114 &811032936930998909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710055614459436209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62680abd3688b3429b73b74fdf39ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.HitFlashController
+  _renderers:
+  - {fileID: 6264872117322292728}
+  _emissionColorProperty: _EmissionColor
+  _baseColorProperty: _BaseColor
+  _useTintFallback: 1
+  _tintColorProperty: _Color
+  _enableDebugLogs: 0
 --- !u!195 &7014938373450101261
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -473,6 +495,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e4c94591aa068f844a7047929b707641, type: 2}
+    - target: {fileID: 137218116663036162, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -484,6 +510,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1846396539087239083}
   m_SourcePrefab: {fileID: 100100000, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+--- !u!137 &6264872117322292728 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 137218116663036162, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
+  m_PrefabInstance: {fileID: 6275261237673350394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6273769747528154296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1931298151966786, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
