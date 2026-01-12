@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 2195597744550168073}
   - component: {fileID: 7510892230249200005}
   - component: {fileID: 4485054383015213938}
+  - component: {fileID: 1962076813446573125}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -977,6 +978,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
   _config: {fileID: 11400000, guid: 4bc3df7112686440182de5f79dc4c0ef, type: 2}
+--- !u!114 &1962076813446573125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448824847059235598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b53411a12e4846cc91235bd5597e49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Equipment.PlayerEquipment
 --- !u!1 &6725822447639969405
 GameObject:
   m_ObjectHideFlags: 0
