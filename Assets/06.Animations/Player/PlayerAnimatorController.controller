@@ -214,7 +214,7 @@ AnimatorState:
   - {fileID: 2852579752895414709}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
@@ -243,6 +243,7 @@ MonoBehaviour:
   _hitEndTime: 0.633
   _trailStartTime: 0.133
   _trailEndTime: 0.833
+  _animEndTime: 1
 --- !u!114 &-5340704956904370119
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,6 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
 --- !u!1102 &-4349284683748941860
 AnimatorState:
   serializedVersion: 6
@@ -326,8 +328,8 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.3
   m_TransitionOffset: 0
-  m_ExitTime: 1.01
-  m_HasExitTime: 1
+  m_ExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -348,6 +350,7 @@ MonoBehaviour:
   _hitEndTime: 0.733
   _trailStartTime: 0.467
   _trailEndTime: 0.8
+  _animEndTime: 1
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -427,7 +430,7 @@ AnimatorController:
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
     m_DefaultWeight: 0
-    m_IKPass: 0
+    m_IKPass: 1
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
 --- !u!114 &2180315786019146581
@@ -443,6 +446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 0.85
+  _positionMultiplier: 1
 --- !u!1102 &2308419960271180257
 AnimatorState:
   serializedVersion: 6
@@ -490,8 +494,8 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.3
   m_TransitionOffset: 0
-  m_ExitTime: 1.01
-  m_HasExitTime: 1
+  m_ExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -559,14 +563,14 @@ AnimatorState:
   - {fileID: -5340704956904370119}
   - {fileID: -5792057744073542152}
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -8303658492497614961, guid: d69e18646eaf4d145abd292ae4ed2f5b, type: 3}
+  m_Motion: {fileID: 7400000, guid: fc8f06d811f7d4755bdb2c63378fe375, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -585,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
 --- !u!1102 &4666794008675676087
 AnimatorState:
   serializedVersion: 6
@@ -599,7 +604,7 @@ AnimatorState:
   - {fileID: -8857306331513560856}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
@@ -611,7 +616,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MoveSpeed
 --- !u!114 &4743612494480956415
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -628,6 +633,7 @@ MonoBehaviour:
   _hitEndTime: 0.533
   _trailStartTime: 0.2
   _trailEndTime: 0.667
+  _animEndTime: 1
 --- !u!1101 &5012191276314958460
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -694,6 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 0.8
+  _positionMultiplier: 1
 --- !u!1102 &6427079022986100928
 AnimatorState:
   serializedVersion: 6
@@ -710,14 +717,14 @@ AnimatorState:
   - {fileID: 9164240016902346667}
   - {fileID: 4743612494480956415}
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 8341632802235832332, guid: bfe21e03eb84778469001a81e7e6bbe9, type: 3}
+  m_Motion: {fileID: 7400000, guid: 9e9a2fd9b445147f2854e1695ea02e16, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -748,7 +755,7 @@ BlendTree:
     m_DirectBlendParameter: MoveSpeed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 4390578766505144750, guid: c35524ee49a190043bb5dcc725b9ea94, type: 3}
+    m_Motion: {fileID: 7400000, guid: b74e3b66f796f495baf6fa55adfbdb30, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -778,14 +785,14 @@ AnimatorState:
   - {fileID: 3862660269132971102}
   - {fileID: -26784230358932767}
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 2691850682750431876, guid: 3fa7f819964e6314a97d20d69c4cf1ae, type: 3}
+  m_Motion: {fileID: 7400000, guid: f98e2f26bd51e40a692965abd0dbdb73, type: 2}
   m_Tag: 
   m_SpeedParameter: MoveSpeed
   m_MirrorParameter: IsAttacking
@@ -810,8 +817,8 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.3
   m_TransitionOffset: 0
-  m_ExitTime: 1.01
-  m_HasExitTime: 1
+  m_ExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -857,3 +864,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
