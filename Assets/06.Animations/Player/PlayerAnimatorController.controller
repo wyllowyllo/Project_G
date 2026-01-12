@@ -257,6 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
 --- !u!1102 &-4349284683748941860
 AnimatorState:
   serializedVersion: 6
@@ -445,6 +446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 0.85
+  _positionMultiplier: 1
 --- !u!1102 &2308419960271180257
 AnimatorState:
   serializedVersion: 6
@@ -587,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
 --- !u!1102 &4666794008675676087
 AnimatorState:
   serializedVersion: 6
@@ -613,7 +616,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MoveSpeed
 --- !u!114 &4743612494480956415
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -697,6 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 0.8
+  _positionMultiplier: 1
 --- !u!1102 &6427079022986100928
 AnimatorState:
   serializedVersion: 6
@@ -860,3 +864,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
+  _positionMultiplier: 2
