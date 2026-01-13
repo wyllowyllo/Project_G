@@ -1416,10 +1416,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Player.CinemachineCameraController
   _cinemachineCamera: {fileID: 946893360}
   _orbitalFollow: {fileID: 946893359}
-  _minScale: 0.5
-  _maxScale: 2
-  _zoomSpeed: 0.5
-  _zoomSmoothTime: 0.2
   _normalFOV: 50
   _sprintFOV: 55
   _lockOnFOV: 45
@@ -4951,6 +4947,10 @@ MonoBehaviour:
   _cinemachineCameraController: {fileID: 946893354}
   _useCameraForward: 1
   _maxStableSlopeAngle: 60
+  _gravity: {x: 0, y: -10, z: 0}
+  _maxAirMoveSpeed: 10
+  _airAccelerationSpeed: 5
+  _drag: 0.1
   _canMoveWhileDodging: 0
 --- !u!114 &1528147905
 MonoBehaviour:
@@ -5356,7 +5356,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.CameraShakeController
   _impulseSource: {fileID: 0}
-  _enableDebugLogs: 0
 --- !u!114 &1851164703
 MonoBehaviour:
   m_ObjectHideFlags: 0
