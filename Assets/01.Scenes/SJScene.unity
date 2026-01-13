@@ -38199,8 +38199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::LevelUpTextAnimation
   _levelText: {fileID: 665709960}
   _messageText: {fileID: 0}
-  _textAppearDelay: 0.4
-  _textFadeInDuration: 0.5
+  _textAppearDelay: 0.35
+  _textFadeInDuration: 0.6
   _textDisplayDuration: 2.3
   _textFadeOutDuration: 0.3
   _useScaleEffect: 1
