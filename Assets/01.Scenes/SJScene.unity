@@ -16356,6 +16356,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 5472705298439912235, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472705298439912235, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 09dc026a1e39b3c41a46dae824977a4b, type: 3}
     - target: {fileID: 5472993102915582874, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_SizeDelta.x
       value: 100
@@ -19381,6 +19389,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3421408410135497918, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: _hpText
       value: 
