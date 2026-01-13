@@ -22,7 +22,7 @@ MonoBehaviour:
     Duration: 0.1
     Direction: {x: 0, y: -1, z: 0}
   _normalFlash:
-    Enabled: 1
+    Enabled: 0
     FlashColor: {r: 1, g: 1, b: 1, a: 1}
     FlashIntensity: 1
     FlashDuration: 0.1
@@ -65,7 +65,7 @@ MonoBehaviour:
     Duration: 0.15
     Direction: {x: 0, y: -1, z: 0}
   _criticalFlash:
-    Enabled: 1
+    Enabled: 0
     FlashColor: {r: 1, g: 0.3, b: 0.3, a: 1}
     FlashIntensity: 1.5
     FlashDuration: 0.15
@@ -94,12 +94,12 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   _criticalScreen:
-    Enabled: 1
+    Enabled: 0
     VignetteIntensity: 0.3
     ColorTint: {r: 1, g: 1, b: 1, a: 1}
     Duration: 0.15
   _deathHitstop:
-    Enabled: 1
+    Enabled: 0
     Duration: 0.1
     TimeScale: 0
   _deathShake:
@@ -108,7 +108,7 @@ MonoBehaviour:
     Duration: 0.2
     Direction: {x: 0, y: -1, z: 0}
   _deathFlash:
-    Enabled: 1
+    Enabled: 0
     FlashColor: {r: 1, g: 0.2, b: 0.2, a: 1}
     FlashIntensity: 2
     FlashDuration: 0.2
@@ -137,7 +137,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   _deathScreen:
-    Enabled: 1
+    Enabled: 0
     VignetteIntensity: 0.5
     ColorTint: {r: 1, g: 0.9, b: 0.9, a: 1}
     Duration: 0.25
