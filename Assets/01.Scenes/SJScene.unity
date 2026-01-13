@@ -18048,6 +18048,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1919880724}
     - target: {fileID: 565496329351437629, guid: 785f0463fabf9764996710660103d6c1, type: 3}
+      propertyPath: _playerCombat
+      value: 
+      objectReference: {fileID: 1941168911}
+    - target: {fileID: 565496329351437629, guid: 785f0463fabf9764996710660103d6c1, type: 3}
       propertyPath: _characterArea
       value: 
       objectReference: {fileID: 89904647}
@@ -52779,6 +52783,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
   m_PrefabInstance: {fileID: 1938729381}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1941168911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2147442792915637895, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 601817973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
 --- !u!1001 &1945716758
 PrefabInstance:
   m_ObjectHideFlags: 0
