@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 8701152518642688281}
   - component: {fileID: 1834168920557721098}
   - component: {fileID: 3952624177279394622}
-  - component: {fileID: 811032936930998909}
   - component: {fileID: 7014938373450101261}
   - component: {fileID: 2201471716738421509}
   - component: {fileID: 6494239090798905283}
@@ -181,25 +180,6 @@ MonoBehaviour:
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: fdad1fd7c36346742a77c5b069608c21, type: 2}
-  _hitFlashController: {fileID: 811032936930998909}
---- !u!114 &811032936930998909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5710055614459436209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e62680abd3688b3429b73b74fdf39ce7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Monster.Feedback.HitFlashController
-  _renderers: []
-  _emissionColorProperty: _EmissionColor
-  _baseColorProperty: _BaseColor
-  _useTintFallback: 1
-  _tintColorProperty: _Color
-  _enableDebugLogs: 0
 --- !u!195 &7014938373450101261
 NavMeshAgent:
   m_ObjectHideFlags: 0
