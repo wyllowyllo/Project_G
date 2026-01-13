@@ -280,7 +280,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.3
   m_TransitionOffset: 0
-  m_ExitTime: 0.7
+  m_ExitTime: 1
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3649435cfb81a4cd0ba87da45d8dd2a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.SkillState
-  _damageFrameTime: 0.54
+  _damageFrameTime: 0.667
   _trailStartTime: 0.333
   _trailEndTime: 0.667
   _animEndTime: 1
@@ -938,9 +938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3649435cfb81a4cd0ba87da45d8dd2a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.SkillState
-  _damageFrameTime: 0.461
-  _trailStartTime: 0.307
-  _trailEndTime: 0.692
+  _damageFrameTime: 0.6
+  _trailStartTime: 0.4
+  _trailEndTime: 0.8
   _animEndTime: 1
 --- !u!1102 &6427079022986100928
 AnimatorState:
