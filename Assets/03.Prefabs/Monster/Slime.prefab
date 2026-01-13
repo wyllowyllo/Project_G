@@ -143,7 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f2d081328cb8ea40abb08645ecd8ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterFeedback
-  _navAgent: {fileID: 0}
   _knockbackDistance: 1.5
   _knockbackDuration: 0.15
   _knockbackCurve:
@@ -181,7 +180,7 @@ MonoBehaviour:
   _sfxVolume: 1
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
-  _feedbackSettings: {fileID: 0}
+  _feedbackSettings: {fileID: 11400000, guid: fdad1fd7c36346742a77c5b069608c21, type: 2}
   _hitFlashController: {fileID: 0}
 --- !u!114 &811032936930998909
 MonoBehaviour:
@@ -195,8 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62680abd3688b3429b73b74fdf39ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.HitFlashController
-  _renderers:
-  - {fileID: 6264872117322292728}
+  _renderers: []
   _emissionColorProperty: _EmissionColor
   _baseColorProperty: _BaseColor
   _useTintFallback: 1
@@ -510,11 +508,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1846396539087239083}
   m_SourcePrefab: {fileID: 100100000, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
---- !u!137 &6264872117322292728 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 137218116663036162, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
-  m_PrefabInstance: {fileID: 6275261237673350394}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6273769747528154296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1931298151966786, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
