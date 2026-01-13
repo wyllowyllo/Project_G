@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Progression;
+using Skill;
 using Tests.Shared;
 using UnityEngine;
 

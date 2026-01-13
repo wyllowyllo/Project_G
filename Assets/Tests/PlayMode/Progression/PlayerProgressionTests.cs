@@ -2,6 +2,7 @@ using Combat.Core;
 using Combat.Data;
 using NUnit.Framework;
 using Progression;
+using Skill;
 using Tests.Shared;
 using UnityEngine;
 
