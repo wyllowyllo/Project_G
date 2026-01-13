@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.Data.FeedbackSettings
   _normalHitstop:
     Enabled: 1
-    Duration: 0.05
+    Duration: 0.04
     TimeScale: 0
   _normalShake:
     Enabled: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
     Duration: 0.06
     TimeScale: 0
   _criticalShake:
-    Enabled: 0
+    Enabled: 1
     Force: 1
     Duration: 0.15
     Direction: {x: 0, y: -1, z: 0}
