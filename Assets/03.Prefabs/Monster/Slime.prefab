@@ -181,7 +181,7 @@ MonoBehaviour:
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: fdad1fd7c36346742a77c5b069608c21, type: 2}
-  _hitFlashController: {fileID: 0}
+  _hitFlashController: {fileID: 811032936930998909}
 --- !u!114 &811032936930998909
 MonoBehaviour:
   m_ObjectHideFlags: 0
