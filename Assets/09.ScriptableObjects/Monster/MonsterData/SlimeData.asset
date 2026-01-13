@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
   _attackMode: 2
   _enablePushback: 1
+  _enablePatrol: 1
+  _enableReturnHome: 0
+  _patrolRadius: 8
+  _patrolWaitTime: 2
   _monsterName: Slime
   _monsterLevel: 1
   _attackRange: 2.5
