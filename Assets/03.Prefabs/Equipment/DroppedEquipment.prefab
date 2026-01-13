@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7159027091192017647}
   - component: {fileID: 5707375181146437591}
   - component: {fileID: 3216122847117118273}
+  - component: {fileID: -483057989866508203}
   m_Layer: 12
   m_Name: DroppedEquipment
   m_TagString: Untagged
@@ -125,3 +126,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc8ba31d32204ed19869b22de25fdc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.DroppedEquipment
+--- !u!114 &-483057989866508203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549039695652992662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4344a08c70669ce48b9e0fdaf6625e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Equipment.EquipmentTooltipController
+  _tooltipCanvas: {fileID: 0}
+  _tooltipPanel: {fileID: 0}
+  _gradeText: {fileID: 0}
+  _itemIcon: {fileID: 0}
+  _itemNameText: {fileID: 0}
+  _attackText: {fileID: 0}
+  _defenseText: {fileID: 0}
+  _backgroundImage: {fileID: 0}
+  _enableBillboard: 1
+  _tooltipOffset: {x: 0, y: 1.5, z: 0}
+  _showDistance: 5
+  _alwaysShow: 0
+  _normalColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  _rareColor: {r: 0.3, g: 0.6, b: 1, a: 1}
+  _uniqueColor: {r: 0.6, g: 0.3, b: 1, a: 1}
+  _legendaryColor: {r: 1, g: 0.5, b: 0.1, a: 1}
+  _normalBgColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.9}
+  _rareBgColor: {r: 0.1, g: 0.2, b: 0.3, a: 0.9}
+  _uniqueBgColor: {r: 0.2, g: 0.1, b: 0.3, a: 0.9}
+  _legendaryBgColor: {r: 0.3, g: 0.2, b: 0.1, a: 0.9}

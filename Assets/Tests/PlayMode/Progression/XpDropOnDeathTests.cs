@@ -47,7 +47,7 @@ namespace Tests.PlayMode
         [Test]
         public void MonsterDeath_WithPlayer_GrantsXp()
         {
-            _xpDrop.Initialize(_playerProgression);
+            _xpDrop.SetPlayerForTest(_playerProgression);
 
             _monsterHealth.TakeDamage(100f);
 
@@ -64,11 +64,11 @@ namespace Tests.PlayMode
         [Test]
         public void MultipleMonsterDeaths_AccumulatesXp()
         {
-            _xpDrop.Initialize(_playerProgression);
+            _xpDrop.SetPlayerForTest(_playerProgression);
 
             var monster2 = ProgressionTestUtilities.CreateMonsterWithXpDrop(
                 75, out var health2, out var xpDrop2);
-            xpDrop2.Initialize(_playerProgression);
+            xpDrop2.SetPlayerForTest(_playerProgression);
 
             _monsterHealth.TakeDamage(100f);
             health2.TakeDamage(100f);
