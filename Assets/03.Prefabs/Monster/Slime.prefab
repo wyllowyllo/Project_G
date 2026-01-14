@@ -502,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 95457531584545886, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e4c94591aa068f844a7047929b707641, type: 2}
+      objectReference: {fileID: 22100000, guid: 3de8db6a14ac6844e902f1ff7b9180df, type: 2}
     - target: {fileID: 137218116663036162, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
       propertyPath: m_Enabled
       value: 1
