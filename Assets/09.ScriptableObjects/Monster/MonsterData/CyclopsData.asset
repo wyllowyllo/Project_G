@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
-  m_Name: SlimeData
-  m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
+  m_Name: CyclopsData
+  m_EditorClassIdentifier: ProjectG::Monster.Data.MonsterData
   _attackMode: 0
   _enablePushback: 1
   _enablePatrol: 1
@@ -19,14 +19,14 @@ MonoBehaviour:
   _patrolRadius: 8
   _patrolWaitTimeMin: 1
   _patrolWaitTimeMax: 3
-  _attackType: 0
-  _preferredMinDistance: 1.5
-  _preferredMaxDistance: 3.5
-  _strafeSpeed: 2.5
-  _attackRange: 2.5
-  _lightAttackRange: 1.5
-  _heavyAttackRange: 2.5
-  _attackCooldown: 3
+  _attackType: 1
+  _preferredMinDistance: 1
+  _preferredMaxDistance: 6
+  _strafeSpeed: 1.5
+  _attackRange: 5
+  _lightAttackRange: 2
+  _heavyAttackRange: 4
+  _attackCooldown: 1.5
   _projectilePrefab: {fileID: 0}
   _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
   _projectileSpeed: 15
@@ -43,10 +43,10 @@ MonoBehaviour:
   _executeTime: 0.2
   _lightAttackRecoverTime: 0.5
   _heavyAttackRecoverTime: 2
-  _lightAttackChance: 0.35
-  _heavyAttackChance: 0.1
+  _lightAttackChance: 0.45
+  _heavyAttackChance: 0.15
   _heavyAttackCooldown: 3
-  _circleAngularSpeed: 30
+  _circleAngularSpeed: 15
   _strafeMinDuration: 1.5
   _strafeMaxDuration: 3.5
   _strafePauseChance: 0.2

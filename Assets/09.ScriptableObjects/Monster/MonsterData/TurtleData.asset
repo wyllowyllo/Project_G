@@ -12,34 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
   m_Name: TurtleData
   m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
-  _attackMode: 2
+  _attackMode: 0
   _enablePushback: 1
   _enablePatrol: 1
   _enableReturnHome: 0
   _patrolRadius: 8
   _patrolWaitTimeMin: 1
   _patrolWaitTimeMax: 3
-  _monsterName: Turtle
-  _monsterLevel: 1
+  _attackType: 0
+  _preferredMinDistance: 1.5
+  _preferredMaxDistance: 3.5
+  _strafeSpeed: 2.5
   _attackRange: 2.5
   _lightAttackRange: 1.5
   _heavyAttackRange: 2.5
   _attackCooldown: 3
+  _projectilePrefab: {fileID: 0}
+  _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
+  _projectileSpeed: 15
+  _rangedAttackRange: 10
+  _rangedMinDistance: 4
+  _rangedDamageMultiplier: 1
   _moveSpeed: 3.5
   _patrolSpeed: 2
   _rotationSpeed: 120
   _detectionRange: 12
   _engageRange: 10
-  _preferredMinDistance: 1.5
-  _preferredMaxDistance: 3.5
-  _strafeSpeed: 2.5
   _tetherRadius: 20
   _windupTime: 0.3
   _executeTime: 0.2
   _lightAttackRecoverTime: 0.5
   _heavyAttackRecoverTime: 2
-  _chargeSpeed: 7
-  _retreatDistance: 2
   _lightAttackChance: 0.35
   _heavyAttackChance: 0.1
   _heavyAttackCooldown: 3
@@ -49,6 +52,3 @@ MonoBehaviour:
   _strafePauseChance: 0.2
   _directionChangeChance: 0.3
   _speedLerpFactor: 3
-  _knockbackForce: 2
-  _experienceReward: 10
-  _goldReward: 5
