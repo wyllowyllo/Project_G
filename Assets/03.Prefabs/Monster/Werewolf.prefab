@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796ed305e9fe9564eb7176dc9aeebdab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterAttacker
-  _hitbox: {fileID: 0}
+  _hitbox: {fileID: 528972669156066003}
   _lightAttackMultiplier: 1
   _heavyAttackMultiplier: 1.5
 --- !u!114 &6700226749527484856
@@ -1145,9 +1145,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5785497811905594229, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3756998493504739827}
+    - targetCorrespondingSourceObject: {fileID: 5785497811905594229, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 528972669156066003}
     - targetCorrespondingSourceObject: {fileID: 5785497811905594231, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5734356025826994973}
+    - targetCorrespondingSourceObject: {fileID: 5785497811905594231, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4930471533995285337}
   m_SourcePrefab: {fileID: 100100000, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
 --- !u!1 &2016980105372016341 stripped
 GameObject:
@@ -1175,6 +1181,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.5, z: 0.5}
   m_Center: {x: -0.2, y: 0, z: 0}
+--- !u!114 &4930471533995285337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016980105372016341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da9ec942d23947b4a53d213ca342679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Attack.HitboxTrigger
+  _hitMultipleTargets: 1
 --- !u!1 &2016980105372016343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5785497811905594229, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
@@ -1201,6 +1220,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.5, z: 0.5}
   m_Center: {x: -0.2, y: 0, z: 0}
+--- !u!114 &528972669156066003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016980105372016343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da9ec942d23947b4a53d213ca342679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Attack.HitboxTrigger
+  _hitMultipleTargets: 1
 --- !u!1 &2016980105372016451 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5785497811905594081, guid: 1ec25eb4a9054af39b92764dc66638cf, type: 3}
