@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
   m_Name: CyclopsData
   m_EditorClassIdentifier: ProjectG::Monster.Data.MonsterData
-  _attackMode: 2
+  _attackMode: 0
   _enablePushback: 1
   _enablePatrol: 1
   _enableReturnHome: 0
