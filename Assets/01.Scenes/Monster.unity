@@ -216,15 +216,15 @@ MonoBehaviour:
   _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1557692991}
-    monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
+    monsterPrefab: {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
   - spawnPoint: {fileID: 871248804}
-    monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
+    monsterPrefab: {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
   - spawnPoint: {fileID: 1285911348}
-    monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
+    monsterPrefab: {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
   - spawnPoint: {fileID: 1599194189}
-    monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
+    monsterPrefab: {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
   - spawnPoint: {fileID: 120397455}
-    monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
+    monsterPrefab: {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
   _spawnOnStart: 1
   _showDebugGizmos: 1
 --- !u!4 &44021115

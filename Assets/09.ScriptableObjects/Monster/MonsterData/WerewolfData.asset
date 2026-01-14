@@ -21,9 +21,9 @@ MonoBehaviour:
   _patrolWaitTimeMax: 3
   _monsterName: Werewolf
   _monsterLevel: 3
-  _attackRange: 2
-  _lightAttackRange: 1.5
-  _heavyAttackRange: 1.5
+  _attackRange: 5
+  _lightAttackRange: 2
+  _heavyAttackRange: 4
   _attackCooldown: 1.5
   _moveSpeed: 3.5
   _patrolSpeed: 2
@@ -31,7 +31,7 @@ MonoBehaviour:
   _detectionRange: 12
   _engageRange: 10
   _preferredMinDistance: 1
-  _preferredMaxDistance: 4
+  _preferredMaxDistance: 6
   _strafeSpeed: 1.5
   _tetherRadius: 20
   _windupTime: 0.3
