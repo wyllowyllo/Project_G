@@ -636,13 +636,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1457489514}
-    - targetCorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1457489513}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
 --- !u!1 &549172304
 GameObject:
@@ -1411,52 +1405,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1457489488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-  m_PrefabInstance: {fileID: 511515217}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1457489492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3815635930778169777, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
   m_PrefabInstance: {fileID: 511515217}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1457489513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457489488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8dde6a807c34028b2361477389b8cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Skill.SkillCaster
-  _qSkill: {fileID: 11400000, guid: 5854446dbb95b4454987fac0db6b7bf5, type: 2}
-  _eSkill: {fileID: 0}
-  _rSkill: {fileID: 11400000, guid: 9eb2305dc83de4f7381b9e49343d6bfc, type: 2}
-  _enemyLayer:
-    serializedVersion: 2
-    m_Bits: 512
---- !u!114 &1457489514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457489488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d75be5ced14c8494eb3b87f24b947ce7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Skill.SkillHitbox
-  _showGizmos: 1
-  _debugAreaType: 0
-  _debugRange: 5
-  _debugAngle: 180
-  _debugBoxWidth: 2
-  _debugBoxHeight: 2
 --- !u!1 &1485847403
 GameObject:
   m_ObjectHideFlags: 0
