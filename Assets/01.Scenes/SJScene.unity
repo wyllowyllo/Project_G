@@ -40588,9 +40588,67 @@ MonoBehaviour:
   skillSlotPrefab: {fileID: 2775849076173156467, guid: ec587a17a0c83ea4f9e8363fb7853135, type: 3}
   skillGridContainer: {fileID: 829089343}
   tooltip: {fileID: 6634538199397120180}
-  characterImage: {fileID: 0}
-  characterSprite: {fileID: 0}
-  skills: []
+  skills:
+  - id: 0
+    skillName: "\uB0B4\uB824\uCC0D\uAE30"
+    description: "\uB0B4\uB824\uCC0D\uC5B4 \uC801\uB4E4\uC744 \uAC15\uB825\uD558\uAC8C
+      \uACF5\uACA9\uD55C\uB2E4."
+    level: 1
+    cooldown: 3
+    icon: {fileID: 21300000, guid: 09dc026a1e39b3c41a46dae824977a4b, type: 3}
+  - id: 0
+    skillName: "\uB0B4\uB824\uCC0D\uAE30"
+    description: "\uB0B4\uB824\uCC0D\uC5B4 \uC801\uB4E4\uC744 \uAC15\uB825\uD558\uAC8C
+      \uACF5\uACA9\uD55C\uB2E4."
+    level: 2
+    cooldown: 3
+    icon: {fileID: 21300000, guid: 09dc026a1e39b3c41a46dae824977a4b, type: 3}
+  - id: 0
+    skillName: "\uB0B4\uB824\uCC0D\uAE30"
+    description: "\uB0B4\uB824\uCC0D\uC5B4 \uC801\uB4E4\uC744 \uAC15\uB825\uD558\uAC8C
+      \uACF5\uACA9\uD55C\uB2E4."
+    level: 3
+    cooldown: 3
+    icon: {fileID: 21300000, guid: 09dc026a1e39b3c41a46dae824977a4b, type: 3}
+  - id: 0
+    skillName: "\uD65C\uACF5"
+    description: "\uC6D0\uD558\uB294 \uAC70\uB9AC\uB85C \uD65C\uACF5\uD55C\uB2E4."
+    level: 1
+    cooldown: 5
+    icon: {fileID: 21300000, guid: 0d72dc7b750a34d41a04db52cf68e128, type: 3}
+  - id: 0
+    skillName: "\uD65C\uACF5"
+    description: "\uC6D0\uD558\uB294 \uAC70\uB9AC\uB85C \uD65C\uACF5\uD55C\uB2E4."
+    level: 2
+    cooldown: 5
+    icon: {fileID: 21300000, guid: 0d72dc7b750a34d41a04db52cf68e128, type: 3}
+  - id: 0
+    skillName: "\uD65C\uACF5"
+    description: "\uC6D0\uD558\uB294 \uAC70\uB9AC\uB85C \uD65C\uACF5\uD55C\uB2E4."
+    level: 3
+    cooldown: 5
+    icon: {fileID: 21300000, guid: 0d72dc7b750a34d41a04db52cf68e128, type: 3}
+  - id: 0
+    skillName: "\uAC01\uC131\uAE30"
+    description: "\uB113\uC740 \uBC94\uC704\uC758 \uC6D0\uC7A5\uD310 \uBC94\uB97C
+      \uB354\uC6B1 \uB354 \uAC15\uB825\uD558\uAC8C \uD0C0\uACA9\uD55C\uB2E4."
+    level: 1
+    cooldown: 5
+    icon: {fileID: 21300000, guid: 0c406a89a541faa43bf3840cad6e2841, type: 3}
+  - id: 0
+    skillName: "\uAC01\uC131\uAE30"
+    description: "\uB113\uC740 \uBC94\uC704\uC758 \uC6D0\uC7A5\uD310 \uBC94\uB97C
+      \uB354\uC6B1 \uB354 \uAC15\uB825\uD558\uAC8C \uD0C0\uACA9\uD55C\uB2E4."
+    level: 2
+    cooldown: 10
+    icon: {fileID: 21300000, guid: 0c406a89a541faa43bf3840cad6e2841, type: 3}
+  - id: 0
+    skillName: "\uAC01\uC131\uAE30"
+    description: "\uB113\uC740 \uBC94\uC704\uC758 \uC6D0\uC7A5\uD310 \uBC94\uB97C
+      \uB354\uC6B1 \uB354 \uAC15\uB825\uD558\uAC8C \uD0C0\uACA9\uD55C\uB2E4."
+    level: 3
+    cooldown: 10
+    icon: {fileID: 21300000, guid: 0c406a89a541faa43bf3840cad6e2841, type: 3}
   slotAnimationDelay: 0.1
 --- !u!1001 &1367116662
 PrefabInstance:
@@ -61306,6 +61364,14 @@ PrefabInstance:
     - target: {fileID: 5039190288248210737, guid: 1f9c1b63710671042b6bc1d9cac9e97c, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428339370627862405, guid: 1f9c1b63710671042b6bc1d9cac9e97c, type: 3}
+      propertyPath: fadeSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428339370627862405, guid: 1f9c1b63710671042b6bc1d9cac9e97c, type: 3}
+      propertyPath: horizontalSpacing
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8298055920678804130, guid: 1f9c1b63710671042b6bc1d9cac9e97c, type: 3}
       propertyPath: m_IsActive
