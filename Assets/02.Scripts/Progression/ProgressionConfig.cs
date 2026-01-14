@@ -47,12 +47,12 @@ namespace Progression
         public float GetAttackBonus(int level) =>
             _attackPerLevel * (level - 1);
 
-        public SkillSlot GetSkillEnhancement(int level) => level switch
+        public SkillSlotUI GetSkillEnhancement(int level) => level switch
         {
-            var l when l == _qSkillLevel => SkillSlot.Q,
-            var l when l == _eSkillLevel => SkillSlot.E,
-            var l when l == _rSkillLevel => SkillSlot.R,
-            _ => SkillSlot.None
+            var l when l == _qSkillLevel => SkillSlotUI.Q,
+            var l when l == _eSkillLevel => SkillSlotUI.E,
+            var l when l == _rSkillLevel => SkillSlotUI.R,
+            _ => SkillSlotUI.None
         };
 
         public static HunterRank GetRank(int level) => level switch

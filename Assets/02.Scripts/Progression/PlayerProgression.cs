@@ -27,7 +27,7 @@ namespace Progression
         public Combatant Combatant => _combatant;
 
         public event Action<int, int> OnLevelUp;
-        public event Action<SkillSlot> OnSkillEnhanced;
+        public event Action<SkillSlotUI> OnSkillEnhanced;
 
         private void Awake()
         {
@@ -70,7 +70,7 @@ namespace Progression
                 OnLevelUp?.Invoke(previousLevel, Level);
 
                 var skill = _config.GetSkillEnhancement(Level);
-                if (skill != SkillSlot.None)
+                if (skill != SkillSlotUI.None)
                     OnSkillEnhanced?.Invoke(skill);
 
                 requiredXp = _config.GetRequiredXp(Level + 1);
