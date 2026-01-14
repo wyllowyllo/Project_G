@@ -129,7 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796ed305e9fe9564eb7176dc9aeebdab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterAttacker
-  _hitbox: {fileID: 7200642440084398752}
+  _hitboxes:
+  - {fileID: 7200642440084398752}
   _lightAttackMultiplier: 1
   _heavyAttackMultiplier: 1.5
 --- !u!114 &4498620372898937200
@@ -190,7 +191,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5830510484618627956}
   m_Enabled: 1
-  m_AgentTypeID: -1372625422
+  m_AgentTypeID: 658490984
   m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8

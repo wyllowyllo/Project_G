@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8842446859578224671}
   - component: {fileID: 6252379046975836871}
   - component: {fileID: 3430311841691097814}
-  - component: {fileID: 8730740594243040920}
+  - component: {fileID: 2414941674906258762}
   - component: {fileID: 6431634699483686586}
   - component: {fileID: 7224290303369755495}
   - component: {fileID: 1278123635281674967}
@@ -85,7 +85,7 @@ MonoBehaviour:
   _team: 1
   _statsData: {fileID: 11400000, guid: f7ad52e4ed061c2499bbec0b81ae203a, type: 2}
   _hitReactionSettings: {fileID: 11400000, guid: f22edb50f765cb247908000f5f156dfa, type: 2}
---- !u!114 &8730740594243040920
+--- !u!114 &2414941674906258762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,14 +94,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1003475200777026098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 796ed305e9fe9564eb7176dc9aeebdab, type: 3}
+  m_Script: {fileID: 11500000, guid: 306f5df422581524a82c3bdbe4b5fd8e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterAttacker
-  _hitboxes:
-  - {fileID: 0}
-  - {fileID: 0}
+  m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterRangedAttacker
+  _lightAttackFirePoint: {fileID: 1224591091291866096}
+  _heavyAttackFirePoint: {fileID: 3348094343175605139}
+  _lightProjectilePrefab: {fileID: 4696992597062655241, guid: 57bfd89ddb6f468abd7243fad6a768c1, type: 3}
+  _heavyProjectilePrefab: {fileID: 8649945278838495128, guid: cbf8caa7219f4def82adbe435447484a, type: 3}
+  _projectileSpawnOffset: {x: 0, y: 0, z: 0.5}
+  _lightProjectileSpeed: 15
+  _heavyProjectileSpeed: 12
   _lightAttackMultiplier: 1
   _heavyAttackMultiplier: 1.5
+  _rangedDamageMultiplier: 1
 --- !u!114 &6431634699483686586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,8 +165,8 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003475200777026098}
   m_Enabled: 1
-  m_AgentTypeID: 1479372276
-  m_Radius: 0.5
+  m_AgentTypeID: 65107623
+  m_Radius: 1
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -170,7 +175,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1
+  m_Height: 1.8
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -721,6 +726,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1660849450274542459}
   m_SourcePrefab: {fileID: 100100000, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
+--- !u!4 &1224591091291866096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2659027844331058905, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
+  m_PrefabInstance: {fileID: 3753852163935630633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2638661191540821742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1190697391759604679, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
@@ -738,6 +748,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7733589ac88a4324b8bc99b1b59800ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.AI.MonsterAnimationEventReceiver
+--- !u!4 &3348094343175605139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1904616610896608954, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
+  m_PrefabInstance: {fileID: 3753852163935630633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3446864443753239636 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2003508460899066237, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}

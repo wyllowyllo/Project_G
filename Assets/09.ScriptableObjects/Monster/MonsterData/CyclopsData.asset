@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
   m_Name: CyclopsData
   m_EditorClassIdentifier: ProjectG::Monster.Data.MonsterData
-  _attackMode: 0
+  _attackMode: 2
   _enablePushback: 1
   _enablePatrol: 1
   _enableReturnHome: 0
@@ -27,12 +27,8 @@ MonoBehaviour:
   _lightAttackRange: 2
   _heavyAttackRange: 4
   _attackCooldown: 1.5
-  _projectilePrefab: {fileID: 0}
-  _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
-  _projectileSpeed: 15
   _rangedAttackRange: 10
   _rangedMinDistance: 4
-  _rangedDamageMultiplier: 1
   _moveSpeed: 3.5
   _patrolSpeed: 2
   _rotationSpeed: 120
