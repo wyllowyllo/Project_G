@@ -101,7 +101,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4906995874542868853}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 7215192926316879102}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -427,7 +428,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: -6649659123194181338}
   m_StateMachineBehaviours:
-  - {fileID: -1755445172948189690}
+  - {fileID: 7323372676525522500}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -520,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfa9f1ea82d04413f8a41c1d07059f35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.DiveBombLandingState
-  _landingCompleteTime: 0.333
+  _landingCompleteTime: 0.75
 --- !u!1101 &-3450199008831862718
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -570,7 +571,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DiveBomb_Landing
-  m_Speed: 1
+  m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2194495268120893359}
@@ -584,7 +585,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 593ebf8cf472841f198cbdcff9fd8285, type: 2}
+  m_Motion: {fileID: 7400000, guid: d1fa339195a544217b6581b0754ed555, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -638,11 +639,11 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.1
+  m_TransitionDuration: 0.10000004
   m_TransitionOffset: 0
-  m_ExitTime: 0.000000012498439
+  m_ExitTime: 0
   m_HasExitTime: 0
-  m_HasFixedDuration: 0
+  m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -1191,7 +1192,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Landing
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 191279994765419937}
@@ -1387,6 +1388,19 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &7215192926316879102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d659349c8f2f34c72b3db90c50752520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Player.GlidingState
+  _diveBombReadyTime: 0.3
 --- !u!206 &7264532994092612934
 BlendTree:
   m_ObjectHideFlags: 1
@@ -1426,6 +1440,19 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!114 &7323372676525522500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205ce0c327ba74ff89f8dd1915c7b966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Player.SuperJumpState
+  _jumpExecuteTime: 0.667
 --- !u!114 &7430874874953078595
 MonoBehaviour:
   m_ObjectHideFlags: 1
