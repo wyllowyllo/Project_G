@@ -2052,15 +2052,15 @@ MonoBehaviour:
   _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1148686632}
-    monsterPrefab: {fileID: 5830510484618627956, guid: 5700a4b3b85984b49aa8610a4247ec10, type: 3}
+    monsterPrefab: {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
   - spawnPoint: {fileID: 843713171}
-    monsterPrefab: {fileID: 5830510484618627956, guid: 5700a4b3b85984b49aa8610a4247ec10, type: 3}
+    monsterPrefab: {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
   - spawnPoint: {fileID: 1084821726}
-    monsterPrefab: {fileID: 5830510484618627956, guid: 5700a4b3b85984b49aa8610a4247ec10, type: 3}
+    monsterPrefab: {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
   - spawnPoint: {fileID: 1225831054}
-    monsterPrefab: {fileID: 5830510484618627956, guid: 5700a4b3b85984b49aa8610a4247ec10, type: 3}
+    monsterPrefab: {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
   - spawnPoint: {fileID: 41850555}
-    monsterPrefab: {fileID: 5830510484618627956, guid: 5700a4b3b85984b49aa8610a4247ec10, type: 3}
+    monsterPrefab: {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
   _spawnOnStart: 1
   _showDebugGizmos: 1
 --- !u!1 &1049258342
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.5
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 945e30c25017ad843b43c1159a2df867, type: 2}
   m_BuildHeightMesh: 0
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.23333333
+  m_VoxelSize: 0.26666668
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: ed99aa8569c168245b2c14c1a22bc53b, type: 2}
   m_BuildHeightMesh: 0
