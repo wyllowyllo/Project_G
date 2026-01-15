@@ -288,7 +288,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.3
+  m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
-  _positionMultiplier: 2
+  _positionMultiplier: 1
   _forwardOnly: 1
 --- !u!114 &-1755445172948189690
 MonoBehaviour:
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205ce0c327ba74ff89f8dd1915c7b966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.SuperJumpState
-  _jumpExecuteTime: 0.667
+  _jumpExecuteTime: 0.75
 --- !u!114 &7430874874953078595
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Player.RootMotionState
   _releaseThreshold: 1
-  _positionMultiplier: 2
+  _positionMultiplier: 1
   _forwardOnly: 1
 --- !u!1102 &7883694112396044773
 AnimatorState:
