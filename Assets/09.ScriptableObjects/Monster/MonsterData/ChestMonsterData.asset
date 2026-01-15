@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf4f1ddd2b77e840a767c5faed332a2, type: 3}
+  m_Name: ChestMonsterData
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectG.Monster.MonsterData
+  _attackMode: 0
+  _enablePushback: 1
+  _enablePatrol: 1
+  _enableReturnHome: 0
+  _patrolRadius: 8
+  _patrolWaitTimeMin: 1
+  _patrolWaitTimeMax: 3
+  _attackType: 0
+  _preferredMinDistance: 1.5
+  _preferredMaxDistance: 3.5
+  _strafeSpeed: 2.5
+  _attackRange: 2.5
+  _lightAttackRange: 1.5
+  _heavyAttackRange: 2.5
+  _attackCooldown: 3
+  _projectilePrefab: {fileID: 0}
+  _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
+  _projectileSpeed: 15
+  _rangedAttackRange: 10
+  _rangedMinDistance: 4
+  _rangedDamageMultiplier: 1
+  _moveSpeed: 3.5
+  _patrolSpeed: 2
+  _rotationSpeed: 120
+  _detectionRange: 12
+  _engageRange: 10
+  _tetherRadius: 20
+  _windupTime: 0.3
+  _executeTime: 0.2
+  _lightAttackRecoverTime: 0.5
+  _heavyAttackRecoverTime: 2
+  _lightAttackChance: 0.35
+  _heavyAttackChance: 0.1
+  _heavyAttackCooldown: 3
+  _circleAngularSpeed: 30
+  _strafeMinDuration: 1.5
+  _strafeMaxDuration: 3.5
+  _strafePauseChance: 0.2
+  _directionChangeChance: 0.3
+  _speedLerpFactor: 3

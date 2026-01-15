@@ -129,7 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796ed305e9fe9564eb7176dc9aeebdab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Combat.MonsterAttacker
-  _hitbox: {fileID: 2140948960356595146}
+  _hitboxes:
+  - {fileID: 2140948960356595146}
   _lightAttackMultiplier: 1
   _heavyAttackMultiplier: 1.5
 --- !u!114 &3952624177279394622
@@ -190,7 +191,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5710055614459436209}
   m_Enabled: 1
-  m_AgentTypeID: -1372625422
+  m_AgentTypeID: 658490984
   m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8
@@ -223,8 +224,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.2, z: 1}
-  m_Center: {x: 0, y: 0.6, z: 0}
+  m_Size: {x: 1, y: 1.5, z: 1}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!54 &6494239090798905283
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -501,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 95457531584545886, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e4c94591aa068f844a7047929b707641, type: 2}
+      objectReference: {fileID: 22100000, guid: 3de8db6a14ac6844e902f1ff7b9180df, type: 2}
     - target: {fileID: 137218116663036162, guid: 596dc7dadc19403380aa123308e5fd8a, type: 3}
       propertyPath: m_Enabled
       value: 1
