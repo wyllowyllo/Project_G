@@ -169,7 +169,7 @@ namespace Tests.PlayMode
             _target.ApplyKnockbackOnDamage(rb, force);
 
             // Create damage with hit direction
-            var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
+            var hitContext = HitContext.FromCollision(Vector3.zero, Vector3.forward, DamageType.Normal);
             var damageInfo = new DamageInfo(10f, false, hitContext);
             _target.TakeDamage(damageInfo);
 
@@ -185,7 +185,7 @@ namespace Tests.PlayMode
 
         private DamageInfo CreateDamageInfo(float amount, bool isCritical = false)
         {
-            var hitContext = new HitContext(Vector3.zero, Vector3.forward, DamageType.Normal);
+            var hitContext = HitContext.FromCollision(Vector3.zero, Vector3.forward, DamageType.Normal);
             return new DamageInfo(amount, isCritical, hitContext);
         }
 

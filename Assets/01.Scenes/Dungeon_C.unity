@@ -18798,10 +18798,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1665981159684400303, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: _hpText
       value: 
@@ -18869,10 +18865,6 @@ PrefabInstance:
     - target: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952683381293001902, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7040850976159831820, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: _cameraTransform

@@ -1135,6 +1135,7 @@ MonoBehaviour:
   _enemyLayer:
     serializedVersion: 2
     m_Bits: 512
+  _cameraController: {fileID: 0}
 --- !u!114 &8845920389425372171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,7 +1149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Skill.DiveBombAimVisualizer
   _landingIndicatorPrefab: {fileID: 0}
+  _indicatorMaterial: {fileID: 2100000, guid: c6141b4125ec844fba351bfafd7bfac7, type: 2}
   _indicatorColor: {r: 1, g: 0.3, b: 0, a: 0.5}
+  _trajectoryMaterial: {fileID: 2100000, guid: 25ae19d80f301416bb9ddaee78958f32, type: 2}
   _trajectorySegments: 30
   _lineWidth: 0.1
   _lineColor: {r: 1, g: 0.5, b: 0, a: 0.8}
