@@ -13173,7 +13173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
   m_SerializedVersion: 0
-  m_AgentTypeID: -1372625422
+  m_AgentTypeID: 658490984
   m_CollectObjects: 1
   m_Size: {x: 900, y: 500, z: 900}
   m_Center: {x: 0, y: 0, z: 0}
@@ -55966,6 +55966,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497918898580859218, guid: 9e7b6f5a7798fed449d80dd6799e56c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717905659934504055, guid: 9e7b6f5a7798fed449d80dd6799e56c8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5957325218537976106, guid: 9e7b6f5a7798fed449d80dd6799e56c8, type: 3}
