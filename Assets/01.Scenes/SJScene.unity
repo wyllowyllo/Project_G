@@ -1343,6 +1343,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7295177935858169890, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
   m_PrefabInstance: {fileID: 58254776}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &58675830 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4119710687443009816, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &62562212
 GameObject:
   m_ObjectHideFlags: 0
@@ -11586,6 +11597,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1417322131857880868, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
   m_PrefabInstance: {fileID: 363763666}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &366421742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3237864894540736234, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &367917429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16340,10 +16362,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3153878260570430448, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009297694}
+    - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009297693}
+    - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009297692}
   m_SourcePrefab: {fileID: 100100000, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
 --- !u!1001 &497853299
 PrefabInstance:
@@ -24925,6 +24957,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3352619704841434053, guid: 661e4c1dc44d24d48946f846a9686113, type: 3}
   m_PrefabInstance: {fileID: 824222875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827374734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 567160467870270432, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &829463318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25927,8 +25964,6 @@ MonoBehaviour:
   _levelUpEffect: {fileID: 696074554}
   _levelTextFormat: LEVEL {0}
   _messageText: "\uB808\uBCA8\uC774 \uC62C\uB790\uC2B5\uB2C8\uB2E4!"
-  _enableDebugKeys: 1
-  _testLevelUpKey: 108
 --- !u!1001 &860230293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34631,6 +34666,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 33497862402668902, guid: 4ffa5c31de40ae84a947d7aa20f94270, type: 3}
   m_PrefabInstance: {fileID: 1218498216}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1220913939 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3431466355349673781, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1221569978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38215,7 +38261,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1479506218023087970, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2009297685}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfd0482539c1e814ebf8c764118de42f, type: 3}
@@ -38226,7 +38272,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 850868317154865249, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2009297685}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eba28709572bdc24389232867c1381c7, type: 3}
@@ -49157,8 +49203,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::RankUpManager
   _playerProgression: {fileID: 1751550423}
-  _rankAnimation: {fileID: 0}
   _rankConfig: {fileID: 11400000, guid: 96acafbae147d4640a931a302a2d8156, type: 2}
+  _rankAnimator: {fileID: 0}
+  _rankColorController: {fileID: 0}
+  _rankEffectsController: {fileID: 0}
   _rankParticleEffect: {fileID: 594261329}
   _rankParticleSubEffect: {fileID: 380815904}
   _currentRankText: {fileID: 0}
@@ -49705,6 +49753,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2056159710384896787, guid: 20b031f75db564044af6c0eb98f2e15c, type: 3}
   m_PrefabInstance: {fileID: 1792676099}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1794306158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277209108959923143, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1794630322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55090,6 +55149,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6200084506065657696, guid: 04f40ea5ec7c39246a7a0fbaa5e9c6bd, type: 3}
   m_PrefabInstance: {fileID: 2008133300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2009297685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2009297692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009297685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228283facee0ded4ca023894b7c6dcff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::RankColorController
+  _rankColorSchemes:
+  - rank: C
+    primaryColor: {r: 0.486, g: 0.702, b: 0.259, a: 1}
+    secondaryColor: {r: 0.333, g: 0.545, b: 0.184, a: 1}
+  - rank: B
+    primaryColor: {r: 0, g: 0.7239275, b: 1, a: 1}
+    secondaryColor: {r: 0, g: 0.4345195, b: 0.8962264, a: 1}
+  - rank: A
+    primaryColor: {r: 1, g: 0.43137255, b: 0.78039217, a: 1}
+    secondaryColor: {r: 0.749, g: 0.243, b: 1, a: 1}
+  - rank: S
+    primaryColor: {r: 1, g: 0.84313726, b: 0, a: 1}
+    secondaryColor: {r: 1, g: 0.549, b: 0, a: 1}
+--- !u!114 &2009297693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009297685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641b902434d96cc459f875c9e44aae03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::RankEffectsController
+  _rankUpParticleSystem: {fileID: 102936370}
+  _lightRayPrefab: {fileID: 0}
+  _rayCount: 16
+  _useFlash: 1
+  _flashColor: {r: 1, g: 1, b: 1, a: 1}
+  _cameraShakeIntensity: 0.2
+  _rankUpSound: {fileID: 0}
+--- !u!114 &2009297694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009297685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a923469bcf1685c488b43228c2abd0e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::RankAnimator
+  _colorController: {fileID: 2009297692}
+  _effectsController: {fileID: 2009297693}
+  _rankUpPanel: {fileID: 827374734}
+  _diamondBackground: {fileID: 1220913939}
+  _rankText: {fileID: 366421742}
+  _messageText: {fileID: 58675830}
+  _diamondBorder: {fileID: 1794306158}
+  _rankUpMessage: "\u25C6\uB7AD\uD06C \uAC15\uD654\u25C6"
+  _autoActivateUI: 1
+  _autoDeactivateUI: 1
+  _deactivateDelay: 3
+  _duration: 1.5
 --- !u!1001 &2015119631
 PrefabInstance:
   m_ObjectHideFlags: 0
