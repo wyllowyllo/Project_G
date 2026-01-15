@@ -52,13 +52,16 @@ MonoBehaviour:
   _player: {fileID: 0}
   _playerEquipment: {fileID: 0}
   _playerMovement: {fileID: 0}
+  _playerCombat: {fileID: 0}
   _inputHandler: {fileID: 5800259602977626692}
   _cameraController: {fileID: 7114677859182961398}
-  _renderTextureWidth: 1024
+  _renderTextureWidth: 830
   _renderTextureHeight: 1024
   _backgroundColor: {r: 0, g: 0, b: 0, a: 0}
   _characterViewerLayer: CharacterViewer
-  _autoSetupLayers: 1
+  _cloneWorldPosition: {x: 10000, y: 0, z: 0}
+  _idleAnimationState: Idle_Standing
+  _viewerCharacterScale: 0.95
 --- !u!114 &5800259602977626692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,3 +98,5 @@ MonoBehaviour:
   _zoomSpeed: 2
   _minDistance: 1
   _maxDistance: 5
+  _framingUp: 0.1
+  _viewerCharacterScale: 0.95
