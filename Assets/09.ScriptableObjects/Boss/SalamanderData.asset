@@ -39,14 +39,14 @@ MonoBehaviour:
   _maxAliveMinions: 5
   _summonCooldown: 20
   _summonHPThreshold: 0.7
-  _minionSpawnRadius: 5
+  _minionSpawnRadius: 30
   _minionAttackSlots: 2
   _enrageHPThreshold: 0.3
   _enrageDamageMultiplier: 1.3
   _enrageSpeedMultiplier: 1.2
   _staggerDuration: 3
   _postStaggerInvincibilityDuration: 1
-  _detectionRange: 20
+  _detectionRange: 30
   _phases:
   - HPThreshold: 1
     DamageMultiplier: 1
