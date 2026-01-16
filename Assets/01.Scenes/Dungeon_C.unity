@@ -19514,8 +19514,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1751550424}
   m_SourcePrefab: {fileID: 100100000, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+--- !u!1 &601817974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 601817973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &608711938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49913,7 +49921,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962076813446573125, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
   m_PrefabInstance: {fileID: 601817973}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 601817974}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b53411a12e4846cc91235bd5597e49c, type: 3}
@@ -49924,7 +49932,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7040850976159831820, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
   m_PrefabInstance: {fileID: 601817973}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 601817974}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bd561f7dc62e084ea150f9d214f8905, type: 3}
@@ -49935,12 +49943,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4485054383015213938, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
   m_PrefabInstance: {fileID: 601817973}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 601817974}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f945968b37614bd197a3806eff34efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
+--- !u!114 &1751550424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601817974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8f0625716a84976844be82026ddffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Dungeon.PlayerDeathHandler
+  _autoReturnDelay: 10
+  _inputAcceptDelay: 1
 --- !u!1001 &1755055352
 PrefabInstance:
   m_ObjectHideFlags: 0
