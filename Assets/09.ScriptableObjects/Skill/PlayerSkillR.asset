@@ -22,6 +22,7 @@ MonoBehaviour:
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
+    _coneHeight: 2
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0

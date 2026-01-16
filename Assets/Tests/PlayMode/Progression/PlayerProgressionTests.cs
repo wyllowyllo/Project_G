@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Combat.Core;
 using Combat.Data;
 using NUnit.Framework;
@@ -120,16 +121,19 @@ namespace Tests.PlayMode
         [Test]
         public void LevelUp_ToSkillLevel_FiresOnSkillEnhancedEvent()
         {
-            SkillSlot enhancedSkill = SkillSlot.None;
-            _progression.OnSkillEnhanced += skill => enhancedSkill = skill;
+            var enhancedSkills = new List<SkillSlot>();
+            _progression.OnSkillEnhanced += skill => enhancedSkills.Add(skill);
 
-            int xpToLevel11 = 0;
-            for (int i = 2; i <= 11; i++)
-                xpToLevel11 += _config.GetRequiredXp(i);
+            int xpToLevel10 = 0;
+            for (int i = 2; i <= 10; i++)
+                xpToLevel10 += _config.GetRequiredXp(i);
 
-            _progression.AddExperience(xpToLevel11);
+            _progression.AddExperience(xpToLevel10);
 
-            Assert.AreEqual(SkillSlot.Q, enhancedSkill);
+            Assert.AreEqual(3, enhancedSkills.Count);
+            Assert.Contains(SkillSlot.Q, enhancedSkills);
+            Assert.Contains(SkillSlot.E, enhancedSkills);
+            Assert.Contains(SkillSlot.R, enhancedSkills);
         }
 
         #endregion
