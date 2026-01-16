@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6f8f7f29d4c254eb6713217b4bc308, type: 3}
+  m_Name: SalamanderData
+  m_EditorClassIdentifier: ProjectG::Boss.Data.BossData
+  _maxHP: 1000
+  _moveSpeed: 4
+  _rotationSpeed: 120
+  _maxPoise: 100
+  _poiseRecoveryDelay: 2
+  _meleeRange: 3
+  _meleeDamage: 30
+  _meleeCooldown: 2
+  _chargeSpeed: 12
+  _chargeDistance: 15
+  _chargeDamage: 50
+  _chargeCooldown: 8
+  _breathAngle: 60
+  _breathRange: 10
+  _breathDamage: 20
+  _breathDuration: 3
+  _breathCooldown: 12
+  _projectileCount: 3
+  _projectileDamage: 25
+  _projectileSpeed: 15
+  _projectileCooldown: 6
+  _projectilePrefab: {fileID: 0}
+  _summonPrefabs: []
+  _summonCount: 3
+  _maxAliveMinions: 5
+  _summonCooldown: 20
+  _summonHPThreshold: 0.7
+  _minionSpawnRadius: 5
+  _minionAttackSlots: 2
+  _enrageHPThreshold: 0.3
+  _enrageDamageMultiplier: 1.3
+  _enrageSpeedMultiplier: 1.2
+  _staggerDuration: 3
+  _postStaggerInvincibilityDuration: 1
+  _detectionRange: 20
+  _phases:
+  - HPThreshold: 1
+    DamageMultiplier: 1
+    AttackSpeedMultiplier: 1
+    CooldownMultiplier: 1
+    EnableCharge: 1
+    EnableBreath: 0
+    EnableProjectile: 0
+    EnableSummon: 0
+    PlayRoarOnTransition: 0
+  - HPThreshold: 0.7
+    DamageMultiplier: 1.2
+    AttackSpeedMultiplier: 1.1
+    CooldownMultiplier: 0.9
+    EnableCharge: 1
+    EnableBreath: 1
+    EnableProjectile: 1
+    EnableSummon: 0
+    PlayRoarOnTransition: 1
+  - HPThreshold: 0.4
+    DamageMultiplier: 1.5
+    AttackSpeedMultiplier: 1.3
+    CooldownMultiplier: 0.7
+    EnableCharge: 1
+    EnableBreath: 1
+    EnableProjectile: 1
+    EnableSummon: 1
+    PlayRoarOnTransition: 1
