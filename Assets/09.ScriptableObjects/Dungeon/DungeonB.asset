@@ -15,4 +15,5 @@ MonoBehaviour:
   _displayName: Dungeon_B
   _sceneName: Dungeon_B
   _recommendedLevel: 0
+  _requiredDungeon: {fileID: 11400000, guid: 140fc8bfd18234e4c8bd3e24c6a22553, type: 2}
   _clearXpReward: 100
