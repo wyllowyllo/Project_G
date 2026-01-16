@@ -34,7 +34,10 @@ MonoBehaviour:
   _projectileSpeed: 15
   _projectileCooldown: 6
   _projectilePrefab: {fileID: 0}
-  _summonPrefabs: []
+  _summonPrefabs:
+  - {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
+  - {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
+  - {fileID: 1003475200777026098, guid: abec9b258db9dc14fa53bf477b72f660, type: 3}
   _summonCount: 3
   _maxAliveMinions: 5
   _summonCooldown: 20
