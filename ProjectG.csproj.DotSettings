@@ -9,6 +9,7 @@
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Ccombat_005Csample/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cdebug/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cdebugging/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cdialogue/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cdungeon/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cequipment/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToInclude/=assets_005C02_002Escripts_005Cequipment_005Csample/@EntryIndexedValue">False</s:Boolean>

@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Reflection;
 using Dungeon;
 using UnityEditor;
 using UnityEngine;
@@ -170,15 +168,11 @@ public class DungeonClearDebugWindow : EditorWindow
     private void ToggleDungeonClear(string dungeonId, bool cleared)
     {
         if (cleared)
-        {
             PlayerPrefs.SetInt($"Dungeon_{dungeonId}_Cleared", 1);
-            GetClearedDungeonsSet()?.Add(dungeonId);
-        }
         else
-        {
             PlayerPrefs.DeleteKey($"Dungeon_{dungeonId}_Cleared");
-            GetClearedDungeonsSet()?.Remove(dungeonId);
-        }
+
+        DungeonManager.Instance.Editor_SetDungeonCleared(dungeonId, cleared);
         PlayerPrefs.Save();
         Debug.Log($"[Debug] 던전 '{dungeonId}' 클리어 상태: {cleared}");
     }
@@ -186,29 +180,17 @@ public class DungeonClearDebugWindow : EditorWindow
     private void SetAllDungeonsClear(bool cleared)
     {
         var manager = DungeonManager.Instance;
-        var clearedSet = GetClearedDungeonsSet();
 
         foreach (var dungeon in manager.AllDungeons)
         {
             if (cleared)
-            {
                 PlayerPrefs.SetInt($"Dungeon_{dungeon.DungeonId}_Cleared", 1);
-                clearedSet?.Add(dungeon.DungeonId);
-            }
             else
-            {
                 PlayerPrefs.DeleteKey($"Dungeon_{dungeon.DungeonId}_Cleared");
-                clearedSet?.Remove(dungeon.DungeonId);
-            }
+
+            manager.Editor_SetDungeonCleared(dungeon.DungeonId, cleared);
         }
         PlayerPrefs.Save();
-    }
-
-    private HashSet<string> GetClearedDungeonsSet()
-    {
-        var field = typeof(DungeonManager).GetField("_clearedDungeons",
-            BindingFlags.NonPublic | BindingFlags.Instance);
-        return field?.GetValue(DungeonManager.Instance) as HashSet<string>;
     }
 
     private void Update()
