@@ -9732,7 +9732,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9753,8 +9753,8 @@ MonoBehaviour:
   _hitLayers:
     serializedVersion: 2
     m_Bits: 256
-  _hitEffect: {fileID: 0}
-  _trailEffect: {fileID: 0}
+  _hitEffect: {fileID: 4596544553357837919, guid: 8eb503696b886e04faff8fc0f480d473, type: 3}
+  _trailEffect: {fileID: 5557362394125618979, guid: 43ca6b4775bfb1e45b1bfcce5303970b, type: 3}
 --- !u!1 &2972392977518692226
 GameObject:
   m_ObjectHideFlags: 0
