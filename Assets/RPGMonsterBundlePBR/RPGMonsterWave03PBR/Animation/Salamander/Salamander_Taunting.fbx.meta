@@ -62,7 +62,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.0787037
+      - time: 0.17288652
         functionName: SpawnMinions
         data: 
         objectReferenceParameter: {instanceID: 0}
