@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Boss.Combat.BossBreathAttacker
   _breathOrigin: {fileID: 4922567244558509870}
-  _breathEffect: {fileID: 0}
+  _breathEffect: {fileID: 2386159082878823985, guid: 5bd8e6a25da647845a0e447e8a03786f, type: 3}
   _targetLayers:
     serializedVersion: 2
     m_Bits: 256
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Boss.Combat.BossProjectileLauncher
   _firePoint: {fileID: 4922567244558509870}
-  _projectilePrefab: {fileID: 0}
+  _projectilePrefab: {fileID: 2972392977303283589, guid: da3ce7ab84ddf0f4599df9a72db6a308, type: 3}
   _spreadAngle: 15
 --- !u!1 &7223127975884981105
 GameObject:

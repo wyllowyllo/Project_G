@@ -2184,6 +2184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salamander
       objectReference: {fileID: 0}
+    - target: {fileID: 2815812440360048716, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      propertyPath: _projectilePrefab
+      value: 
+      objectReference: {fileID: 2972392977303283589, guid: da3ce7ab84ddf0f4599df9a72db6a308, type: 3}
     - target: {fileID: 7458947033713849593, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.536522
@@ -2224,6 +2228,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7483747255097324269, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      propertyPath: _breathEffect
+      value: 
+      objectReference: {fileID: 2386159082878823985, guid: 5bd8e6a25da647845a0e447e8a03786f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
