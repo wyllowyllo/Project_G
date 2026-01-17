@@ -29,7 +29,7 @@ MonoBehaviour:
   _breathDamage: 20
   _breathDuration: 3
   _breathCooldown: 12
-  _projectileCount: 3
+  _projectileCount: 1
   _projectileDamage: 25
   _projectileSpeed: 15
   _projectileCooldown: 6
