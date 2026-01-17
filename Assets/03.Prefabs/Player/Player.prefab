@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 1229838621828345518}
   - component: {fileID: 7284954391575831384}
   - component: {fileID: 7015301310756298436}
+  - component: {fileID: 8500589982500892599}
   m_Layer: 0
   m_Name: FreeLook Camera
   m_TagString: Untagged
@@ -451,7 +452,32 @@ MonoBehaviour:
   _glideOrbitSmoothTime: 0.3
   _aimTargetOffset: {x: 3, y: 0, z: 0}
   _aimOffsetSmoothTime: 0.15
+  _aimVerticalAngle: 50
   _inputAxisController: {fileID: 0}
+--- !u!114 &8500589982500892599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380187797901726794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineImpulseListener
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &2619814549884441723
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +802,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6455403968313572259}
   - {fileID: 6600695244212404595}
   - {fileID: 1659900840117203485}
   - {fileID: 5557622901362813228}
@@ -1224,6 +1251,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _cameraController: {fileID: 7015301310756298436}
+  _glideShakeConfig:
+    Enabled: 1
+    Intensity: 0.12
+    Frequency: 1.2
+    FadeInDuration: 0.8
+    FadeOutDuration: 0.4
+    UnscaledTime: 1
+  _diveBombImpactShake:
+    Enabled: 1
+    Force: 1.2
+    Duration: 0.15
+    Direction: {x: 0, y: -1, z: 0}
+  _aimShakeMultiplier: 0.3
+  _windParticle: {fileID: 5524284316586816320}
 --- !u!114 &8845920389425372171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4967,4 +5008,71 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4464497929771776, guid: 9e4577abe56a95f4a91d29a0473cd30c, type: 3}
   m_PrefabInstance: {fileID: 7234903217412106301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7706011440389447834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3815635930778169777}
+    m_Modifications:
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425379163223972874, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: m_Name
+      value: GlideWindEffect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+--- !u!198 &5524284316586816320 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2763930075595887578, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+  m_PrefabInstance: {fileID: 7706011440389447834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6455403968313572259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+  m_PrefabInstance: {fileID: 7706011440389447834}
   m_PrefabAsset: {fileID: 0}
