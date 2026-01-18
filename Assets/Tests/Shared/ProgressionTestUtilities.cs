@@ -12,11 +12,9 @@ namespace Tests.Shared
             int baseXp = 100,
             float exponent = 1.5f,
             float attackPerLevel = 5f,
-            int qSkillLevel = 11,
-            int eSkillLevel = 21,
-            int rSkillLevel = 30)
+            int[] skillEnhancementLevels = null)
         {
-            return ProgressionConfig.CreateForTest(maxLevel, baseXp, exponent, attackPerLevel, qSkillLevel, eSkillLevel, rSkillLevel);
+            return ProgressionConfig.CreateForTest(maxLevel, baseXp, exponent, attackPerLevel, skillEnhancementLevels);
         }
 
         public static CombatStatsData CreateStatsData(

@@ -81,6 +81,7 @@ public class PlayerSkillDataEditor : Editor
 
                 case SkillAreaType.Cone:
                     EditorGUILayout.PropertyField(tier.FindPropertyRelative("_angle"));
+                    EditorGUILayout.PropertyField(tier.FindPropertyRelative("_coneHeight"));
                     break;
 
                 case SkillAreaType.Sphere:

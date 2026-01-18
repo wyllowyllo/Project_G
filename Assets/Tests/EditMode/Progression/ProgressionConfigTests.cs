@@ -56,28 +56,33 @@ namespace Tests.EditMode
 
         #region Skill Enhancement Tests
 
-        [TestCase(11, SkillSlot.Q)]
-        [TestCase(21, SkillSlot.E)]
-        [TestCase(30, SkillSlot.R)]
-        public void GetSkillEnhancement_SkillLevel_ReturnsSkill(int level, SkillSlot expected)
+        [TestCase(10)]
+        [TestCase(20)]
+        [TestCase(30)]
+        public void GetSkillEnhancements_EnhancementLevel_ReturnsAllSkills(int level)
         {
-            Assert.AreEqual(expected, _config.GetSkillEnhancement(level));
+            var skills = _config.GetSkillEnhancements(level);
+            Assert.AreEqual(3, skills.Length);
+            Assert.Contains(SkillSlot.Q, skills);
+            Assert.Contains(SkillSlot.E, skills);
+            Assert.Contains(SkillSlot.R, skills);
         }
 
         [Test]
-        public void GetSkillEnhancement_NonSkillLevel_ReturnsNone()
+        public void GetSkillEnhancements_NonEnhancementLevel_ReturnsEmpty()
         {
-            Assert.AreEqual(SkillSlot.None, _config.GetSkillEnhancement(1));
+            Assert.IsEmpty(_config.GetSkillEnhancements(1));
         }
 
         #endregion
 
         #region Rank Tests
 
-        [TestCase(10, HunterRank.C)]
-        [TestCase(11, HunterRank.B)]
-        [TestCase(20, HunterRank.B)]
-        [TestCase(21, HunterRank.A)]
+        [TestCase(9, HunterRank.C)]
+        [TestCase(10, HunterRank.B)]
+        [TestCase(19, HunterRank.B)]
+        [TestCase(20, HunterRank.A)]
+        [TestCase(29, HunterRank.A)]
         [TestCase(30, HunterRank.S)]
         public void GetRank_ReturnsCorrectRank(int level, HunterRank expected)
         {
