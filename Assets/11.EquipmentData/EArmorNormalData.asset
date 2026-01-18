@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad67461aa693f4f54914d5b7699da9df, type: 3}
-  m_Name: EquipmentData
+  m_Name: EArmorNormalData
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentData
   _equipmentName: Normal Armor
   _slot: 2
