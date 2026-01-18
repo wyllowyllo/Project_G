@@ -14,8 +14,13 @@ namespace Equipment.Editor
         private int _imageSize = 512;
         private float _cameraDistance = 3f;
         private Vector3 _rotation = new Vector3(15f, -30f, 0f);
+        private Vector3 _modelOffset = new Vector3(0f, 0f, 0f); // 모델 위치 조정
+        private Vector3 _lookAtOffset = new Vector3(0f, 0f, 0f); // 카메라가 보는 지점 조정
         private Color _backgroundColor = new Color(0, 0, 0, 0); // 투명
         private string _savePath = "Assets/Equipment/Icons/";
+        
+        // 프리셋
+        private bool _showPresets = false;
         
         // 임시 렌더링용 레이어 (31번 사용)
         private const int TEMP_RENDER_LAYER = 31;
@@ -39,12 +44,69 @@ namespace Equipment.Editor
             );
 
             GUILayout.Space(10);
-            GUILayout.Label("설정", EditorStyles.boldLabel);
+            
+            // 프리셋 버튼
+            _showPresets = EditorGUILayout.Foldout(_showPresets, "프리셋", true);
+            if (_showPresets)
+            {
+                EditorGUILayout.BeginHorizontal();
+                if (GUILayout.Button("무기 (세로)"))
+                {
+                    _rotation = new Vector3(0f, 0f, 0f);
+                    _modelOffset = new Vector3(0f, 0f, 0f);
+                    _lookAtOffset = new Vector3(0f, -0.3f, 0f); // 약간 아래 보기
+                    _cameraDistance = 3f;
+                }
+                if (GUILayout.Button("무기 (대각선)"))
+                {
+                    _rotation = new Vector3(15f, -30f, 0f);
+                    _modelOffset = new Vector3(0f, 0f, 0f);
+                    _lookAtOffset = new Vector3(0f, -0.2f, 0f);
+                    _cameraDistance = 3f;
+                }
+                EditorGUILayout.EndHorizontal();
+                
+                EditorGUILayout.BeginHorizontal();
+                if (GUILayout.Button("방어구"))
+                {
+                    _rotation = new Vector3(15f, -30f, 0f);
+                    _modelOffset = new Vector3(0f, 0f, 0f);
+                    _lookAtOffset = new Vector3(0f, 0f, 0f);
+                    _cameraDistance = 2.5f;
+                }
+                if (GUILayout.Button("초기화"))
+                {
+                    _rotation = new Vector3(15f, -30f, 0f);
+                    _modelOffset = Vector3.zero;
+                    _lookAtOffset = Vector3.zero;
+                    _cameraDistance = 3f;
+                }
+                EditorGUILayout.EndHorizontal();
+            }
+
+            GUILayout.Space(10);
+            GUILayout.Label("기본 설정", EditorStyles.boldLabel);
 
             _imageSize = EditorGUILayout.IntSlider("이미지 크기", _imageSize, 128, 2048);
             _cameraDistance = EditorGUILayout.Slider("카메라 거리", _cameraDistance, 1f, 10f);
-            _rotation = EditorGUILayout.Vector3Field("회전 각도", _rotation);
             _backgroundColor = EditorGUILayout.ColorField("배경색", _backgroundColor);
+
+            GUILayout.Space(10);
+            GUILayout.Label("위치 조정", EditorStyles.boldLabel);
+            
+            _rotation = EditorGUILayout.Vector3Field("회전 각도", _rotation);
+            
+            EditorGUILayout.BeginHorizontal();
+            GUILayout.Label("모델 위치 조정", GUILayout.Width(120));
+            _modelOffset = EditorGUILayout.Vector3Field("", _modelOffset);
+            EditorGUILayout.EndHorizontal();
+            EditorGUILayout.HelpBox("무기가 위로 치우쳐 있으면 Y값을 낮춰보세요 (예: -0.5)", MessageType.None);
+            
+            EditorGUILayout.BeginHorizontal();
+            GUILayout.Label("카메라 보는 지점", GUILayout.Width(120));
+            _lookAtOffset = EditorGUILayout.Vector3Field("", _lookAtOffset);
+            EditorGUILayout.EndHorizontal();
+            EditorGUILayout.HelpBox("카메라를 아래로 향하게 하려면 Y값을 낮춰보세요 (예: -0.3)", MessageType.None);
 
             GUILayout.Space(10);
             
@@ -72,19 +134,11 @@ namespace Equipment.Editor
 
             GUILayout.Space(10);
             EditorGUILayout.HelpBox(
-                "사용법:\n" +
-                "1. 장비 프리팹을 위 필드에 드래그\n" +
-                "2. 원하는 각도와 설정 조정\n" +
-                "3. '이미지로 변환' 버튼 클릭\n" +
-                "4. 생성된 Sprite를 EquipmentData에 할당\n\n" +
-                "💡 팁: 투명 배경을 위해 배경색의 Alpha를 0으로 설정하세요!",
+                "💡 빠른 팁:\n" +
+                "• 무기가 위로 치우쳐 있다면: '카메라 보는 지점' Y값을 -0.3 정도로\n" +
+                "• 또는 '모델 위치 조정' Y값을 -0.5 정도로\n" +
+                "• 프리셋 버튼으로 빠르게 시작하세요!",
                 MessageType.Info
-            );
-
-            GUILayout.Space(5);
-            EditorGUILayout.HelpBox(
-                "⚠️ 주의: Layer 31번을 임시로 사용합니다.",
-                MessageType.Warning
             );
         }
 
@@ -104,17 +158,20 @@ namespace Equipment.Editor
 
             // 임시 씬에 프리팹 생성
             GameObject instance = Instantiate(_targetPrefab);
-            instance.transform.position = Vector3.zero;
+            instance.transform.position = _modelOffset; // 모델 위치 조정 적용
             instance.transform.rotation = Quaternion.Euler(_rotation);
 
             // ⭐ 중요: 프리팹과 모든 자식의 레이어를 임시 레이어로 변경
             SetLayerRecursively(instance, TEMP_RENDER_LAYER);
 
+            // 카메라가 바라볼 지점 계산
+            Vector3 lookAtPoint = instance.transform.position + _lookAtOffset;
+
             // 임시 카메라 생성
             GameObject cameraObj = new GameObject("TempIconCamera");
             Camera camera = cameraObj.AddComponent<Camera>();
-            camera.transform.position = new Vector3(0, 0, -_cameraDistance);
-            camera.transform.LookAt(instance.transform);
+            camera.transform.position = lookAtPoint + new Vector3(0, 0, -_cameraDistance);
+            camera.transform.LookAt(lookAtPoint); // 조정된 지점을 바라봄
             
             // 카메라 설정 - 투명 배경을 위한 설정
             camera.clearFlags = CameraClearFlags.SolidColor;
