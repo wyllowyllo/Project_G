@@ -1025,10 +1025,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4717905659934504055, guid: 9e7b6f5a7798fed449d80dd6799e56c8, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5957325218537976106, guid: 9e7b6f5a7798fed449d80dd6799e56c8, type: 3}
       propertyPath: m_Name
       value: ViewerCamera
@@ -1738,6 +1734,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1030670714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &761500456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388953368022276351, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+  m_PrefabInstance: {fileID: 1064347148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &761500466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761500456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2d081328cb8ea40abb08645ecd8ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterFeedback
+  _knockbackDistance: 1.5
+  _knockbackDuration: 0.15
+  _knockbackCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _hitVFXPrefab: {fileID: 0}
+  _criticalHitVFXPrefab: {fileID: 0}
+  _deathVFXPrefab: {fileID: 0}
+  _vfxLifetime: 0.3
+  _audioSource: {fileID: 0}
+  _hitSound: {fileID: 0}
+  _criticalHitSound: {fileID: 0}
+  _deathSound: {fileID: 0}
+  _sfxVolume: 1
+  _damageNumberPrefab: {fileID: 0}
+  _damageNumberOffset: {x: 0, y: 2, z: 0}
+  _feedbackSettings: {fileID: 11400000, guid: 7064861993ebde54f82fa258ba9d679a, type: 2}
 --- !u!114 &761601781 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1108042193085549896, guid: 93defe0e3750c8749824544efb1cd977, type: 3}
@@ -2605,7 +2656,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1388953368022276351, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 761500466}
   m_SourcePrefab: {fileID: 100100000, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
 --- !u!1 &1084821725
 GameObject:

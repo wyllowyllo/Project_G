@@ -98,12 +98,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d636b5d37df09418940b50f2fab89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Boss.Core.BossTelegraph
+  _warningColor: {r: 1, g: 0.3, b: 0.1, a: 0.5}
+  _dangerColor: {r: 1, g: 0, b: 0, a: 0.7}
   _circleDecalPrefab: {fileID: 0}
   _coneDecalPrefab: {fileID: 0}
   _lineDecalPrefab: {fileID: 0}
   _markerPrefab: {fileID: 0}
-  _warningEffectPrefab: {fileID: 0}
-  _glowMaterial: {fileID: 0}
 --- !u!1 &752065201560993675
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,11 +148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6542b758f480d4988d583be962f907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Boss.Combat.BossBreathAttacker
-  _breathOrigin: {fileID: 4922567244558509870}
+  _breathOrigin: {fileID: 0}
   _breathEffect: {fileID: 6711902456153108427}
   _targetLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   _tickInterval: 0.5
 --- !u!1 &1388953368022276351
 GameObject:
@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 4028613373839409575}
   - component: {fileID: 1090972358683289745}
   - component: {fileID: 528979250317877422}
+  - component: {fileID: 757654794733397035}
   m_Layer: 9
   m_Name: Salamander
   m_TagString: Untagged
@@ -360,6 +361,56 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6, y: 3.5, z: 8}
   m_Center: {x: 0, y: 2, z: 0}
+--- !u!114 &757654794733397035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388953368022276351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2d081328cb8ea40abb08645ecd8ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterFeedback
+  _knockbackDistance: 1.5
+  _knockbackDuration: 0.15
+  _knockbackCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _hitVFXPrefab: {fileID: 0}
+  _criticalHitVFXPrefab: {fileID: 0}
+  _deathVFXPrefab: {fileID: 0}
+  _vfxLifetime: 0.3
+  _audioSource: {fileID: 0}
+  _hitSound: {fileID: 0}
+  _criticalHitSound: {fileID: 0}
+  _deathSound: {fileID: 0}
+  _sfxVolume: 1
+  _damageNumberPrefab: {fileID: 0}
+  _damageNumberOffset: {x: 0, y: 2, z: 0}
+  _feedbackSettings: {fileID: 11400000, guid: 7064861993ebde54f82fa258ba9d679a, type: 2}
 --- !u!1 &4675982885079609102
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,7 +505,7 @@ Transform:
   m_GameObject: {fileID: 4896997962981875109}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.129, y: -0.128, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -479,7 +530,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.8
+  m_Radius: 0.55
   m_Center: {x: -0.24, y: -0.33, z: 0}
 --- !u!114 &2088855431497880363
 MonoBehaviour:
