@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6f8f7f29d4c254eb6713217b4bc308, type: 3}
+  m_Name: SalamanderData
+  m_EditorClassIdentifier: ProjectG::Boss.Data.BossData
+  _maxHP: 1000
+  _moveSpeed: 4
+  _rotationSpeed: 120
+  _maxPoise: 100
+  _poiseRecoveryDelay: 2
+  _meleeRange: 3
+  _meleeDamage: 30
+  _meleeCooldown: 2
+  _chargeSpeed: 12
+  _chargeDistance: 15
+  _chargeDamage: 50
+  _chargeCooldown: 8
+  _breathAngle: 60
+  _breathRange: 10
+  _breathDamage: 20
+  _breathDuration: 3
+  _breathCooldown: 12
+  _projectileCount: 1
+  _projectileDamage: 25
+  _projectileSpeed: 15
+  _projectileCooldown: 6
+  _projectilePrefab: {fileID: 0}
+  _summonPrefabs:
+  - {fileID: 8020823275165406592, guid: cfc9fe29c6ac25a42a75892903c6862e, type: 3}
+  - {fileID: 5319670539552519166, guid: 7ec271173bab8224b8db351c7a00dc4f, type: 3}
+  - {fileID: 1003475200777026098, guid: abec9b258db9dc14fa53bf477b72f660, type: 3}
+  _summonCount: 3
+  _maxAliveMinions: 5
+  _summonCooldown: 20
+  _summonHPThreshold: 0.7
+  _minionSpawnRadius: 30
+  _minionAttackSlots: 2
+  _enrageHPThreshold: 0.3
+  _enrageDamageMultiplier: 1.3
+  _enrageSpeedMultiplier: 1.2
+  _staggerDuration: 7
+  _postStaggerInvincibilityDuration: 1
+  _detectionRange: 30
+  _phases:
+  - HPThreshold: 1
+    DamageMultiplier: 1
+    AttackSpeedMultiplier: 1
+    CooldownMultiplier: 1
+    EnableCharge: 1
+    EnableBreath: 0
+    EnableProjectile: 0
+    EnableSummon: 0
+    PlayRoarOnTransition: 0
+  - HPThreshold: 0.7
+    DamageMultiplier: 1.2
+    AttackSpeedMultiplier: 1.1
+    CooldownMultiplier: 0.9
+    EnableCharge: 1
+    EnableBreath: 1
+    EnableProjectile: 1
+    EnableSummon: 0
+    PlayRoarOnTransition: 1
+  - HPThreshold: 0.4
+    DamageMultiplier: 1.5
+    AttackSpeedMultiplier: 1.3
+    CooldownMultiplier: 0.7
+    EnableCharge: 1
+    EnableBreath: 1
+    EnableProjectile: 1
+    EnableSummon: 1
+    PlayRoarOnTransition: 1
