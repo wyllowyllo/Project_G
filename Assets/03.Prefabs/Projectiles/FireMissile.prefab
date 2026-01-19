@@ -15060,7 +15060,7 @@ MonoBehaviour:
   _hitLayers:
     serializedVersion: 2
     m_Bits: 256
-  _hitEffect: {fileID: 19867940, guid: fa3dc6fc6941f494897b8ecc494dd1a2, type: 3}
+  _hitEffect: {fileID: 136414, guid: fa3dc6fc6941f494897b8ecc494dd1a2, type: 3}
   _trailEffect: {fileID: 0}
 --- !u!1 &199996
 GameObject:
