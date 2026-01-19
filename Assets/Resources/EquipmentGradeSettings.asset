@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bad3c578e5f342b0ba3c021a3cb932a, type: 3}
+  m_Name: EquipmentGradeSettings
+  m_EditorClassIdentifier: ProjectG::Equipment.EquipmentGradeSettings
+  _normal:
+    OutlineColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    TextColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    BackgroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.9}
+  _rare:
+    OutlineColor: {r: 0.3, g: 0.6, b: 1, a: 1}
+    TextColor: {r: 0.3, g: 0.6, b: 1, a: 1}
+    BackgroundColor: {r: 0.1, g: 0.2, b: 0.3, a: 0.9}
+  _unique:
+    OutlineColor: {r: 0.6, g: 0.3, b: 1, a: 1}
+    TextColor: {r: 0.6, g: 0.3, b: 1, a: 1}
+    BackgroundColor: {r: 0.2, g: 0.1, b: 0.3, a: 0.9}
+  _legendary:
+    OutlineColor: {r: 1, g: 0.5, b: 0.1, a: 1}
+    TextColor: {r: 1, g: 0.5, b: 0.1, a: 1}
+    BackgroundColor: {r: 0.3, g: 0.2, b: 0.1, a: 0.9}
