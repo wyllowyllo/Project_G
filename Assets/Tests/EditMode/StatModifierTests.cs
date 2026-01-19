@@ -22,7 +22,7 @@ namespace Tests.EditMode
 
             Assert.AreEqual(25f, modifier.Value);
             Assert.AreEqual(StatModifierType.Multiplicative, modifier.Type);
-            Assert.AreEqual(_source, modifier.Source);
+            Assert.AreEqual(_source.Id, modifier.SourceId);
         }
 
         [Test]
