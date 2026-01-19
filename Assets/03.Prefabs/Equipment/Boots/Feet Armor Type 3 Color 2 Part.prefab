@@ -132,9 +132,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5090182037567212582}
     - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+      propertyPath: _rootObject
+      value: 
+      objectReference: {fileID: 1598361899311038682}
+    - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
       propertyPath: _equipmentData
       value: 
       objectReference: {fileID: 11400000, guid: 57682f9dc8fa3834fbe3ec9cd7ed754c, type: 2}
+    - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+      propertyPath: _outlineTarget
+      value: 
+      objectReference: {fileID: 1598361899311038682}
     - target: {fileID: 5707375181146437591, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
       propertyPath: m_Enabled
       value: 1

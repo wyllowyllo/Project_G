@@ -430,9 +430,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2709243172653100173}
     - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+      propertyPath: _rootObject
+      value: 
+      objectReference: {fileID: 1447418125357730054}
+    - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
       propertyPath: _equipmentData
       value: 
       objectReference: {fileID: 11400000, guid: ab76f7e67897452468a50a14d39166c0, type: 2}
+    - target: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+      propertyPath: _outlineTarget
+      value: 
+      objectReference: {fileID: 1447418125357730054}
     - target: {fileID: 5707375181146437591, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
       propertyPath: m_Enabled
       value: 1

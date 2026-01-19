@@ -17,3 +17,5 @@ MonoBehaviour:
   _recommendedLevel: 0
   _requiredDungeon: {fileID: 11400000, guid: 140fc8bfd18234e4c8bd3e24c6a22553, type: 2}
   _clearXpReward: 100
+  _dropTable: {fileID: 11400000, guid: 40b3dacc40ada466fa78912b991d95e5, type: 2}
+  _clearDialogue: {fileID: 0}
