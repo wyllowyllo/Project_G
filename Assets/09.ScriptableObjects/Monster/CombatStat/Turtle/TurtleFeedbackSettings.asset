@@ -61,7 +61,7 @@ MonoBehaviour:
     TimeScale: 0
   _criticalShake:
     Enabled: 1
-    Force: 1
+    Force: 0.5
     Duration: 0.15
     Direction: {x: 0, y: -1, z: 0}
   _criticalFlash:
@@ -99,12 +99,12 @@ MonoBehaviour:
     ColorTint: {r: 1, g: 1, b: 1, a: 1}
     Duration: 0.15
   _deathHitstop:
-    Enabled: 0
-    Duration: 0.1
+    Enabled: 1
+    Duration: 0.08
     TimeScale: 0
   _deathShake:
-    Enabled: 0
-    Force: 2
+    Enabled: 1
+    Force: 0.6
     Duration: 0.2
     Direction: {x: 0, y: -1, z: 0}
   _deathFlash:
