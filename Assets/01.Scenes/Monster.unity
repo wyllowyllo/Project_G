@@ -4964,9 +4964,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a0ee360e2f3b489e516062afc105a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
-  _sphereVFX: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
-  _boxVFX: {fileID: 4622028513871840243, guid: 827317fca49bd2d419dec959cc5772b0, type: 3}
-  _coneVFX: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
+  _sphereVFX:
+    prefab: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 90, y: 0, z: 0}
+  _boxVFX:
+    prefab: {fileID: 4857367596300681779, guid: c98f9780801d15d4289db3dd19894b59, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 180, z: 0}
+  _coneVFX:
+    prefab: {fileID: 713741448594962356, guid: 72108804973233141aee0b599831d71c, type: 3}
+    positionOffset: {x: 0, y: 1, z: 0}
+    rotationOffset: {x: 0, y: 90, z: 0}
   _scaleToRange: 0
 --- !u!1 &2096477313
 GameObject:
