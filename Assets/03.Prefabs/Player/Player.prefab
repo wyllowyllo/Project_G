@@ -931,7 +931,6 @@ GameObject:
   - component: {fileID: 7103939886064612000}
   - component: {fileID: 3214700255726370534}
   - component: {fileID: 7040850976159831820}
-  - component: {fileID: 7884106653273530431}
   - component: {fileID: 7478901190490381952}
   - component: {fileID: 2589103312993035172}
   - component: {fileID: 7884166756289573911}
@@ -1112,21 +1111,6 @@ MonoBehaviour:
   _airAccelerationSpeed: 5
   _drag: 0.1
   _canMoveWhileDodging: 0
---- !u!114 &7884106653273530431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4448824847059235598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06985558d042470db2fc8ce84c545ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
-  _team: 0
-  _statsData: {fileID: 11400000, guid: 4043ddea27ffe491a80abb47f9527874, type: 2}
-  _hitReactionSettings: {fileID: 11400000, guid: 9d888fa59f679446f80b5ddcd87b78a0, type: 2}
 --- !u!114 &7478901190490381952
 MonoBehaviour:
   m_ObjectHideFlags: 0
