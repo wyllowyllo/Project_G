@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c2e55d1270c42c5a52b61be6362427, type: 3}
+  m_Name: DungeonBDropTableData
+  m_EditorClassIdentifier: ProjectG::Equipment.DropTableData
+  _dropChance: 0.1
+  _normalWeight: 55
+  _rareWeight: 30
+  _uniqueWeight: 15
+  _legendaryWeight: 0
+  _normalPool:
+  - {fileID: 11400000, guid: b28f33e6573db67418e6f947d5feca8e, type: 2}
+  - {fileID: 11400000, guid: afafbb9c0e78e4441b3c548a0c333ec7, type: 2}
+  - {fileID: 11400000, guid: 51f9d7b27fc17064a90ca4eb05370014, type: 2}
+  - {fileID: 11400000, guid: 8560c693105ccec4fae0d70183acfa77, type: 2}
+  - {fileID: 11400000, guid: 5f3b5e606b2727844a51fb2563f68190, type: 2}
+  _rarePool:
+  - {fileID: 11400000, guid: 793f075524e35a840a43a4a941a35a2f, type: 2}
+  - {fileID: 11400000, guid: 99f499437730f5e4d80ecf31fc18fedc, type: 2}
+  - {fileID: 11400000, guid: f3921eb9ec68ad046ab4e4fca5a9ced4, type: 2}
+  - {fileID: 11400000, guid: ab76f7e67897452468a50a14d39166c0, type: 2}
+  - {fileID: 11400000, guid: 61b62c242ffbf3f4e814224ba7722c27, type: 2}
+  _uniquePool:
+  - {fileID: 11400000, guid: 626cd46226238764f9a2bbbb2613b0c7, type: 2}
+  - {fileID: 11400000, guid: 57682f9dc8fa3834fbe3ec9cd7ed754c, type: 2}
+  - {fileID: 11400000, guid: ef7931c5e216529408f80da135088cb5, type: 2}
+  - {fileID: 11400000, guid: b4fac918f2b96f646adf03df9819d671, type: 2}
+  - {fileID: 11400000, guid: 06e465c4b151d60489a74c8dfb6f06f5, type: 2}
+  _legendaryPool:
+  - {fileID: 11400000, guid: 52be1f0428e98704e892d93410a39f63, type: 2}
+  - {fileID: 11400000, guid: e93b24a208f961f40bcaa68fae4e7e69, type: 2}
+  - {fileID: 11400000, guid: 2603029f0bf9b8b49aa81e9734d77c0e, type: 2}
+  - {fileID: 11400000, guid: 56c5d71ff1639154fb4ffda1abc56efb, type: 2}
+  - {fileID: 11400000, guid: 90f6a4dc3fcb63d4abde8d172abc99d8, type: 2}
