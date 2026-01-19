@@ -598,7 +598,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2081700594}
   m_SourcePrefab: {fileID: 100100000, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
 --- !u!4 &170293599 stripped
 Transform:
@@ -4944,6 +4947,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68fc3fdd3ae14252bc362ab7efab994, type: 3}
+--- !u!1 &2081700569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 170293598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2081700594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081700569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a0ee360e2f3b489e516062afc105a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
+  _sphereVFX: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
+  _boxVFX: {fileID: 4622028513871840243, guid: 827317fca49bd2d419dec959cc5772b0, type: 3}
+  _coneVFX: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
+  _scaleToRange: 0
 --- !u!1 &2096477313
 GameObject:
   m_ObjectHideFlags: 0
