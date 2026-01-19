@@ -50412,9 +50412,9 @@ MonoBehaviour:
   _rankParticleSubEffect: {fileID: 380815904}
   _skillRewardUI: {fileID: 1339722689}
   _showSkillRewardUI: 1
-  attackSkillIcon: {fileID: 21300000, guid: e49d88c4e7a14544cb5a790f1200fa8e, type: 3}
-  defenseSkillIcon: {fileID: 21300000, guid: 1eb36ca6d702dcf4c95b852e78ed66be, type: 3}
-  specialSkillIcon: {fileID: 21300000, guid: 71806efb6a7a3c74fa47cd4b24c1f40b, type: 3}
+  _attackSkillIcon: {fileID: 21300000, guid: e49d88c4e7a14544cb5a790f1200fa8e, type: 3}
+  _defenseSkillIcon: {fileID: 21300000, guid: 1eb36ca6d702dcf4c95b852e78ed66be, type: 3}
+  _specialSkillIcon: {fileID: 21300000, guid: 71806efb6a7a3c74fa47cd4b24c1f40b, type: 3}
   _currentRankText: {fileID: 0}
   _nextRankText: {fileID: 0}
   _enableDebugLogs: 1
