@@ -98,6 +98,11 @@ public class PlayerSkillDataEditor : Editor
             EditorGUILayout.PropertyField(tier.FindPropertyRelative("_effectPrefab"));
             EditorGUILayout.PropertyField(tier.FindPropertyRelative("_skillSound"));
 
+            EditorGUILayout.Space(5);
+            EditorGUILayout.LabelField("Camera", EditorStyles.miniBoldLabel);
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_cameraConfig"));
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_animationDuration"));
+
             if (GUILayout.Button("Remove Tier"))
             {
                 _tiers.DeleteArrayElementAtIndex(index);

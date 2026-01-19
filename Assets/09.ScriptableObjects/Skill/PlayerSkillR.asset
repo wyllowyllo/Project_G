@@ -28,3 +28,5 @@ MonoBehaviour:
     _allowMovement: 0
     _effectPrefab: {fileID: 0}
     _skillSound: {fileID: 0}
+    _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
+    _animationDuration: 0.833
