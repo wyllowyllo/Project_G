@@ -181,6 +181,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5994994378820072334, guid: 557f8d0d4d51ff441ade11eca7960da4, type: 3}
   m_PrefabInstance: {fileID: 121378}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &649894 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 72889073345295527, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &2065551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11361,6 +11372,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8047342867073616821, guid: 645afe493a7ad4a4ba4e82e68f75c4de, type: 3}
   m_PrefabInstance: {fileID: 355786215}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &356735498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6875168622411060693, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &358072429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16391,6 +16407,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _fadeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _completeImage
+      value: 
+      objectReference: {fileID: 1526658532}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _completePanel
+      value: 
+      objectReference: {fileID: 356735498}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _backgroundImage
+      value: 
+      objectReference: {fileID: 649894}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _displayDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _dungeonNameText
+      value: 
+      objectReference: {fileID: 1472611809}
     - target: {fileID: 2765400387532656212, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -16655,13 +16695,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6875168622411060693, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8165479755035420821, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8357588490713446666, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8357829929355669389, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: autoCloseDelay
@@ -16704,9 +16748,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1339722689}
-    - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1339722690}
   m_SourcePrefab: {fileID: 100100000, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
 --- !u!224 &495476234 stripped
 RectTransform:
@@ -24234,7 +24275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &788949325
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29451,7 +29492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad7f8a6537b2a94ca242591fea08196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::DungeonClearTest
-  dungeonClearUI: {fileID: 1339722690}
+  dungeonClearUI: {fileID: 1339722691}
   testKey: 112
   testDungeonName: "\uBB49\uAE00\uBB49\uAE00 \uC5B8\uB355"
   showDebugMessage: 1
@@ -39255,11 +39296,10 @@ MonoBehaviour:
   openSound: {fileID: 0}
   itemAppearSound: {fileID: 0}
   audioSource: {fileID: 0}
---- !u!114 &1339722690
+--- !u!114 &1339722691 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113949579}
   m_Enabled: 1
@@ -39267,17 +39307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59c42ce7459b76468ab940974130a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::DungeonClearUI
-  completePanel: {fileID: 788949324}
-  completeImage: {fileID: 1645934126}
-  dungeonNameText: {fileID: 2037132299}
-  slideSpeed: 1000
-  displayDuration: 2.5
-  fadeSpeed: 1.7
-  startOffsetX: 2000
-  completeTargetOffsetX: 518
-  backgroundTargetOffsetX: 0
-  backgroundImage: {fileID: 1760688354}
-  backgroundSlideSpeed: 1300
 --- !u!1001 &1340792932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42939,6 +42968,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5482605624538390786, guid: 9f56cf124d407e545b96d0b2bbefed34, type: 3}
   m_PrefabInstance: {fileID: 1471262065}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1472611809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2635572871131194942, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &1475583048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44254,6 +44294,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
   m_PrefabInstance: {fileID: 1518592071}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1526658532 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8649417580224325105, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1528887760
 PrefabInstance:
   m_ObjectHideFlags: 0
