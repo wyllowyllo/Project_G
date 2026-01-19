@@ -183,5 +183,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8124109309638967244}
   m_SourcePrefab: {fileID: 100100000, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+--- !u!1 &4857367596300681779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+  m_PrefabInstance: {fileID: 4848553063233578185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8124109309638967244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4857367596300681779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea7978c7124d7243a05f257aea65bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Skill.VFXAutoDestroy
+  _useParticleDuration: 1
+  _manualDuration: 2
+  _destroyDelay: 0.5

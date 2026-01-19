@@ -4973,9 +4973,9 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _coneVFX:
-    prefab: {fileID: 713741448594962356, guid: 72108804973233141aee0b599831d71c, type: 3}
+    prefab: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
     positionOffset: {x: 0, y: 1, z: 0}
-    rotationOffset: {x: 0, y: 90, z: 0}
+    rotationOffset: {x: 0, y: 180, z: 0}
   _scaleToRange: 0
 --- !u!1 &2096477313
 GameObject:
