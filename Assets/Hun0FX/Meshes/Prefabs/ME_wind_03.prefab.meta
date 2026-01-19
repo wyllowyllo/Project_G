@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99416a9057ff43f4498bdf610105be50
+guid: f89d7b92d8beff245893aceb7722215b
 PrefabImporter:
   externalObjects: {}
   userData: 
@@ -7,8 +7,8 @@ PrefabImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 321082
-  packageName: Hun0FX Fire vol1
-  packageVersion: 1.0
+  productId: 320453
+  packageName: StylizedVFX Slash Vol.1
+  packageVersion: 1.1
   assetPath: Assets/Hun0FX/Meshes/Prefabs/ME_wind_03.prefab
-  uploadId: 759152
+  uploadId: 762237

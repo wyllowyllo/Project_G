@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a34dd086f5492547b208c42dcd6a887
+guid: 9b979d5a3c771c54fa2d91bb6ea7da2f
 PrefabImporter:
   externalObjects: {}
   userData: 
@@ -7,8 +7,8 @@ PrefabImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 321082
-  packageName: Hun0FX Fire vol1
-  packageVersion: 1.0
+  productId: 320453
+  packageName: StylizedVFX Slash Vol.1
+  packageVersion: 1.1
   assetPath: Assets/Hun0FX/Meshes/Prefabs/ME_Cylinder_02.prefab
-  uploadId: 759152
+  uploadId: 762237
