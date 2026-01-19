@@ -16663,6 +16663,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8357829929355669389, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: autoCloseDelay
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8604634415385599686, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -38314,54 +38318,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8616888540329638772, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
   m_PrefabInstance: {fileID: 1312826532}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1314559817
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1314559819}
-  - component: {fileID: 1314559818}
-  m_Layer: 0
-  m_Name: SkillRewardManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1314559818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314559817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce60616fc34ac33479b2619cf7bfeacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::SkillRewardUIExample
-  skillRewardUI: {fileID: 1339722689}
-  attackSkillIcon: {fileID: 21300000, guid: 09dc026a1e39b3c41a46dae824977a4b, type: 3}
-  defenseSkillIcon: {fileID: 21300000, guid: 0d72dc7b750a34d41a04db52cf68e128, type: 3}
-  specialSkillIcon: {fileID: 21300000, guid: 0c406a89a541faa43bf3840cad6e2841, type: 3}
---- !u!4 &1314559819
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314559817}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 549.8908, y: 0, z: -4163.522}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1315085167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60577,5 +60533,4 @@ SceneRoots:
   - {fileID: 1114051230}
   - {fileID: 1532394556}
   - {fileID: 2115584309}
-  - {fileID: 1314559819}
   - {fileID: 1947593672}
