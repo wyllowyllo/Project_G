@@ -1043,8 +1043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31dd550c7c588da4c975f94e2fe8271f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::ButtonType
-  CurrentType: 0
-  ButtonScale: {fileID: 1780230942}
+  _currentType: 0
+  _buttonScale: {fileID: 1780230942}
 --- !u!1 &1825580844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,8 +1191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31dd550c7c588da4c975f94e2fe8271f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::ButtonType
-  CurrentType: 1
-  ButtonScale: {fileID: 1825580845}
+  _currentType: 1
+  _buttonScale: {fileID: 1825580845}
 --- !u!1 &2044889170
 GameObject:
   m_ObjectHideFlags: 0
