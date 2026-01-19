@@ -25,14 +25,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317014892905606574}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.49334764, y: -0.50604254, z: 0.47270152, w: 0.5263862}
-  m_LocalPosition: {x: -0.16, y: -0.38, z: 0.02}
+  m_LocalRotation: {x: 0.48994246, y: -0.51092625, z: 0.44502062, w: 0.5485139}
+  m_LocalPosition: {x: -0.111, y: -0.385, z: 0.038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1451524460344985473}
   m_Father: {fileID: 8826277621565933451}
-  m_LocalEulerAnglesHint: {x: 86.196, y: -89.086, z: -1.436}
+  m_LocalEulerAnglesHint: {x: 82.851, y: -91.003, z: -5.741}
 --- !u!135 &8004095204336738650
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -157,8 +157,9 @@ MonoBehaviour:
   _obstacleLayer:
     serializedVersion: 2
     m_Bits: 0
+  _beamRange: 200
   _tickInterval: 0.5
-  _beamRadius: 0.5
+  _beamRadius: 5
 --- !u!1 &1388953368022276351
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488192, guid: 58211ba624571d4478ea46b8fe59414b, type: 3}
       propertyPath: beamLength
-      value: 200
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 11488192, guid: 58211ba624571d4478ea46b8fe59414b, type: 3}
       propertyPath: widthMultiplier
