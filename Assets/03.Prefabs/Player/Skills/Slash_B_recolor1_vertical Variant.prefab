@@ -187,6 +187,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8124109309638967244}
+    - targetCorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7994495058482275634}
   m_SourcePrefab: {fileID: 100100000, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
 --- !u!1 &4857367596300681779 stripped
 GameObject:
@@ -208,3 +211,18 @@ MonoBehaviour:
   _useParticleDuration: 1
   _manualDuration: 2
   _destroyDelay: 0.5
+--- !u!114 &7994495058482275634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4857367596300681779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2efcecdbbb8004e8fe57a068365a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Pool.Components.PooledVFX
+  _useParticleDuration: 1
+  _manualDuration: 2
+  _releaseDelay: 0.5

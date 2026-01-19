@@ -29456,6 +29456,7 @@ GameObject:
   - component: {fileID: 4622028513871840012}
   - component: {fileID: 4622028513871840013}
   - component: {fileID: 4622028513871840242}
+  - component: {fileID: -1823517542492128184}
   m_Layer: 0
   m_Name: FX_Slash_Burst_Electricity
   m_TagString: Untagged
@@ -34289,6 +34290,21 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &-1823517542492128184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4622028513871840243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2efcecdbbb8004e8fe57a068365a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Pool.Components.PooledVFX
+  _useParticleDuration: 1
+  _manualDuration: 2
+  _releaseDelay: 0.5
 --- !u!1 &4622028514360522606
 GameObject:
   m_ObjectHideFlags: 0

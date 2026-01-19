@@ -24553,6 +24553,7 @@ GameObject:
   - component: {fileID: 2771153851682608220}
   - component: {fileID: 2771153851682608221}
   - component: {fileID: 2771153851682608218}
+  - component: {fileID: 6705692300875503656}
   m_Layer: 0
   m_Name: FX_Slash_Burst_Water
   m_TagString: Untagged
@@ -29386,6 +29387,21 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &6705692300875503656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2771153851682608219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2efcecdbbb8004e8fe57a068365a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Pool.Components.PooledVFX
+  _useParticleDuration: 1
+  _manualDuration: 2
+  _releaseDelay: 0.5
 --- !u!1 &2771153851691416992
 GameObject:
   m_ObjectHideFlags: 0

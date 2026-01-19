@@ -4914,6 +4914,7 @@ GameObject:
   - component: {fileID: 1559157597710907131}
   - component: {fileID: 1559157597710907128}
   - component: {fileID: 1559157597710907129}
+  - component: {fileID: 5892407426510501727}
   m_Layer: 0
   m_Name: FX_Slash_water
   m_TagString: Untagged
@@ -9745,6 +9746,21 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &5892407426510501727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559157597710907126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2efcecdbbb8004e8fe57a068365a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Pool.Components.PooledVFX
+  _useParticleDuration: 1
+  _manualDuration: 2
+  _releaseDelay: 0.5
 --- !u!1 &1559157598068833983
 GameObject:
   m_ObjectHideFlags: 0
