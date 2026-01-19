@@ -2450,7 +2450,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.5
+  m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 945e30c25017ad843b43c1159a2df867, type: 2}
   m_BuildHeightMesh: 0
@@ -2514,7 +2514,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.26666668
+  m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: ed99aa8569c168245b2c14c1a22bc53b, type: 2}
   m_BuildHeightMesh: 0
@@ -2562,6 +2562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salamander
       objectReference: {fileID: 0}
+    - target: {fileID: 2815812440360048716, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      propertyPath: _projectilePrefab
+      value: 
+      objectReference: {fileID: 191840, guid: cf9f763657bfc814e84373f7b04af8bd, type: 3}
     - target: {fileID: 7458947033713849593, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.536522
