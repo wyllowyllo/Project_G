@@ -61,6 +61,7 @@ namespace Tests.Shared
         public static DroppedEquipment CreateDroppedEquipmentPrefab()
         {
             var obj = new GameObject("DroppedEquipmentPrefab");
+            obj.AddComponent<BoxCollider>();
             var dropped = obj.AddComponent<DroppedEquipment>();
             return dropped;
         }

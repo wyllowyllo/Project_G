@@ -18,6 +18,7 @@ namespace Tests.PlayMode
                 EquipmentSlot.Weapon, EquipmentGrade.Normal, attackBonus: 10f);
 
             var droppedObj = new GameObject("DroppedEquipment");
+            droppedObj.AddComponent<BoxCollider>();
             _droppedEquipment = droppedObj.AddComponent<DroppedEquipment>();
         }
 
