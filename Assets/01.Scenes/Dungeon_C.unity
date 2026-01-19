@@ -15969,6 +15969,11 @@ MonoBehaviour:
   _rankEffectsController: {fileID: 495476235}
   _rankParticleEffect: {fileID: 1992414265}
   _rankParticleSubEffect: {fileID: 625897041}
+  _skillRewardUI: {fileID: 0}
+  _showSkillRewardUI: 1
+  _attackSkillIcon: {fileID: 0}
+  _defenseSkillIcon: {fileID: 0}
+  _specialSkillIcon: {fileID: 0}
   _currentRankText: {fileID: 0}
   _nextRankText: {fileID: 0}
   _enableDebugLogs: 1
@@ -16485,6 +16490,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6875168622411060693, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7131448418279375394, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: _imageCooldownComplete
       value: 
@@ -16531,6 +16540,10 @@ PrefabInstance:
       objectReference: {fileID: 7194959956503248773, guid: de7776a79083de046b82bda1367ddc2c, type: 2}
     - target: {fileID: 8165479755035420821, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8357588490713446666, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8469430403192265330, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
@@ -59716,6 +59729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.CameraShakeController
   _impulseSource: {fileID: 0}
+  _shakeInterval: 0.05
+  _ambientShakeInterval: 0.02
 --- !u!114 &2122892944
 MonoBehaviour:
   m_ObjectHideFlags: 0
