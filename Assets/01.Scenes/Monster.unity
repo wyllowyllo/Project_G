@@ -5034,8 +5034,12 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _coneVFX:
-    prefab: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
-    rankPrefabs: []
+    prefab: {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
+    rankPrefabs:
+    - {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
+    - {fileID: 2484418971901763318, guid: 63e011dae308e0842baf9b3f69e9e314, type: 3}
+    - {fileID: 2484418971901763318, guid: 0cb83cf1aee10ee438c176a476cb63e6, type: 3}
+    - {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
     positionOffset: {x: 0, y: 1, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _scaleToRange: 0
