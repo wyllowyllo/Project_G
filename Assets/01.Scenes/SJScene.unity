@@ -10386,6 +10386,7 @@ Transform:
   - {fileID: 859002353}
   - {fileID: 1769365763}
   - {fileID: 990900934}
+  - {fileID: 934902173}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &333711423
@@ -24327,7 +24328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -28140,6 +28141,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7701435579574442406, guid: 30a68bf1577c8c04d9eafefcfce6bae0, type: 3}
   m_PrefabInstance: {fileID: 934011424}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &934902172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934902173}
+  - component: {fileID: 934902174}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &934902173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934902172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 333702513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &934902174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934902172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8b1288cbd43af4e92246ce294a3397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::PauseManager
+  pausePanel: {fileID: 1947490203}
+  pauseTimeScale: 1
 --- !u!1001 &936842943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31714,8 +31761,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1061226876}
-        m_TargetAssemblyTypeName: PauseBtnType, ProjectG
-        m_MethodName: OnBtnClick
+        m_TargetAssemblyTypeName: PauseMenuButton, ProjectG
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31774,10 +31821,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: ProjectG::PauseBtnType
-  _currentType: 2
-  _buttonScale: {fileID: 1061226872}
-  _pausePanel: {fileID: 1947490203}
+  m_EditorClassIdentifier: ProjectG::PauseMenuButton
+  buttonType: 2
+  buttonScale: {fileID: 1061226872}
+  rateScale: 1.2
 --- !u!1001 &1061987990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44965,8 +45012,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1536874066}
-        m_TargetAssemblyTypeName: PauseBtnType, ProjectG
-        m_MethodName: OnBtnClick
+        m_TargetAssemblyTypeName: PauseMenuButton, ProjectG
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45025,10 +45072,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: ProjectG::PauseBtnType
-  _currentType: 0
-  _buttonScale: {fileID: 1536874062}
-  _pausePanel: {fileID: 1947490203}
+  m_EditorClassIdentifier: ProjectG::PauseMenuButton
+  buttonType: 0
+  buttonScale: {fileID: 1536874062}
+  rateScale: 1.2
 --- !u!1001 &1539506299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55640,6 +55687,7 @@ GameObject:
   - component: {fileID: 1947490204}
   - component: {fileID: 1947490206}
   - component: {fileID: 1947490205}
+  - component: {fileID: 1947490207}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -55708,6 +55756,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947490203}
   m_CullTransparentMesh: 1
+--- !u!225 &1947490207
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947490203}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1947593672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56518,8 +56578,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1972759536}
-        m_TargetAssemblyTypeName: PauseBtnType, ProjectG
-        m_MethodName: OnBtnClick
+        m_TargetAssemblyTypeName: PauseMenuButton, ProjectG
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -56578,10 +56638,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: ProjectG::PauseBtnType
-  _currentType: 1
-  _buttonScale: {fileID: 1972759532}
-  _pausePanel: {fileID: 1947490203}
+  m_EditorClassIdentifier: ProjectG::PauseMenuButton
+  buttonType: 1
+  buttonScale: {fileID: 1972759532}
+  rateScale: 1.2
 --- !u!1001 &1976679827
 PrefabInstance:
   m_ObjectHideFlags: 0
