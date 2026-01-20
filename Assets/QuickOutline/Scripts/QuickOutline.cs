@@ -95,16 +95,8 @@ public class QuickOutline : MonoBehaviour {
 
   void Awake() {
 
-    // Cache renderers (exclude particle systems except explicitly included ones)
-    var excludedParticleRenderers = GetComponentsInChildren<Renderer>()
-        .Where(r => !(r is ParticleSystemRenderer))
-        .ToList();
-
-    if (includedParticleSystems != null && includedParticleSystems.Length > 0) {
-      excludedParticleRenderers.AddRange(includedParticleSystems.Where(p => p != null));
-    }
-
-    renderers = excludedParticleRenderers.ToArray();
+    // Cache renderers
+    CollectRenderers();
 
     // Instantiate outline materials
     outlineMaskMaterial = Instantiate(Resources.Load<Material>(@"Materials/OutlineMask"));
@@ -290,6 +282,18 @@ public class QuickOutline : MonoBehaviour {
     mesh.SetTriangles(mesh.triangles, mesh.subMeshCount - 1);
   }
 
+  void CollectRenderers() {
+    var collectedRenderers = GetComponentsInChildren<Renderer>()
+        .Where(r => !(r is ParticleSystemRenderer))
+        .ToList();
+
+    if (includedParticleSystems != null && includedParticleSystems.Length > 0) {
+      collectedRenderers.AddRange(includedParticleSystems.Where(p => p != null));
+    }
+
+    renderers = collectedRenderers.ToArray();
+  }
+
   void RefreshRenderers() {
     bool wasEnabled = enabled;
 
@@ -305,15 +309,7 @@ public class QuickOutline : MonoBehaviour {
     }
 
     // Rebuild renderers list
-    var nonParticleRenderers = GetComponentsInChildren<Renderer>()
-        .Where(r => !(r is ParticleSystemRenderer))
-        .ToList();
-
-    if (includedParticleSystems != null && includedParticleSystems.Length > 0) {
-      nonParticleRenderers.AddRange(includedParticleSystems.Where(p => p != null));
-    }
-
-    renderers = nonParticleRenderers.ToArray();
+    CollectRenderers();
 
     // Re-add outline materials if enabled
     if (wasEnabled) {
