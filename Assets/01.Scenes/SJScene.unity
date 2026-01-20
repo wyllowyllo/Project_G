@@ -16790,6 +16790,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1339722692}
+    - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1339722698}
   m_SourcePrefab: {fileID: 100100000, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
 --- !u!224 &495476234 stripped
 RectTransform:
@@ -40148,6 +40151,23 @@ MonoBehaviour:
   _backgroundTargetOffsetX: 0
   _backgroundImage: {fileID: 1886461581}
   _backgroundSlideSpeed: 800
+--- !u!114 &1339722698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113949579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d521bcafd7854e0e8e2b312e2bd1259a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::UI.Dungeon.DungeonResultUI
+  _clearPanel: {fileID: 356735498}
+  _failPanel: {fileID: 1947213179}
+  _gameCompletePanel: {fileID: 0}
+  _xpRewardText: {fileID: 0}
+  _returnButton: {fileID: 0}
 --- !u!1001 &1340792932
 PrefabInstance:
   m_ObjectHideFlags: 0
