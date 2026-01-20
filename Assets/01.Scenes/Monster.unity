@@ -5015,33 +5015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a0ee360e2f3b489e516062afc105a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
-  _sphereVFX:
-    prefab: {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
-    rankPrefabs:
-    - {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
-    - {fileID: 2689342043420952201, guid: 6e316e1b09cecab4f9867f9196bf874b, type: 3}
-    - {fileID: 2689342043420952201, guid: f5b64bcb3a5f4ce40b33320d26a5279e, type: 3}
-    - {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
-    positionOffset: {x: 0, y: 0, z: 0}
-    rotationOffset: {x: 90, y: 0, z: 0}
-  _boxVFX:
-    prefab: {fileID: 4857367596300681779, guid: 55a5dc03edd976449b38569ded83a788, type: 3}
-    rankPrefabs:
-    - {fileID: 4857367596300681779, guid: 55a5dc03edd976449b38569ded83a788, type: 3}
-    - {fileID: 4857367596300681779, guid: 6caafe772aedc4040a540fe948bd361a, type: 3}
-    - {fileID: 4857367596300681779, guid: b0669403486ed9b4699229b79f057432, type: 3}
-    - {fileID: 4857367596300681779, guid: c98f9780801d15d4289db3dd19894b59, type: 3}
-    positionOffset: {x: 0, y: 0, z: 0}
-    rotationOffset: {x: 0, y: 180, z: 0}
-  _coneVFX:
-    prefab: {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
-    rankPrefabs:
-    - {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
-    - {fileID: 2484418971901763318, guid: 63e011dae308e0842baf9b3f69e9e314, type: 3}
-    - {fileID: 2484418971901763318, guid: 0cb83cf1aee10ee438c176a476cb63e6, type: 3}
-    - {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
-    positionOffset: {x: 0, y: 1, z: 0}
-    rotationOffset: {x: 0, y: 180, z: 0}
   _scaleToRange: 0
   _enableRankEnhancement: 1
   _rankConfig:

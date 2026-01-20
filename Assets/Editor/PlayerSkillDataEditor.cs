@@ -95,7 +95,9 @@ public class PlayerSkillDataEditor : Editor
 
             EditorGUILayout.Space(5);
             EditorGUILayout.LabelField("Presentation", EditorStyles.miniBoldLabel);
-            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_effectPrefab"));
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_effectPrefabs"), true);
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_vfxPositionOffset"));
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_vfxRotationOffset"));
             EditorGUILayout.PropertyField(tier.FindPropertyRelative("_skillSound"));
 
             EditorGUILayout.Space(5);
