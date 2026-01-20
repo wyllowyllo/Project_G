@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Rare Armor
   _slot: 2
   _grade: 1
+  _icon: {fileID: 21300000, guid: 2dd3047ed743b8b469ea7401d287491e, type: 3}
   _attackBonus: 20
   _defenseBonus: 0
   _criticalChanceBonus: 0

@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Rare Gloves
   _slot: 3
   _grade: 1
+  _icon: {fileID: 21300000, guid: 3ba1dde64aa43eb44ba61d1cf7738422, type: 3}
   _attackBonus: 20
   _defenseBonus: 0
   _criticalChanceBonus: 0

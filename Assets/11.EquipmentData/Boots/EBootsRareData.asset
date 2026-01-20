@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Rare Boots
   _slot: 4
   _grade: 1
+  _icon: {fileID: 21300000, guid: 7d4e7d93985bef14f987e30872cb03ed, type: 3}
   _attackBonus: 20
   _defenseBonus: 0
   _criticalChanceBonus: 0

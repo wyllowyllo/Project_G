@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Unique Armor
   _slot: 2
   _grade: 2
+  _icon: {fileID: 21300000, guid: df1405e1897e8014f986bf8ff5b2f953, type: 3}
   _attackBonus: 30
   _defenseBonus: 0
   _criticalChanceBonus: 0

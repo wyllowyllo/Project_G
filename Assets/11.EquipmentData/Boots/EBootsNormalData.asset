@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Normal Boots
   _slot: 4
   _grade: 0
+  _icon: {fileID: 21300000, guid: ffd765d0974a0ce42a8013ce03ffe732, type: 3}
   _attackBonus: 10
   _defenseBonus: 0
   _criticalChanceBonus: 0

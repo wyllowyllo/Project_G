@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Normal Weapon
   _slot: 0
   _grade: 0
+  _icon: {fileID: 21300000, guid: fc37f845aa652e34c91f2b94e481d229, type: 3}
   _attackBonus: 10
   _defenseBonus: 0
   _criticalChanceBonus: 0

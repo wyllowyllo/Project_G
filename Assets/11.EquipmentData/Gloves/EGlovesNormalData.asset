@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Normal Gloves
   _slot: 3
   _grade: 0
+  _icon: {fileID: 21300000, guid: 5e057262fecc0ff4192b26c3163cb94c, type: 3}
   _attackBonus: 10
   _defenseBonus: 0
   _criticalChanceBonus: 0
