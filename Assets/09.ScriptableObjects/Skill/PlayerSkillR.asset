@@ -26,7 +26,58 @@ MonoBehaviour:
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
-    _effectPrefab: {fileID: 0}
+    _effectPrefabs:
+    - {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
+    _vfxPositionOffset: {x: 0, y: 1, z: 0}
+    _vfxRotationOffset: {x: 0, y: 180, z: 0}
+    _skillSound: {fileID: 0}
+    _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
+    _animationDuration: 0.833
+  - _damageMultiplier: 1
+    _range: 15
+    _cooldown: 0.5
+    _positionOffset: {x: 0, y: 0, z: 0.5}
+    _angle: 180
+    _coneHeight: 2
+    _boxWidth: 3
+    _boxHeight: 3
+    _allowMovement: 0
+    _effectPrefabs:
+    - {fileID: 2484418971901763318, guid: 63e011dae308e0842baf9b3f69e9e314, type: 3}
+    _vfxPositionOffset: {x: 0, y: 1, z: 0}
+    _vfxRotationOffset: {x: 0, y: 180, z: 0}
+    _skillSound: {fileID: 0}
+    _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
+    _animationDuration: 0.833
+  - _damageMultiplier: 1
+    _range: 15
+    _cooldown: 0.5
+    _positionOffset: {x: 0, y: 0, z: 0.5}
+    _angle: 180
+    _coneHeight: 2
+    _boxWidth: 3
+    _boxHeight: 3
+    _allowMovement: 0
+    _effectPrefabs:
+    - {fileID: 2484418971901763318, guid: 0cb83cf1aee10ee438c176a476cb63e6, type: 3}
+    _vfxPositionOffset: {x: 0, y: 1, z: 0}
+    _vfxRotationOffset: {x: 0, y: 180, z: 0}
+    _skillSound: {fileID: 0}
+    _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
+    _animationDuration: 0.833
+  - _damageMultiplier: 1
+    _range: 15
+    _cooldown: 0.5
+    _positionOffset: {x: 0, y: 0, z: 0.5}
+    _angle: 180
+    _coneHeight: 2
+    _boxWidth: 3
+    _boxHeight: 3
+    _allowMovement: 0
+    _effectPrefabs:
+    - {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
+    _vfxPositionOffset: {x: 0, y: 1, z: 0}
+    _vfxRotationOffset: {x: 0, y: 180, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
     _animationDuration: 0.833

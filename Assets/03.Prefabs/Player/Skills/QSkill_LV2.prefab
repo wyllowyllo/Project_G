@@ -18,63 +18,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9380230911911762, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9380230911911762, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.8156863
+      value: 0.9975273
       objectReference: {fileID: 0}
     - target: {fileID: 9380230911911762, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.22352941
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key0.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key0.g
-      value: 0.53050137
+      value: 0.7254902
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key0.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key2.b
-      value: 2.0236006
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key2.g
-      value: 1.5531237
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key2.r
-      value: 0.085907534
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key3.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key2.b
+      value: 0.63568604
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key2.g
+      value: 1.7481366
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key2.r
+      value: 2.1189535
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key3.b
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key3.g
-      value: 0.71693945
+      value: 0.84313726
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key3.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key4.b
-      value: 0.8867924
+      value: 0.11764706
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key4.g
-      value: 0.47729957
+      value: 0.5686275
       objectReference: {fileID: 0}
     - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key4.r
-      value: 0.12130654
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231633978462, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.m_ColorSpace
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9380231799744199, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: m_RootOrder
@@ -134,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: m_Name
-      value: Slash_B_recolor1_vertical Variant
+      value: QSkill_LV2
       objectReference: {fileID: 0}
     - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.ctime1
@@ -142,27 +146,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key0.b
-      value: 1.582193
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key0.g
-      value: 0.76174474
-      objectReference: {fileID: 0}
-    - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      propertyPath: CustomDataModule.color1.maxGradient.key0.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key0.g
+      value: 1.1597227
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.key0.r
+      value: 1.582193
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key1.b
-      value: 0.3018868
+      value: 0.015686275
       objectReference: {fileID: 0}
     - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key1.g
-      value: 0.08031409
+      value: 0.19607843
       objectReference: {fileID: 0}
     - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: CustomDataModule.color1.maxGradient.key1.r
-      value: 0.015663939
+      value: 0.3019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 9380231929590169, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
+      propertyPath: CustomDataModule.color1.maxGradient.m_ColorSpace
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 155644689865027887, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: lengthInSec
@@ -170,23 +178,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 155644689865027887, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 155644689865027887, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.8156863
+      value: 0.83878815
       objectReference: {fileID: 0}
     - target: {fileID: 155644689865027887, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.22352941
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8124109309638967244}
     - targetCorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7994495058482275634}
@@ -196,21 +201,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9380231799744250, guid: 197469d1eee2fc1488538f97714cf9de, type: 3}
   m_PrefabInstance: {fileID: 4848553063233578185}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8124109309638967244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4857367596300681779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea7978c7124d7243a05f257aea65bf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Skill.VFXAutoDestroy
-  _useParticleDuration: 1
-  _manualDuration: 2
-  _destroyDelay: 0.5
 --- !u!114 &7994495058482275634
 MonoBehaviour:
   m_ObjectHideFlags: 0
