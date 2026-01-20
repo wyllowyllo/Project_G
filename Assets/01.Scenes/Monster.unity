@@ -5024,6 +5024,15 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 1, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _scaleToRange: 0
+  _enableRankEnhancement: 1
+  _rankConfig:
+    emissionIntensityPerRank: 0.3
+    particleDensityPerRank: 0.2
+    particleSizePerRank: 0.1
+    simulationSpeedPerRank: 0.05
+    overlayPrefab: {fileID: 0}
+    overlayMinRank: 2
+    overlayScalePerRank: 0.15
 --- !u!1 &2096477313
 GameObject:
   m_ObjectHideFlags: 0

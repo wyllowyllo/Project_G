@@ -29457,6 +29457,7 @@ GameObject:
   - component: {fileID: 4622028513871840013}
   - component: {fileID: 4622028513871840242}
   - component: {fileID: -1823517542492128184}
+  - component: {fileID: 273316926728777011}
   m_Layer: 0
   m_Name: FX_Slash_Burst_Electricity
   m_TagString: Untagged
@@ -34305,6 +34306,23 @@ MonoBehaviour:
   _useParticleDuration: 1
   _manualDuration: 2
   _releaseDelay: 0.5
+--- !u!114 &273316926728777011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4622028513871840243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 3ee3ae2da1decd449a548a51bfeee26b, type: 2}
 --- !u!1 &4622028514360522606
 GameObject:
   m_ObjectHideFlags: 0

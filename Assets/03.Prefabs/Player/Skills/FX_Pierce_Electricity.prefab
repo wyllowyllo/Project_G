@@ -14720,7 +14720,6 @@ GameObject:
   - component: {fileID: 2689342043420952196}
   - component: {fileID: 2689342043420952199}
   - component: {fileID: 2689342043420952198}
-  - component: {fileID: 7162616664239855547}
   - component: {fileID: -4195729587617562127}
   m_Layer: 0
   m_Name: FX_Pierce_Electricity
@@ -19617,21 +19616,6 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
---- !u!114 &7162616664239855547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2689342043420952201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea7978c7124d7243a05f257aea65bf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Skill.VFXAutoDestroy
-  _useParticleDuration: 1
-  _manualDuration: 2
-  _destroyDelay: 0.5
 --- !u!114 &-4195729587617562127
 MonoBehaviour:
   m_ObjectHideFlags: 0
