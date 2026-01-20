@@ -15,15 +15,18 @@ MonoBehaviour:
   _skillName: E
   _slot: 2
   _icon: {fileID: 0}
-  _areaType: 0
+  _areaType: 1
   _tiers:
   - _damageMultiplier: 1
     _range: 7
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
+    _coneHeight: 2
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
     _effectPrefab: {fileID: 0}
     _skillSound: {fileID: 0}
+    _cameraConfig: {fileID: 0}
+    _animationDuration: 1

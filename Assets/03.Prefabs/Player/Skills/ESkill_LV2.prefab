@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0.8023882, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.8039216, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -4840,7 +4840,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 062e29b552fd68b45895b24d6fe38087, type: 2}
+  - {fileID: 2100000, guid: 28e7859d311e3154da308412ba937e76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6269,9 +6269,9 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.18396229, g: 1, b: 0.99175537, a: 1}
-        key1: {r: 0, g: 0.75719786, b: 1, a: 1}
-        key2: {r: 0, g: 0.6851115, b: 1, a: 0}
+        key0: {r: 1, g: 0.9607843, b: 0.18431373, a: 1}
+        key1: {r: 1, g: 0.7254902, b: 0, a: 1}
+        key2: {r: 1, g: 0.627451, b: 0, a: 0}
         key3: {r: 1, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -6294,7 +6294,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: -1
+        m_ColorSpace: 0
         m_NumColorKeys: 3
         m_NumAlphaKeys: 2
       minGradient:
@@ -11163,9 +11163,9 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.18396229, g: 1, b: 0.99175537, a: 1}
-        key1: {r: 0, g: 0.75719786, b: 1, a: 1}
-        key2: {r: 0, g: 0.6851115, b: 1, a: 0}
+        key0: {r: 1, g: 0.9607843, b: 0.18431373, a: 1}
+        key1: {r: 1, g: 0.7254902, b: 0, a: 1}
+        key2: {r: 1, g: 0.627451, b: 0, a: 0}
         key3: {r: 1, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -11188,7 +11188,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: -1
+        m_ColorSpace: 0
         m_NumColorKeys: 3
         m_NumAlphaKeys: 2
       minGradient:
@@ -14721,9 +14721,8 @@ GameObject:
   - component: {fileID: 2689342043420952199}
   - component: {fileID: 2689342043420952198}
   - component: {fileID: -4195729587617562127}
-  - component: {fileID: 2953428163508822625}
   m_Layer: 0
-  m_Name: ESkill_LV4
+  m_Name: ESkill_LV2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14937,7 +14936,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.0039215684, g: 0.74050117, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.7254902, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -19632,20 +19631,3 @@ MonoBehaviour:
   _useParticleDuration: 1
   _manualDuration: 2
   _releaseDelay: 0.5
---- !u!114 &2953428163508822625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2689342043420952201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: a564413410a11994994e15ed31159369, type: 2}

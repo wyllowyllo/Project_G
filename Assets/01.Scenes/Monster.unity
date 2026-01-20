@@ -597,6 +597,10 @@ PrefabInstance:
       propertyPath: '_attackVFX.Array.data[0]'
       value: 
       objectReference: {fileID: 289914247887652335, guid: 8b4806e6585653a40b27fea6be827d87, type: 3}
+    - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3815635930778169777, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.88
@@ -5012,8 +5016,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
   _sphereVFX:
-    prefab: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
-    rankPrefabs: []
+    prefab: {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
+    rankPrefabs:
+    - {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
+    - {fileID: 2689342043420952201, guid: 6e316e1b09cecab4f9867f9196bf874b, type: 3}
+    - {fileID: 2689342043420952201, guid: f5b64bcb3a5f4ce40b33320d26a5279e, type: 3}
+    - {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 90, y: 0, z: 0}
   _boxVFX:
