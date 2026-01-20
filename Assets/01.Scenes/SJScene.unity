@@ -31822,9 +31822,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PauseMenuButton
-  buttonType: 2
-  buttonScale: {fileID: 1061226872}
-  rateScale: 1.2
+  _buttonType: 2
+  _buttonScale: {fileID: 1061226872}
+  _rateScale: 1.2
 --- !u!1001 &1061987990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45073,9 +45073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PauseMenuButton
-  buttonType: 0
-  buttonScale: {fileID: 1536874062}
-  rateScale: 1.2
+  _buttonType: 0
+  _buttonScale: {fileID: 1536874062}
+  _rateScale: 1.2
 --- !u!1001 &1539506299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56639,9 +56639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4840cf6d022984e8048ad843cc7d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PauseMenuButton
-  buttonType: 1
-  buttonScale: {fileID: 1972759532}
-  rateScale: 1.2
+  _buttonType: 1
+  _buttonScale: {fileID: 1972759532}
+  _rateScale: 1.2
 --- !u!1001 &1976679827
 PrefabInstance:
   m_ObjectHideFlags: 0
