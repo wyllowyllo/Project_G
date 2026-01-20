@@ -10205,6 +10205,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8357296124813136313, guid: 17e7cbd9cc1261b4d8617c8eb5928264, type: 3}
   m_PrefabInstance: {fileID: 322898040}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &325565676 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5887219361759529844, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006e3236a46bf234ca83467bf094e8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::DungeonFailUI
 --- !u!1001 &328519870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10439,6 +10450,7 @@ Transform:
   - {fileID: 1068698020}
   - {fileID: 1095009209}
   - {fileID: 1650954477}
+  - {fileID: 343751139}
   - {fileID: 2122892940}
   - {fileID: 481265441}
   - {fileID: 613594040}
@@ -10976,6 +10988,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1432050386182484920, guid: a106f21ac43242f4981fcaf37cd18911, type: 3}
   m_PrefabInstance: {fileID: 340643617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &343751139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+  m_PrefabInstance: {fileID: 1381545803}
   m_PrefabAsset: {fileID: 0}
 --- !u!21 &344968393
 Material:
@@ -16692,11 +16709,19 @@ PrefabInstance:
     - target: {fileID: 9195861518094689826, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: _failPanel
       value: 
-      objectReference: {fileID: 1941987131}
+      objectReference: {fileID: 1943487534}
     - target: {fileID: 9195861518094689826, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: _clearPanel
       value: 
-      objectReference: {fileID: 1941987131}
+      objectReference: {fileID: 1943487535}
+    - target: {fileID: 9195861518094689826, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _dungeonName
+      value: "\uBB49\uAE00\uBB49\uAE00 \uC5B8\uB355"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195861518094689826, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _dungeonFailUI
+      value: 
+      objectReference: {fileID: 325565676}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16707,7 +16732,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 501289978226741054, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941987131}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 228283facee0ded4ca023894b7c6dcff, type: 3}
@@ -16718,7 +16743,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1705037026983874976, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941987131}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 641b902434d96cc459f875c9e44aae03, type: 3}
@@ -16729,7 +16754,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6711820093923796747, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941987131}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a923469bcf1685c488b43228c2abd0e2, type: 3}
@@ -16740,7 +16765,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 850868317154865249, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941987131}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eba28709572bdc24389232867c1381c7, type: 3}
@@ -16751,7 +16776,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1479506218023087970, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941987131}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfd0482539c1e814ebf8c764118de42f, type: 3}
@@ -40105,6 +40130,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6910378726324073407, guid: 7f27eb938ba0c4a448b038a0816f9e86, type: 3}
   m_PrefabInstance: {fileID: 1377609085}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1381545803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 333702513}
+    m_Modifications:
+    - target: {fileID: 789807219222306891, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: _dungeonFailUI
+      value: 
+      objectReference: {fileID: 325565676}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 923.26324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -173.07863
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192085781822082216, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267522808634361466, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
+      propertyPath: m_Name
+      value: DungeonManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ddf2ffc4bfeb4804b9f517c986a2f26, type: 3}
 --- !u!1001 &1383616074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50066,8 +50152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8f0625716a84976844be82026ddffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Dungeon.PlayerDeathHandler
-  _autoReturnDelay: 10
   _inputAcceptDelay: 1
+  _dungeonFailUI: {fileID: 0}
 --- !u!1001 &1755055352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54807,9 +54893,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
   m_PrefabInstance: {fileID: 1938729381}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1941987131 stripped
+--- !u!1 &1943487534 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8655803410773082635, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1943487535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6875168622411060693, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1945716758
