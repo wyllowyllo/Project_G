@@ -29,7 +29,7 @@ MonoBehaviour:
     _effectPrefabs:
     - {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
     _vfxPositionOffset: {x: 0, y: 0, z: 0}
-    _vfxRotationOffset: {x: 0, y: 0, z: 0}
+    _vfxRotationOffset: {x: 90, y: 0, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1

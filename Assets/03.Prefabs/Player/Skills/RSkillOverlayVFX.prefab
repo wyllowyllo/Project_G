@@ -19439,7 +19439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Pool.Components.PooledVFX
   _useParticleDuration: 0
-  _manualDuration: 1
+  _manualDuration: 1.7
   _releaseDelay: 0
 --- !u!1 &5426856387691939173
 GameObject:
