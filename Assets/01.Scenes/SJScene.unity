@@ -2534,6 +2534,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6194318862371366317, guid: 0bffd5cd871c906459f4c5c59afc2fd4, type: 3}
+      propertyPath: _skillCaster
+      value: 
+      objectReference: {fileID: 1941168915}
+    - target: {fileID: 6194318862371366317, guid: 0bffd5cd871c906459f4c5c59afc2fd4, type: 3}
       propertyPath: '_skills.Array.data[0]'
       value: 
       objectReference: {fileID: 758250418}
@@ -13588,7 +13592,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: edf7ac98a0e018647a9860985f50583f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 007c7772df1f07d4da1adebffeea9aa6, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1001 &412480773
 PrefabInstance:
@@ -16716,6 +16720,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7131448418279375394, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _sizeChangeDuration
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8165479755035420821, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
@@ -16727,6 +16735,10 @@ PrefabInstance:
     - target: {fileID: 8357829929355669389, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: autoCloseDelay
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544170162353893643, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _sizeChangeDuration
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8604634415385599686, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_AnchorMax.y
@@ -16747,6 +16759,10 @@ PrefabInstance:
     - target: {fileID: 8604634415385599686, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8809962569958566312, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _sizeChangeDuration
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_Name
@@ -19708,7 +19724,7 @@ PrefabInstance:
     - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: _playerCombatant
       value: 
-      objectReference: {fileID: 1751550438}
+      objectReference: {fileID: 0}
     - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: _playerProgression
       value: 
@@ -50788,17 +50804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f945968b37614bd197a3806eff34efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
---- !u!114 &1751550438 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7884106653273530431, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-  m_PrefabInstance: {fileID: 601817973}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06985558d042470db2fc8ce84c545ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
 --- !u!1001 &1755055352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55614,6 +55619,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020d0a166fcad9c47931a85e4607bfdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+--- !u!114 &1941168915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5362741734677318075, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 601817973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8dde6a807c34028b2361477389b8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Skill.SkillCaster
 --- !u!1001 &1945716758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55694,7 +55710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1947490204
 RectTransform:
   m_ObjectHideFlags: 0
