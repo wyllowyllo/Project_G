@@ -3971,6 +3971,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8616888540329638772, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
   m_PrefabInstance: {fileID: 132499750}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &135035867 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 272643958948025021, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &135870268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7000,6 +7011,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+--- !u!114 &229239309 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7772448529836048238, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c93426cce4154285ecc7dc7081e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentSlotUI
 --- !u!1001 &230376810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9025,6 +9047,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1401530158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &287079585 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6372312411053531425, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c93426cce4154285ecc7dc7081e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentSlotUI
 --- !u!1001 &287783515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16533,6 +16566,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 882200560074948409, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _iconImage
+      value: 
+      objectReference: {fileID: 135035867}
     - target: {fileID: 1216715308446960386, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -17031,6 +17068,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8830924228242434773, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1300956007}
+    - targetCorrespondingSourceObject: {fileID: 4225233410626548472, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1919880728}
   m_SourcePrefab: {fileID: 100100000, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
 --- !u!114 &495476234 stripped
 MonoBehaviour:
@@ -19484,6 +19524,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7374355079765283034, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
   m_PrefabInstance: {fileID: 587020318}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &594394801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8285707807930794584, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c93426cce4154285ecc7dc7081e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentSlotUI
 --- !u!1001 &596113664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26890,6 +26941,17 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &852494940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 882200560074948409, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c93426cce4154285ecc7dc7081e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentSlotUI
 --- !u!1001 &852995759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33398,6 +33460,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2784535765970289432, guid: 5fbc4efebde8e404f9ab6c4bbb5b9982, type: 3}
   m_PrefabInstance: {fileID: 1130788015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1130934576 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8791789242396582605, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c93426cce4154285ecc7dc7081e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentSlotUI
 --- !u!1 &1133665949
 GameObject:
   m_ObjectHideFlags: 0
@@ -44529,6 +44602,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3341817200454399141, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
   m_PrefabInstance: {fileID: 1499847057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1505707639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 105.4395
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394507714182727331, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+      propertyPath: m_Name
+      value: Feet Armor Type 1 Color 2 Part
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
 --- !u!1001 &1506626063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54901,6 +55031,34 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4225233410626548472, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
   m_PrefabInstance: {fileID: 495476233}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919880728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919880724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970fea84032f975469a32d1c64490f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::EquipmentManager
+  _playerEquipment: {fileID: 1751550405}
+  _weaponSlot: {fileID: 229239309}
+  _helmetSlot: {fileID: 852494940}
+  _armorSlot: {fileID: 1130934576}
+  _glovesSlot: {fileID: 287079585}
+  _bootsSlot: {fileID: 594394801}
+  _display3DModels: 0
+  _weaponSocket: {fileID: 0}
+  _helmetSocket: {fileID: 0}
+  _armorSocket: {fileID: 0}
+  _glovesSocket: {fileID: 0}
+  _bootsSocket: {fileID: 0}
+  _enableDebugKeys: 1
+  _testWeapon: {fileID: 0}
+  _testHelmet: {fileID: 0}
+  _testArmor: {fileID: 0}
 --- !u!1001 &1920551473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61217,3 +61375,4 @@ SceneRoots:
   - {fileID: 554324529}
   - {fileID: 99171687}
   - {fileID: 2139507928}
+  - {fileID: 1505707639}
