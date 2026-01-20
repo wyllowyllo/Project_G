@@ -48,6 +48,16 @@ public class QuickOutline : MonoBehaviour {
     }
   }
 
+  public ParticleSystemRenderer[] IncludedParticleSystems {
+    get { return includedParticleSystems; }
+    set {
+      includedParticleSystems = value ?? new ParticleSystemRenderer[0];
+      if (renderers != null) {
+        RefreshRenderers();
+      }
+    }
+  }
+
   [Serializable]
   private class ListVector3 {
     public List<Vector3> data;
@@ -68,6 +78,9 @@ public class QuickOutline : MonoBehaviour {
   + "Precompute disabled: Per-vertex calculations are performed at runtime in Awake(). This may cause a pause for large meshes.")]
   private bool precomputeOutline;
 
+  [SerializeField, Tooltip("Particle systems to include in the outline. By default, all particle systems are excluded.")]
+  private ParticleSystemRenderer[] includedParticleSystems = new ParticleSystemRenderer[0];
+
   [SerializeField, HideInInspector]
   private List<Mesh> bakeKeys = new List<Mesh>();
 
@@ -82,10 +95,8 @@ public class QuickOutline : MonoBehaviour {
 
   void Awake() {
 
-    // Cache renderers (exclude particle systems)
-    renderers = GetComponentsInChildren<Renderer>()
-        .Where(r => !(r is ParticleSystemRenderer))
-        .ToArray();
+    // Cache renderers
+    CollectRenderers();
 
     // Instantiate outline materials
     outlineMaskMaterial = Instantiate(Resources.Load<Material>(@"Materials/OutlineMask"));
@@ -269,6 +280,47 @@ public class QuickOutline : MonoBehaviour {
     // Append combined submesh
     mesh.subMeshCount++;
     mesh.SetTriangles(mesh.triangles, mesh.subMeshCount - 1);
+  }
+
+  void CollectRenderers() {
+    var collectedRenderers = GetComponentsInChildren<Renderer>()
+        .Where(r => !(r is ParticleSystemRenderer))
+        .ToList();
+
+    if (includedParticleSystems != null && includedParticleSystems.Length > 0) {
+      collectedRenderers.AddRange(includedParticleSystems.Where(p => p != null));
+    }
+
+    renderers = collectedRenderers.ToArray();
+  }
+
+  void RefreshRenderers() {
+    bool wasEnabled = enabled;
+
+    // Remove outline materials from current renderers
+    if (wasEnabled && renderers != null) {
+      foreach (var renderer in renderers) {
+        if (renderer == null) continue;
+        var materials = renderer.sharedMaterials.ToList();
+        materials.Remove(outlineMaskMaterial);
+        materials.Remove(outlineFillMaterial);
+        renderer.materials = materials.ToArray();
+      }
+    }
+
+    // Rebuild renderers list
+    CollectRenderers();
+
+    // Re-add outline materials if enabled
+    if (wasEnabled) {
+      foreach (var renderer in renderers) {
+        if (renderer == null) continue;
+        var materials = renderer.sharedMaterials.ToList();
+        materials.Add(outlineMaskMaterial);
+        materials.Add(outlineFillMaterial);
+        renderer.materials = materials.ToArray();
+      }
+    }
   }
 
   void UpdateMaterialProperties() {
