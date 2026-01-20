@@ -5013,14 +5013,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
   _sphereVFX:
     prefab: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
+    rankPrefabs: []
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 90, y: 0, z: 0}
   _boxVFX:
-    prefab: {fileID: 4857367596300681779, guid: c98f9780801d15d4289db3dd19894b59, type: 3}
+    prefab: {fileID: 4857367596300681779, guid: 55a5dc03edd976449b38569ded83a788, type: 3}
+    rankPrefabs:
+    - {fileID: 4857367596300681779, guid: 55a5dc03edd976449b38569ded83a788, type: 3}
+    - {fileID: 4857367596300681779, guid: 6caafe772aedc4040a540fe948bd361a, type: 3}
+    - {fileID: 4857367596300681779, guid: b0669403486ed9b4699229b79f057432, type: 3}
+    - {fileID: 4857367596300681779, guid: c98f9780801d15d4289db3dd19894b59, type: 3}
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _coneVFX:
     prefab: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
+    rankPrefabs: []
     positionOffset: {x: 0, y: 1, z: 0}
     rotationOffset: {x: 0, y: 180, z: 0}
   _scaleToRange: 0
