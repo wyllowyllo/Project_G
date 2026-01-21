@@ -1405,7 +1405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9604b8042af00e4d9e951d9e6bc1f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Wave.SpawnGroup
-  _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: ba2bfa5a48e32cb48b91c1f9c830cd25, type: 3}
+  _monsterGroupDirectorPrefab: {fileID: 3112347797428942486, guid: c8326677f3be96443812045c3b865d1f, type: 3}
   _monsterSpawns:
   - spawnPoint: {fileID: 1427361817}
     monsterPrefab: {fileID: 3911528517546500095, guid: 4d465f1624a49534cb034a87f6f44ec0, type: 3}
