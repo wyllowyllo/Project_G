@@ -18968,6 +18968,10 @@ PrefabInstance:
       propertyPath: _backHpFillImage
       value: 
       objectReference: {fileID: 510028079}
+    - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      propertyPath: _playerCombatant
+      value: 
+      objectReference: {fileID: 601817975}
     - target: {fileID: 3815635930778169777, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.x
       value: -334.16
@@ -19033,6 +19037,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
   m_PrefabInstance: {fileID: 601817973}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &601817975 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6734328427584094337, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 601817973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601817974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06985558d042470db2fc8ce84c545ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Combat.Core.Combatant
 --- !u!1001 &608711938
 PrefabInstance:
   m_ObjectHideFlags: 0
