@@ -17,7 +17,7 @@ MonoBehaviour:
   _icon: {fileID: 0}
   _areaType: 1
   _tiers:
-  - _damageMultiplier: 1
+  - _damageMultiplier: 1.2
     _range: 7
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
@@ -26,15 +26,18 @@ MonoBehaviour:
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
-    _effectPrefabs:
-    - {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
-    _vfxPositionOffset: {x: 0, y: 0, z: 0}
-    _vfxRotationOffset: {x: 90, y: 0, z: 0}
+    _vfxDataList:
+    - _prefab: {fileID: 4994997792314849709, guid: 3dd50886582244645be87adb42aa8528, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 0, y: 0, z: 0}
+    - _prefab: {fileID: 2689342043420952201, guid: 46f9a971187605f469638a724d4d8794, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 90, y: 0, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.3
+    _range: 7.2
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
@@ -42,15 +45,18 @@ MonoBehaviour:
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
-    _effectPrefabs:
-    - {fileID: 2689342043420952201, guid: 6e316e1b09cecab4f9867f9196bf874b, type: 3}
-    _vfxPositionOffset: {x: 0, y: 0, z: 0}
-    _vfxRotationOffset: {x: 90, y: 0, z: 0}
+    _vfxDataList:
+    - _prefab: {fileID: 4994997792314849709, guid: 3dd50886582244645be87adb42aa8528, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 0, y: 0, z: 0}
+    - _prefab: {fileID: 2689342043420952201, guid: 6e316e1b09cecab4f9867f9196bf874b, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 90, y: 0, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.4
+    _range: 7.4
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
@@ -58,15 +64,18 @@ MonoBehaviour:
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
-    _effectPrefabs:
-    - {fileID: 2689342043420952201, guid: f5b64bcb3a5f4ce40b33320d26a5279e, type: 3}
-    _vfxPositionOffset: {x: 0, y: 0, z: 0}
-    _vfxRotationOffset: {x: 90, y: 0, z: 0}
+    _vfxDataList:
+    - _prefab: {fileID: 4994997792314849709, guid: 3dd50886582244645be87adb42aa8528, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 0, y: 0, z: 0}
+    - _prefab: {fileID: 2689342043420952201, guid: f5b64bcb3a5f4ce40b33320d26a5279e, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 90, y: 0, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.5
+    _range: 7.5
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
@@ -74,10 +83,13 @@ MonoBehaviour:
     _boxWidth: 3
     _boxHeight: 3
     _allowMovement: 0
-    _effectPrefabs:
-    - {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
-    _vfxPositionOffset: {x: 0, y: 0, z: 0}
-    _vfxRotationOffset: {x: 90, y: 0, z: 0}
+    _vfxDataList:
+    - _prefab: {fileID: 4994997792314849709, guid: 3dd50886582244645be87adb42aa8528, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 0, y: 0, z: 0}
+    - _prefab: {fileID: 2689342043420952201, guid: f097b8f89aa64904299960591a8f1d1d, type: 3}
+      _positionOffset: {x: 0, y: 0, z: 0}
+      _rotationOffset: {x: 90, y: 0, z: 0}
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1

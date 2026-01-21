@@ -141,7 +141,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _hitVFXPrefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7, type: 3}
   _criticalHitVFXPrefab: {fileID: 2955623459812423943, guid: f5507a8c6a22c404ab324980c4e8a11b, type: 3}
-  _skillHitVFXPrefab: {fileID: 3391861480771957413, guid: 79885226978b938489ab94d515f1acc7, type: 3}
+  _skillHitVFXPrefab: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0, type: 3}
   _deathVFXPrefab: {fileID: 0}
   _vfxLifetime: 0.3
   _audioSource: {fileID: 0}
