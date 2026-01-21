@@ -6750,6 +6750,10 @@ PrefabInstance:
       propertyPath: _dungeonFailUI
       value: 
       objectReference: {fileID: 325565676}
+    - target: {fileID: 9195861518094689826, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: _dungeonClearUI
+      value: 
+      objectReference: {fileID: 1300956011}
     m_RemovedComponents:
     - {fileID: 8357829929355669389, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
     m_RemovedGameObjects:
@@ -15463,6 +15467,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d092f3c4250304f92a0ace7f8ceb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::SkillRewardUI
+--- !u!114 &1300956011 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2422758987701734659, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300956006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59c42ce7459b76468ab940974130a73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::DungeonClearUI
 --- !u!1001 &1315085167
 PrefabInstance:
   m_ObjectHideFlags: 0
