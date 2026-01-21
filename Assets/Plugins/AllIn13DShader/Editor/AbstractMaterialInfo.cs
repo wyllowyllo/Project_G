@@ -81,7 +81,13 @@ namespace AllIn13DShader
 
 		public static AbstractMaterialInfo CreateInstance(Material mat)
 		{
-			EffectsProfileCollection effectsProfileCollection = GlobalConfiguration.instance.effectsProfileCollection;
+			// GlobalConfiguration이 초기화되지 않은 경우 초기화 수행
+			if (GlobalConfiguration.instance == null)
+			{
+				GlobalConfiguration.InitIfNeeded();
+			}
+
+			EffectsProfileCollection effectsProfileCollection = GlobalConfiguration.instance?.effectsProfileCollection;
 			EffectsProfile effectsProfile = effectsProfileCollection.FindEffectProfileByShader(mat.shader);
 
 			AbstractMaterialInfo res = null;
