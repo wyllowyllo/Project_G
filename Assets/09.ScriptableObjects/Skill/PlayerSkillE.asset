@@ -17,7 +17,7 @@ MonoBehaviour:
   _icon: {fileID: 0}
   _areaType: 1
   _tiers:
-  - _damageMultiplier: 1
+  - _damageMultiplier: 1.2
     _range: 7
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
@@ -36,8 +36,8 @@ MonoBehaviour:
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.3
+    _range: 7.2
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
@@ -55,8 +55,8 @@ MonoBehaviour:
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.4
+    _range: 7.4
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
@@ -74,8 +74,8 @@ MonoBehaviour:
     _skillSound: {fileID: 0}
     _cameraConfig: {fileID: 0}
     _animationDuration: 1
-  - _damageMultiplier: 1
-    _range: 7
+  - _damageMultiplier: 1.5
+    _range: 7.5
     _cooldown: 0.5
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
