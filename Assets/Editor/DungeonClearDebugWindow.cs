@@ -1,4 +1,6 @@
 using Dungeon;
+using Monster.AI;
+using Monster.Manager;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,6 +12,38 @@ public class DungeonClearDebugWindow : EditorWindow
     public static void ShowWindow()
     {
         GetWindow<DungeonClearDebugWindow>("Dungeon Clear Test");
+    }
+
+    // 8번 키 단축키로 전체 몬스터 처치
+    [MenuItem("Debug/Kill All Monsters _8")]
+    public static void KillAllMonsters()
+    {
+        if (!Application.isPlaying)
+        {
+            Debug.LogWarning("[Debug] Play 모드에서만 사용 가능합니다.");
+            return;
+        }
+
+        if (MonsterTracker.Instance == null)
+        {
+            Debug.LogWarning("[Debug] MonsterTracker를 찾을 수 없습니다.");
+            return;
+        }
+
+        var monsters = MonsterTracker.Instance.GetAliveMonsters();
+        int killCount = 0;
+
+        foreach (var monster in monsters)
+        {
+            if (monster != null && monster.IsAlive && monster.Combatant != null)
+            {
+                float overkillDamage = monster.Combatant.MaxHealth + 1f;
+                monster.Combatant.TakeDamage(overkillDamage);
+                killCount++;
+            }
+        }
+
+        Debug.Log($"[Debug] 전체 몬스터 처치: {killCount}마리");
     }
 
     private void OnGUI()
