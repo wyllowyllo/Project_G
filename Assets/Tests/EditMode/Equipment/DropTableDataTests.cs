@@ -9,30 +9,39 @@ namespace Tests.EditMode
     public class DropTableDataTests
     {
         private DropTableData _dropTable;
-        private EquipmentData _normalWeapon;
-        private EquipmentData _rareWeapon;
-        private EquipmentData _uniqueWeapon;
-        private EquipmentData _legendaryWeapon;
+        private EquipmentData _normalWeaponData;
+        private EquipmentData _rareWeaponData;
+        private EquipmentData _uniqueWeaponData;
+        private EquipmentData _legendaryWeaponData;
+        private GameObject _normalPrefab;
+        private GameObject _rarePrefab;
+        private GameObject _uniquePrefab;
+        private GameObject _legendaryPrefab;
 
         [SetUp]
         public void SetUp()
         {
-            _normalWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            _normalWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal, equipmentName: "NormalWeapon");
-            _rareWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            _rareWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Rare, equipmentName: "RareWeapon");
-            _uniqueWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            _uniqueWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Unique, equipmentName: "UniqueWeapon");
-            _legendaryWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            _legendaryWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Legendary, equipmentName: "LegendaryWeapon");
+
+            _normalPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(_normalWeaponData);
+            _rarePrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(_rareWeaponData);
+            _uniquePrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(_uniqueWeaponData);
+            _legendaryPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(_legendaryWeaponData);
 
             _dropTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
             EquipmentTestUtilities.SetDropTablePools(
                 _dropTable,
-                normalPool: new[] { _normalWeapon },
-                rarePool: new[] { _rareWeapon },
-                uniquePool: new[] { _uniqueWeapon },
-                legendaryPool: new[] { _legendaryWeapon });
+                normalPool: new[] { _normalPrefab },
+                rarePool: new[] { _rarePrefab },
+                uniquePool: new[] { _uniquePrefab },
+                legendaryPool: new[] { _legendaryPrefab });
         }
 
         [TearDown]
@@ -40,14 +49,27 @@ namespace Tests.EditMode
         {
             if (_dropTable != null)
                 Object.DestroyImmediate(_dropTable);
-            if (_normalWeapon != null)
-                Object.DestroyImmediate(_normalWeapon);
-            if (_rareWeapon != null)
-                Object.DestroyImmediate(_rareWeapon);
-            if (_uniqueWeapon != null)
-                Object.DestroyImmediate(_uniqueWeapon);
-            if (_legendaryWeapon != null)
-                Object.DestroyImmediate(_legendaryWeapon);
+            if (_normalWeaponData != null)
+                Object.DestroyImmediate(_normalWeaponData);
+            if (_rareWeaponData != null)
+                Object.DestroyImmediate(_rareWeaponData);
+            if (_uniqueWeaponData != null)
+                Object.DestroyImmediate(_uniqueWeaponData);
+            if (_legendaryWeaponData != null)
+                Object.DestroyImmediate(_legendaryWeaponData);
+            if (_normalPrefab != null)
+                Object.DestroyImmediate(_normalPrefab);
+            if (_rarePrefab != null)
+                Object.DestroyImmediate(_rarePrefab);
+            if (_uniquePrefab != null)
+                Object.DestroyImmediate(_uniquePrefab);
+            if (_legendaryPrefab != null)
+                Object.DestroyImmediate(_legendaryPrefab);
+        }
+
+        private EquipmentData GetEquipmentData(GameObject prefab)
+        {
+            return prefab?.GetComponent<DroppedEquipment>()?.EquipmentData;
         }
 
         #region RollDrop Tests
@@ -56,7 +78,7 @@ namespace Tests.EditMode
         public void RollDrop_ZeroDropChance_ReturnsNull()
         {
             var table = EquipmentTestUtilities.CreateDropTableData(dropChance: 0f);
-            EquipmentTestUtilities.SetDropTablePools(table, normalPool: new[] { _normalWeapon });
+            EquipmentTestUtilities.SetDropTablePools(table, normalPool: new[] { _normalPrefab });
 
             var result = table.RollDrop();
 
@@ -84,15 +106,15 @@ namespace Tests.EditMode
                 legendaryWeight: 0);
             EquipmentTestUtilities.SetDropTablePools(
                 table,
-                normalPool: new[] { _normalWeapon },
-                rarePool: new[] { _rareWeapon },
-                uniquePool: new[] { _uniqueWeapon },
-                legendaryPool: new[] { _legendaryWeapon });
+                normalPool: new[] { _normalPrefab },
+                rarePool: new[] { _rarePrefab },
+                uniquePool: new[] { _uniquePrefab },
+                legendaryPool: new[] { _legendaryPrefab });
 
             for (int i = 0; i < 10; i++)
             {
                 var result = table.RollDrop();
-                Assert.AreEqual(EquipmentGrade.Normal, result.Grade);
+                Assert.AreEqual(EquipmentGrade.Normal, GetEquipmentData(result).Grade);
             }
 
             Object.DestroyImmediate(table);
@@ -109,15 +131,15 @@ namespace Tests.EditMode
                 legendaryWeight: 100);
             EquipmentTestUtilities.SetDropTablePools(
                 table,
-                normalPool: new[] { _normalWeapon },
-                rarePool: new[] { _rareWeapon },
-                uniquePool: new[] { _uniqueWeapon },
-                legendaryPool: new[] { _legendaryWeapon });
+                normalPool: new[] { _normalPrefab },
+                rarePool: new[] { _rarePrefab },
+                uniquePool: new[] { _uniquePrefab },
+                legendaryPool: new[] { _legendaryPrefab });
 
             for (int i = 0; i < 10; i++)
             {
                 var result = table.RollDrop();
-                Assert.AreEqual(EquipmentGrade.Legendary, result.Grade);
+                Assert.AreEqual(EquipmentGrade.Legendary, GetEquipmentData(result).Grade);
             }
 
             Object.DestroyImmediate(table);
@@ -144,8 +166,8 @@ namespace Tests.EditMode
             var table = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
             EquipmentTestUtilities.SetDropTablePools(
                 table,
-                normalPool: new[] { _normalWeapon },
-                legendaryPool: new[] { _legendaryWeapon });
+                normalPool: new[] { _normalPrefab },
+                legendaryPool: new[] { _legendaryPrefab });
 
             int normalCount = 0;
             int legendaryCount = 0;
@@ -156,8 +178,9 @@ namespace Tests.EditMode
                 var result = table.RollDrop();
                 Assert.IsNotNull(result, "Should never return null when pools have items");
 
-                if (result.Grade == EquipmentGrade.Normal) normalCount++;
-                else if (result.Grade == EquipmentGrade.Legendary) legendaryCount++;
+                var data = GetEquipmentData(result);
+                if (data.Grade == EquipmentGrade.Normal) normalCount++;
+                else if (data.Grade == EquipmentGrade.Legendary) legendaryCount++;
             }
 
             Assert.AreEqual(iterations, normalCount + legendaryCount,
@@ -169,11 +192,12 @@ namespace Tests.EditMode
         [Test]
         public void RollDrop_MultipleItemsInPool_ReturnsFromPool()
         {
-            var weapon2 = EquipmentTestUtilities.CreateEquipmentData(
+            var weapon2Data = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal, equipmentName: "NormalWeapon2");
+            var weapon2Prefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(weapon2Data);
 
             var table = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
-            EquipmentTestUtilities.SetDropTablePools(table, normalPool: new[] { _normalWeapon, weapon2 });
+            EquipmentTestUtilities.SetDropTablePools(table, normalPool: new[] { _normalPrefab, weapon2Prefab });
 
             bool foundFirst = false;
             bool foundSecond = false;
@@ -181,13 +205,14 @@ namespace Tests.EditMode
             for (int i = 0; i < 100 && (!foundFirst || !foundSecond); i++)
             {
                 var result = table.RollDrop();
-                if (result == _normalWeapon) foundFirst = true;
-                if (result == weapon2) foundSecond = true;
+                if (result == _normalPrefab) foundFirst = true;
+                if (result == weapon2Prefab) foundSecond = true;
             }
 
             Assert.IsTrue(foundFirst && foundSecond, "Both items should be possible results");
 
-            Object.DestroyImmediate(weapon2);
+            Object.DestroyImmediate(weapon2Data);
+            Object.DestroyImmediate(weapon2Prefab);
             Object.DestroyImmediate(table);
         }
 

@@ -13,22 +13,22 @@ namespace Tests.PlayMode
         private Health _monsterHealth;
         private EquipmentDropOnDeath _equipmentDrop;
         private DropTableData _dropTable;
-        private EquipmentData _testWeapon;
-        private DroppedEquipment _droppedEquipmentPrefab;
+        private EquipmentData _testWeaponData;
+        private GameObject _testWeaponPrefab;
 
         [SetUp]
         public void SetUp()
         {
-            _testWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            _testWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal, attackBonus: 10f);
 
-            _dropTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
-            EquipmentTestUtilities.SetDropTablePools(_dropTable, normalPool: new[] { _testWeapon });
+            _testWeaponPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(_testWeaponData);
 
-            _droppedEquipmentPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab();
+            _dropTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
+            EquipmentTestUtilities.SetDropTablePools(_dropTable, normalPool: new[] { _testWeaponPrefab });
 
             _monsterObject = EquipmentTestUtilities.CreateMonsterWithEquipmentDrop(
-                _dropTable, _droppedEquipmentPrefab, out _monsterHealth, out _equipmentDrop);
+                _dropTable, out _monsterHealth, out _equipmentDrop);
         }
 
         [TearDown]
@@ -38,10 +38,10 @@ namespace Tests.PlayMode
                 Object.DestroyImmediate(_monsterObject);
             if (_dropTable != null)
                 Object.DestroyImmediate(_dropTable);
-            if (_testWeapon != null)
-                Object.DestroyImmediate(_testWeapon);
-            if (_droppedEquipmentPrefab != null)
-                Object.DestroyImmediate(_droppedEquipmentPrefab.gameObject);
+            if (_testWeaponData != null)
+                Object.DestroyImmediate(_testWeaponData);
+            if (_testWeaponPrefab != null)
+                Object.DestroyImmediate(_testWeaponPrefab);
 
             var droppedItems = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None);
             foreach (var item in droppedItems)
@@ -62,23 +62,25 @@ namespace Tests.PlayMode
 
             var spawned = System.Array.Find(allDropped, d => d.EquipmentData != null);
             Assert.IsNotNull(spawned);
-            Assert.AreEqual(_testWeapon, spawned.EquipmentData);
+            Assert.AreEqual(_testWeaponData, spawned.EquipmentData);
         }
 
         [Test]
-        public void MonsterDeath_WithoutPrefab_DoesNotThrow()
+        public void MonsterDeath_WithEmptyDropTable_DoesNotThrow()
         {
             var countBefore = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None).Length;
 
-            var monsterNoPrefab = EquipmentTestUtilities.CreateMonsterWithEquipmentDrop(
-                _dropTable, null, out var health, out _);
+            var emptyTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
+            var monsterEmptyTable = EquipmentTestUtilities.CreateMonsterWithEquipmentDrop(
+                emptyTable, out var health, out _);
 
             Assert.DoesNotThrow(() => health.TakeDamage(100f));
 
             var countAfter = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None).Length;
             Assert.AreEqual(countBefore, countAfter);
 
-            Object.DestroyImmediate(monsterNoPrefab);
+            Object.DestroyImmediate(monsterEmptyTable);
+            Object.DestroyImmediate(emptyTable);
         }
 
         [Test]
@@ -99,10 +101,10 @@ namespace Tests.PlayMode
             var countBefore = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None).Length;
 
             var zeroChanceTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 0f);
-            EquipmentTestUtilities.SetDropTablePools(zeroChanceTable, normalPool: new[] { _testWeapon });
+            EquipmentTestUtilities.SetDropTablePools(zeroChanceTable, normalPool: new[] { _testWeaponPrefab });
 
             var monster = EquipmentTestUtilities.CreateMonsterWithEquipmentDrop(
-                zeroChanceTable, _droppedEquipmentPrefab, out var health, out _);
+                zeroChanceTable, out var health, out _);
 
             health.TakeDamage(100f);
 
@@ -139,7 +141,6 @@ namespace Tests.PlayMode
             var dropper = monster.AddComponent<EquipmentDropOnDeath>();
 
             dropper.SetDropTable(_dropTable);
-            dropper.SetDroppedEquipmentPrefab(_droppedEquipmentPrefab);
 
             monster.GetComponent<Health>().TakeDamage(100f);
 
@@ -152,10 +153,11 @@ namespace Tests.PlayMode
         [Test]
         public void SetDropTable_WhenAlreadySet_IgnoresNewTable()
         {
-            var otherWeapon = EquipmentTestUtilities.CreateEquipmentData(
+            var otherWeaponData = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Helmet, EquipmentGrade.Rare, defenseBonus: 20f);
+            var otherWeaponPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab(otherWeaponData);
             var otherTable = EquipmentTestUtilities.CreateDropTableData(dropChance: 1f);
-            EquipmentTestUtilities.SetDropTablePools(otherTable, rarePool: new[] { otherWeapon });
+            EquipmentTestUtilities.SetDropTablePools(otherTable, rarePool: new[] { otherWeaponPrefab });
 
             _equipmentDrop.SetDropTable(otherTable);
 
@@ -163,47 +165,11 @@ namespace Tests.PlayMode
 
             var dropped = Object.FindFirstObjectByType<DroppedEquipment>();
             Assert.IsNotNull(dropped);
-            Assert.AreEqual(_testWeapon, dropped.EquipmentData);
+            Assert.AreEqual(_testWeaponData, dropped.EquipmentData);
 
             Object.DestroyImmediate(otherTable);
-            Object.DestroyImmediate(otherWeapon);
-        }
-
-        [Test]
-        public void SetDroppedEquipmentPrefab_WhenEmpty_SetsPrefab()
-        {
-            var monster = new GameObject("Monster");
-            monster.AddComponent<Health>();
-            var dropper = monster.AddComponent<EquipmentDropOnDeath>();
-
-            dropper.SetDropTable(_dropTable);
-            dropper.SetDroppedEquipmentPrefab(_droppedEquipmentPrefab);
-
-            monster.GetComponent<Health>().TakeDamage(100f);
-
-            var dropped = Object.FindFirstObjectByType<DroppedEquipment>();
-            Assert.IsNotNull(dropped);
-
-            Object.DestroyImmediate(monster);
-        }
-
-        [Test]
-        public void SetDroppedEquipmentPrefab_WhenAlreadySet_IgnoresNewPrefab()
-        {
-            var otherPrefab = EquipmentTestUtilities.CreateDroppedEquipmentPrefab();
-            otherPrefab.gameObject.name = "OtherPrefab";
-
-            _equipmentDrop.SetDroppedEquipmentPrefab(otherPrefab);
-
-            _monsterHealth.TakeDamage(100f);
-
-            var allDropped = Object.FindObjectsByType<DroppedEquipment>(FindObjectsSortMode.None);
-            var spawned = System.Array.Find(allDropped, d => d.EquipmentData != null);
-
-            Assert.IsNotNull(spawned);
-            Assert.AreNotEqual("OtherPrefab(Clone)", spawned.gameObject.name);
-
-            Object.DestroyImmediate(otherPrefab.gameObject);
+            Object.DestroyImmediate(otherWeaponData);
+            Object.DestroyImmediate(otherWeaponPrefab);
         }
 
         #endregion

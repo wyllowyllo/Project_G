@@ -12,32 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c2e55d1270c42c5a52b61be6362427, type: 3}
   m_Name: DungeonCDropTableData
   m_EditorClassIdentifier: ProjectG::Equipment.DropTableData
-  _dropChance: 0.1
+  _dropChance: 0.5
   _normalWeight: 80
   _rareWeight: 20
   _uniqueWeight: 0
   _legendaryWeight: 0
   _normalPool:
-  - {fileID: 11400000, guid: b28f33e6573db67418e6f947d5feca8e, type: 2}
-  - {fileID: 11400000, guid: afafbb9c0e78e4441b3c548a0c333ec7, type: 2}
-  - {fileID: 11400000, guid: 51f9d7b27fc17064a90ca4eb05370014, type: 2}
-  - {fileID: 11400000, guid: 8560c693105ccec4fae0d70183acfa77, type: 2}
-  - {fileID: 11400000, guid: 5f3b5e606b2727844a51fb2563f68190, type: 2}
+  - {fileID: 2787206164547311327, guid: 2b44464ed65bdd04fa0790414c5f32f2, type: 3}
+  - {fileID: 6394507714182727331, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
+  - {fileID: 2450791162689263217, guid: 8f8d25b56f3b2f1409d592768cbc0ac8, type: 3}
+  - {fileID: 7787369025638549692, guid: d12618773327e0140b8351dc5c187c36, type: 3}
+  - {fileID: 3363273059402657926, guid: 26c92de6fd261d74582090bf3b33434b, type: 3}
   _rarePool:
-  - {fileID: 11400000, guid: 793f075524e35a840a43a4a941a35a2f, type: 2}
-  - {fileID: 11400000, guid: 99f499437730f5e4d80ecf31fc18fedc, type: 2}
-  - {fileID: 11400000, guid: f3921eb9ec68ad046ab4e4fca5a9ced4, type: 2}
-  - {fileID: 11400000, guid: ab76f7e67897452468a50a14d39166c0, type: 2}
-  - {fileID: 11400000, guid: 61b62c242ffbf3f4e814224ba7722c27, type: 2}
+  - {fileID: 1365846294697668734, guid: 57981a6e1982b6c48b20769f53ebaa0a, type: 3}
+  - {fileID: 3367526961213624472, guid: f0e3355d3af1eb0478f621ead098573d, type: 3}
+  - {fileID: 1559614063559612132, guid: ad5f7f994973806458e4ec5d90c77a75, type: 3}
+  - {fileID: 1447418125357730054, guid: 7d7209cb72e550e4d8416ffb89b58ea7, type: 3}
+  - {fileID: 6945013528755633580, guid: aa9b3a90c50bb6d4f981595354bf2dbc, type: 3}
   _uniquePool:
-  - {fileID: 11400000, guid: 626cd46226238764f9a2bbbb2613b0c7, type: 2}
-  - {fileID: 11400000, guid: 57682f9dc8fa3834fbe3ec9cd7ed754c, type: 2}
-  - {fileID: 11400000, guid: ef7931c5e216529408f80da135088cb5, type: 2}
-  - {fileID: 11400000, guid: b4fac918f2b96f646adf03df9819d671, type: 2}
-  - {fileID: 11400000, guid: 06e465c4b151d60489a74c8dfb6f06f5, type: 2}
+  - {fileID: 8366880372153397475, guid: 47c882b1eb454c541a908ec88a50bb1f, type: 3}
+  - {fileID: 1598361899311038682, guid: 705ed6cdda356354f9cfc2a386eac087, type: 3}
+  - {fileID: 3639357909754802085, guid: dc63f8c3ae728f049a1f13936aab76e8, type: 3}
+  - {fileID: 8033164323259162994, guid: 04f772e83bf9a594289e2ff5d519cafe, type: 3}
+  - {fileID: 4183490107395641725, guid: ea034dbd2d540a542a404a53dbfab2fb, type: 3}
   _legendaryPool:
-  - {fileID: 11400000, guid: 52be1f0428e98704e892d93410a39f63, type: 2}
-  - {fileID: 11400000, guid: e93b24a208f961f40bcaa68fae4e7e69, type: 2}
-  - {fileID: 11400000, guid: 2603029f0bf9b8b49aa81e9734d77c0e, type: 2}
-  - {fileID: 11400000, guid: 56c5d71ff1639154fb4ffda1abc56efb, type: 2}
-  - {fileID: 11400000, guid: 90f6a4dc3fcb63d4abde8d172abc99d8, type: 2}
+  - {fileID: 5592438991103646682, guid: 01cc95e99e7058a4ab26c3f4fdec7c14, type: 3}
+  - {fileID: 7705084855818651370, guid: 5db2c6eff3d84664e88caac1925b0d61, type: 3}
+  - {fileID: 1057175009261019967, guid: d177dc623eb0f5c43846960a41949c02, type: 3}
+  - {fileID: 3469853536992533660, guid: 5518ddc7a0fa81b4db31f6101ded3531, type: 3}
+  - {fileID: 7315170194371107684, guid: 6d1e54ed66a5b32478676963355d40f5, type: 3}

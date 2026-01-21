@@ -30,10 +30,10 @@ namespace Tests.Shared
 
         public static void SetDropTablePools(
             DropTableData dropTable,
-            EquipmentData[] normalPool = null,
-            EquipmentData[] rarePool = null,
-            EquipmentData[] uniquePool = null,
-            EquipmentData[] legendaryPool = null)
+            GameObject[] normalPool = null,
+            GameObject[] rarePool = null,
+            GameObject[] uniquePool = null,
+            GameObject[] legendaryPool = null)
         {
             dropTable.SetPoolsForTest(normalPool, rarePool, uniquePool, legendaryPool);
         }
@@ -58,17 +58,20 @@ namespace Tests.Shared
             return obj;
         }
 
-        public static DroppedEquipment CreateDroppedEquipmentPrefab()
+        public static GameObject CreateDroppedEquipmentPrefab(EquipmentData equipmentData = null)
         {
             var obj = new GameObject("DroppedEquipmentPrefab");
             obj.AddComponent<BoxCollider>();
             var dropped = obj.AddComponent<DroppedEquipment>();
-            return dropped;
+            if (equipmentData != null)
+            {
+                dropped.Initialize(equipmentData);
+            }
+            return obj;
         }
 
         public static GameObject CreateMonsterWithEquipmentDrop(
             DropTableData dropTable,
-            DroppedEquipment droppedEquipmentPrefab,
             out Health health,
             out EquipmentDropOnDeath equipmentDrop)
         {
@@ -77,7 +80,6 @@ namespace Tests.Shared
             equipmentDrop = obj.AddComponent<EquipmentDropOnDeath>();
 
             equipmentDrop.SetDropTableForTest(dropTable);
-            equipmentDrop.SetDroppedEquipmentPrefabForTest(droppedEquipmentPrefab);
 
             return obj;
         }
