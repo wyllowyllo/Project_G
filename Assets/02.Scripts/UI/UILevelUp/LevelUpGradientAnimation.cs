@@ -114,6 +114,7 @@ public class LevelUpGradientAnimation : MonoBehaviour
         if (_playSound && _audioSource != null && _levelUpSound != null)
         {
             _audioSource.PlayOneShot(_levelUpSound);
+            SoundManager.Instance.PlayPlayerSfx(SoundManager.EPlayerSfx.PlayerLevelUp);
         }
 
         // 초기 상태 설정

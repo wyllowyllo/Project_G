@@ -19,6 +19,7 @@ public class SoundManager : MonoBehaviour
     public enum EPlayerSfx
     {
         // 예시: Attack, Jump, Hit, Die
+        PlayerLevelUp,
     }
 
     public enum EEnemySfx
@@ -34,6 +35,7 @@ public class SoundManager : MonoBehaviour
     public enum EUISfx
     {
         // 예시: ButtonClick, WindowOpen, ItemGet
+        MainmenuButtonClick,
     }
 
     public enum EPlayerSkillSfx

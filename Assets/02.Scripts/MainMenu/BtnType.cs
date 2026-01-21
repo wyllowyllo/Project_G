@@ -20,10 +20,12 @@ public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         switch (_currentType)
         {
             case ButtonType.Start:
+                SoundManager.Instance.PlayUISfx(SoundManager.EUISfx.MainmenuButtonClick);
                 SceneLoader.LoadScene("TownScene");
                 break;
 
             case ButtonType.End:
+                SoundManager.Instance.PlayUISfx(SoundManager.EUISfx.MainmenuButtonClick);
 #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
 #else
