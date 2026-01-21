@@ -52,7 +52,8 @@ MonoBehaviour:
   _bossSfxs: []
   _uISfxs: []
   _playerSkillSfxs: []
-  _sfxs: []
+  _sfxs:
+  - {fileID: 8300000, guid: b56551d5aebdfc4449186568ba95f479, type: 3}
   _sfxVolume: 0.8
   _sfxPoolSize: 10
 --- !u!114 &7110590327616315098
