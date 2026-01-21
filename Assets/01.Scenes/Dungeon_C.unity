@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::EquipmentImageSizer
   _emptySizeSlot: {x: 100, y: 100}
-  _equippedSize: {x: 350, y: 350}
+  _equippedSize: {x: 150, y: 150}
   _emptySlotIcon: {fileID: 21300000, guid: 9114360040036954ea7c6fe4844b09b7, type: 3}
   _preserveAspect: 1
 --- !u!1001 &117834960
@@ -8195,7 +8195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::EquipmentImageSizer
   _emptySizeSlot: {x: 100, y: 100}
-  _equippedSize: {x: 350, y: 350}
+  _equippedSize: {x: 200, y: 200}
   _emptySlotIcon: {fileID: 21300000, guid: f204c776c00408a488bbfde66ed50b6a, type: 3}
   _preserveAspect: 1
 --- !u!1001 &726156983
@@ -11036,67 +11036,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8357296124813136313, guid: 17e7cbd9cc1261b4d8617c8eb5928264, type: 3}
   m_PrefabInstance: {fileID: 991564108}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1002707772
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 98.86152
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -32.2802
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 564132742060618836, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845717832662631637, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_Intensity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6394507714182727331, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
-      propertyPath: m_Name
-      value: Feet Armor Type 1 Color 2 Part
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01f84d8bca54a3345b9a4a91a9d929c2, type: 3}
 --- !u!1001 &1004502626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13584,7 +13523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::EquipmentImageSizer
   _emptySizeSlot: {x: 100, y: 100}
-  _equippedSize: {x: 350, y: 350}
+  _equippedSize: {x: 200, y: 200}
   _emptySlotIcon: {fileID: 21300000, guid: 55f89c6fbb6ec8640bab2b5ccfcd2703, type: 3}
   _preserveAspect: 1
 --- !u!1001 &1215385245
@@ -23698,4 +23637,3 @@ SceneRoots:
   - {fileID: 99171687}
   - {fileID: 2139507928}
   - {fileID: 937288813}
-  - {fileID: 1002707772}
