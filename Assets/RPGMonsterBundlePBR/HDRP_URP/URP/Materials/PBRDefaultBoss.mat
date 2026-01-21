@@ -121,7 +121,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 061dbfc5d7ad4dd09b7c255438aaae98, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
@@ -306,8 +306,8 @@ Material:
     - _Highlights: 0
     - _HighlightsStrength: 1
     - _Hit: 0
-    - _HitBlend: 1
-    - _HitGlow: 5
+    - _HitBlend: 0.5
+    - _HitGlow: 0
     - _Hologram: 0
     - _HologramAccentAlpha: 0.5
     - _HologramAccentFrequency: 2
@@ -361,7 +361,7 @@ Material:
     - _Pixelate: 0
     - _PixelateSize: 32
     - _Posterize: 0
-    - _PosterizeGamma: 0.75
+    - _PosterizeGamma: 2.36
     - _PosterizeNumColors: 8
     - _QueueOffset: 0
     - _RecalculateNormals: 0
@@ -450,7 +450,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CustomAmbientColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     - _DepthGlowColor: {r: 1, g: 0.9869999, b: 0.6, a: 1}
-    - _EmissionColor: {r: 11.984314, g: 11.984314, b: 11.984314, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
     - _GlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}
     - _GradientHeightColor01: {r: 0.2, g: 0.2, b: 0.2, a: 1}
