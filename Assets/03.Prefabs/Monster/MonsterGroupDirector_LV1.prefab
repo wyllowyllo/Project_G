@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8201369696516464386}
   - component: {fileID: 3112347797428942486}
   m_Layer: 0
-  m_Name: MonsterGroupDirector
+  m_Name: MonsterGroupDirector_LV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
