@@ -15,7 +15,7 @@ MonoBehaviour:
   _jumpForce: 50
   _jumpDuration: 0.3
   _glideGravity: -2
-  _glideMoveSpeed: 8
+  _glideMoveSpeed: 20
   _glideAcceleration: 5
   _glideRotationSpeed: 0.001
   _diveSpeed: 30
@@ -27,7 +27,7 @@ MonoBehaviour:
   _aimInitialDistance: 8
   _groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 16392
   _parabolicDiveSpeedFactor: 30
   _parabolicArcHeight: 5
   _cooldown: 0.5
