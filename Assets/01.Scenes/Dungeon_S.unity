@@ -263,6 +263,10 @@ PrefabInstance:
       propertyPath: _cameraTransform
       value: 
       objectReference: {fileID: 1494139084}
+    - target: {fileID: 7040850976159831820, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      propertyPath: _pushAwayLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 7250795841962176466, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4787,6 +4791,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::MissionPanel
   _missionPanel: {fileID: 1803979013}
   _missionSubText: {fileID: 958699716}
+  _characterViewerInput: {fileID: 0}
+  _skillViewerInput: {fileID: 0}
   _missionTextFormat: "\uB0A8\uC740 \uBAAC\uC2A4\uD130: {0}\uB9C8\uB9AC"
   _clearedText: "[ \uD074\uB9AC\uC5B4! ]"
   _hideWhenCleared: 0
