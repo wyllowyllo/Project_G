@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 3932830539199740688}
   - component: {fileID: 8845920389425372171}
   - component: {fileID: 4694379413470769696}
+  - component: {fileID: 9086677996957017508}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1463,6 +1464,33 @@ MonoBehaviour:
   _maxDetectionRange: 5
   _angleWeight: 0.6
   _distanceWeight: 0.4
+--- !u!114 &9086677996957017508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448824847059235598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a0ee360e2f3b489e516062afc105a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
+  _scaleToRange: 0
+  _enableRankEnhancement: 1
+  _rankConfig:
+    emissionIntensityPerRank: 0.3
+    particleDensityPerRank: 0.2
+    particleSizePerRank: 0.1
+    simulationSpeedPerRank: 0.05
+    overlayMinRank: 4
+    overlayScalePerRank: 0.15
+    sphereOverlayPrefab: {fileID: 4622028513871840243, guid: 827317fca49bd2d419dec959cc5772b0, type: 3}
+    sphereOverlayOffset: {x: 0, y: 0, z: 0}
+    boxOverlayPrefab: {fileID: 713741448594962356, guid: 72108804973233141aee0b599831d71c, type: 3}
+    boxOverlayOffset: {x: 0, y: 0, z: -8}
+    coneOverlayPrefab: {fileID: 5426856386950650135, guid: d3c58f2da8557db4e9af490a7e378a53, type: 3}
+    coneOverlayOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &4828337330146463391
 GameObject:
   m_ObjectHideFlags: 0

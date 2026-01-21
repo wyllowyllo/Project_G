@@ -586,18 +586,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2955623459812423943, guid: f5507a8c6a22c404ab324980c4e8a11b, type: 3}
     - target: {fileID: 3448299408570494994, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      propertyPath: _attackVFXSpawnPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3448299408570494994, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      propertyPath: _attackVFX.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3448299408570494994, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      propertyPath: '_hitVFX.Array.data[0]'
-      value: 
-      objectReference: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7, type: 3}
-    - target: {fileID: 3448299408570494994, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: '_attackVFX.Array.data[0]'
       value: 
       objectReference: {fileID: 289914247887652335, guid: 8b4806e6585653a40b27fea6be827d87, type: 3}
@@ -652,10 +640,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2081700594}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
 --- !u!4 &170293599 stripped
 Transform:
@@ -5002,38 +4987,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68fc3fdd3ae14252bc362ab7efab994, type: 3}
---- !u!1 &2081700569 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4448824847059235598, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
-  m_PrefabInstance: {fileID: 170293598}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2081700594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081700569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c60a0ee360e2f3b489e516062afc105a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ProjectG::Skill.SkillVFXHandler
-  _scaleToRange: 0
-  _enableRankEnhancement: 1
-  _rankConfig:
-    emissionIntensityPerRank: 0.3
-    particleDensityPerRank: 0.2
-    particleSizePerRank: 0.1
-    simulationSpeedPerRank: 0.05
-    overlayMinRank: 4
-    overlayScalePerRank: 0.15
-    sphereOverlayPrefab: {fileID: 4622028513871840243, guid: 827317fca49bd2d419dec959cc5772b0, type: 3}
-    sphereOverlayOffset: {x: 0, y: 0, z: 0}
-    boxOverlayPrefab: {fileID: 713741448594962356, guid: 72108804973233141aee0b599831d71c, type: 3}
-    boxOverlayOffset: {x: 0, y: 0, z: -8}
-    coneOverlayPrefab: {fileID: 5426856386950650135, guid: d3c58f2da8557db4e9af490a7e378a53, type: 3}
-    coneOverlayOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &2096477313
 GameObject:
   m_ObjectHideFlags: 0
