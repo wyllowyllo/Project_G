@@ -20,6 +20,7 @@ TagManager:
   - EnemyHitbox
   - DroppedItem
   - CharacterViewer
+  - Obstacle
   - Boundary
   - 
   - 
