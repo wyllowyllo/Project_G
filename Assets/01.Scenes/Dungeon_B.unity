@@ -10493,6 +10493,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.CameraShakeController
   _impulseSource: {fileID: 0}
+  _shakeInterval: 0.05
+  _ambientShakeInterval: 0.02
 --- !u!114 &1350157873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12763,6 +12765,11 @@ MonoBehaviour:
   _rankEffectsController: {fileID: 1092082241}
   _rankParticleEffect: {fileID: 1884382400}
   _rankParticleSubEffect: {fileID: 1884382399}
+  _skillRewardUI: {fileID: 0}
+  _showSkillRewardUI: 1
+  _attackSkillIcon: {fileID: 0}
+  _defenseSkillIcon: {fileID: 0}
+  _specialSkillIcon: {fileID: 0}
   _currentRankText: {fileID: 0}
   _nextRankText: {fileID: 0}
   _enableDebugLogs: 1
@@ -14495,8 +14502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8f0625716a84976844be82026ddffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Dungeon.PlayerDeathHandler
-  _autoReturnDelay: 10
   _inputAcceptDelay: 1
+  _dungeonFailUI: {fileID: 0}
 --- !u!1001 &1894095098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14818,7 +14825,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.26666668
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: c70beb2fd6f533244a90993b6f38770a, type: 2}
   m_BuildHeightMesh: 0
