@@ -156,7 +156,7 @@ MonoBehaviour:
     m_Bits: 256
   _obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
   _beamRange: 200
   _tickInterval: 0.5
   _beamRadius: 5
