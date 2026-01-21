@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1574c44e98e149fba00f676a6deea0c0, type: 3}
   m_Name: DungeonB
   m_EditorClassIdentifier: ProjectG::Dungeon.DungeonData
-  _displayName: "\uC5BC\uC5B4\uBD99\uC740 \uC124\uC0B0"
+  _displayName: "\uBAA9\uB9C8\uB978 \uBAA8\uB798\uBC14\uB78C"
   _sceneName: Dungeon_B
   _recommendedLevel: 0
   _requiredDungeon: {fileID: 11400000, guid: 140fc8bfd18234e4c8bd3e24c6a22553, type: 2}
