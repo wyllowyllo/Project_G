@@ -103,7 +103,7 @@ MonoBehaviour:
   _circleDecalPrefab: {fileID: 0}
   _coneDecalPrefab: {fileID: 0}
   _lineDecalPrefab: {fileID: 0}
-  _markerPrefab: {fileID: 0}
+  _markerPrefab: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
 --- !u!1 &752065201560993675
 GameObject:
   m_ObjectHideFlags: 0
