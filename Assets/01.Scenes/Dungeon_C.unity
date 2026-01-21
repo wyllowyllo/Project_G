@@ -5795,6 +5795,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5633557512109341758, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6645773785050054518, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -5815,6 +5819,10 @@ PrefabInstance:
       propertyPath: _playerProgression
       value: 
       objectReference: {fileID: 1751550423}
+    - target: {fileID: 7920106412969319093, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: fadeSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8544170162353893643, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: _playerProgression
       value: 
@@ -14116,6 +14124,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278772927}
   m_Mesh: {fileID: -3317707290296930676, guid: 0a3a7af2a2640164292a658638bc5fdd, type: 3}
+--- !u!114 &1279853090 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7920106412969319093, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+  m_PrefabInstance: {fileID: 495476233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfbb4f0b67c70444b08bef1b2bd130c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::SkillTooltip
 --- !u!1001 &1283004822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23136,6 +23155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::SkillViewerUI
   _skillUIPanel: {fileID: 862466501}
   _skillViewerInput: {fileID: 2139507927}
+  _skillTooltip: {fileID: 1279853090}
 --- !u!114 &2139507927
 MonoBehaviour:
   m_ObjectHideFlags: 0
