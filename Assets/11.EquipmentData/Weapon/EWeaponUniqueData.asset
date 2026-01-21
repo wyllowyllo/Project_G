@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Unique Weapon
   _slot: 0
   _grade: 2
+  _icon: {fileID: 21300000, guid: 352f8bcf5a81eba4aa5f4acf2cfe8960, type: 3}
   _attackBonus: 30
   _defenseBonus: 0
   _criticalChanceBonus: 0

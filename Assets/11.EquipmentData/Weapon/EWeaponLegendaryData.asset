@@ -15,6 +15,7 @@ MonoBehaviour:
   _equipmentName: Legendary Weapon
   _slot: 0
   _grade: 3
+  _icon: {fileID: 21300000, guid: f4e349c0b4adaf7488ef4a10cd2d1d6a, type: 3}
   _attackBonus: 40
   _defenseBonus: 0
   _criticalChanceBonus: 0
