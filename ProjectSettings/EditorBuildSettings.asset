@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/MainScene.unity
     guid: 5485521e36d264844badd9ac1269d527
+  - enabled: 1
+    path: Assets/01.Scenes/Dungeon_B.unity
+    guid: bfe8a4e5bdded9047bdc03dc7d3d16a6
+  - enabled: 1
+    path: Assets/01.Scenes/Dungeon_A.unity
+    guid: 1be709d752ec43c4da0bc7c77d9866c6
+  - enabled: 1
+    path: Assets/01.Scenes/Dungeon_S.unity
+    guid: d6de61534aa384850a231e36e077a0be
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 73453711fc4dec34e97d5c4be81ed4a2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
