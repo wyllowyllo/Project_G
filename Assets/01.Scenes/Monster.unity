@@ -546,6 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::SkillViewerUI
   _skillUIPanel: {fileID: 505753124}
   _skillViewerInput: {fileID: 134233635}
+  _skillTooltip: {fileID: 0}
 --- !u!114 &134233635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1442,6 +1443,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6194318862371366317, guid: 0bffd5cd871c906459f4c5c59afc2fd4, type: 3}
+      propertyPath: _skillCaster
+      value: 
+      objectReference: {fileID: 844930395}
+    - target: {fileID: 6194318862371366317, guid: 0bffd5cd871c906459f4c5c59afc2fd4, type: 3}
       propertyPath: '_skills.Array.data[0]'
       value: 
       objectReference: {fileID: 2029011578}
@@ -2020,6 +2025,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1030670714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844930395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5362741734677318075, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+  m_PrefabInstance: {fileID: 170293598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8dde6a807c34028b2361477389b8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Skill.SkillCaster
 --- !u!1 &871248803
 GameObject:
   m_ObjectHideFlags: 0

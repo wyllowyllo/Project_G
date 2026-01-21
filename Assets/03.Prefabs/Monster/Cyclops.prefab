@@ -254,7 +254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentDropOnDeath
   _dropTable: {fileID: 0}
-  _droppedEquipmentPrefab: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
 --- !u!1 &1010873256686037497
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 534280108124120921, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 86.94966
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092397991249923501, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1138175425499748566, guid: 288b9c838dfc44a782db5b6cdab075e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
