@@ -32,3 +32,12 @@ MonoBehaviour:
   _parabolicArcHeight: 5
   _cooldown: 0.5
   _landingTimeout: 1.5
+  _prepareSound: {fileID: 0}
+  _superJumpSound: {fileID: 0}
+  _glidingLoopSounds:
+  - {fileID: 8300000, guid: ab2b660e083ba4f6c9590ca812909da1, type: 3}
+  - {fileID: 8300000, guid: 6d5300ff85b5d448081efa939579c278, type: 3}
+  _diveBombSound: {fileID: 0}
+  _landingSound: {fileID: 0}
+  _diveBombLandingSound: {fileID: 0}
+  _glidingLoopVolume: 0.6

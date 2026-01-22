@@ -219,6 +219,39 @@ namespace Tests.PlayMode
         }
 
         [Test]
+        public void TryEquip_AppliesHealthBonus()
+        {
+            float baseHealth = _combatant.MaxHealth;
+            var armor = EquipmentTestUtilities.CreateEquipmentData(
+                EquipmentSlot.Armor, EquipmentGrade.Normal, healthBonus: 50f);
+
+            _dataManager.TryEquip(armor);
+
+            Assert.AreEqual(baseHealth + 50f, _combatant.MaxHealth, 0.01f);
+
+            Object.DestroyImmediate(armor);
+        }
+
+        [Test]
+        public void TryEquip_ReplaceEquipment_HealthBonusUpdated()
+        {
+            float baseHealth = _combatant.MaxHealth;
+            var normalArmor = EquipmentTestUtilities.CreateEquipmentData(
+                EquipmentSlot.Armor, EquipmentGrade.Normal, healthBonus: 30f);
+            var rareArmor = EquipmentTestUtilities.CreateEquipmentData(
+                EquipmentSlot.Armor, EquipmentGrade.Rare, healthBonus: 60f);
+
+            _dataManager.TryEquip(normalArmor);
+            Assert.AreEqual(baseHealth + 30f, _combatant.MaxHealth, 0.01f);
+
+            _dataManager.TryEquip(rareArmor);
+            Assert.AreEqual(baseHealth + 60f, _combatant.MaxHealth, 0.01f);
+
+            Object.DestroyImmediate(normalArmor);
+            Object.DestroyImmediate(rareArmor);
+        }
+
+        [Test]
         public void TryEquip_MultipleSlots_ModifiersStack()
         {
             float baseAttack = _combatant.Stats.AttackDamage.Value;
