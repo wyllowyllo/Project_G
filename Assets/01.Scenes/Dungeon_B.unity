@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2033
@@ -338,6 +342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -412,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Clump09 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7648486373114563465, guid: 047991ff5479716499a6446f09b95fd9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -433,6 +445,10 @@ PrefabInstance:
     - target: {fileID: 2816997215856978095, guid: cd89674cca618924a90bfe7d6ab6f474, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Hoodoo12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816997215856978095, guid: cd89674cca618924a90bfe7d6ab6f474, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3196478928795152917, guid: cd89674cca618924a90bfe7d6ab6f474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -610,6 +630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -672,6 +696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -693,6 +721,10 @@ PrefabInstance:
     - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2125346162922037134, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_LocalPosition.x
@@ -926,6 +958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalPosition.x
       value: 335.6
@@ -987,6 +1023,10 @@ PrefabInstance:
     - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4157379404897701142, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_LocalScale.x
@@ -1062,6 +1102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 269.6
@@ -1124,6 +1168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6181942661488786254, guid: f5b998153309cd341b7c9b6eb0b13f37, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6809861226201309684, guid: f5b998153309cd341b7c9b6eb0b13f37, type: 3}
       propertyPath: m_LocalPosition.x
       value: 219.30626
@@ -1185,6 +1233,10 @@ PrefabInstance:
     - target: {fileID: 418214597094013006, guid: 6d0232850c40ec24ba68241c76f1b0da, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC01
+      objectReference: {fileID: 0}
+    - target: {fileID: 418214597094013006, guid: 6d0232850c40ec24ba68241c76f1b0da, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1046554033702806260, guid: 6d0232850c40ec24ba68241c76f1b0da, type: 3}
       propertyPath: m_LocalScale.z
@@ -1251,6 +1303,10 @@ PrefabInstance:
     - target: {fileID: 6305009495607215159, guid: 42ae58bc724cd754a9690eb3b8b90f10, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_HoodooCliff03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305009495607215159, guid: 42ae58bc724cd754a9690eb3b8b90f10, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6643992625841069709, guid: 42ae58bc724cd754a9690eb3b8b90f10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1366,6 +1422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB01
       objectReference: {fileID: 0}
+    - target: {fileID: 1870175046590206402, guid: f6b333725a2c5524a808b2e6f6b61c3d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1456,6 +1516,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1575,6 +1639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1596,6 +1664,10 @@ PrefabInstance:
     - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1703,6 +1775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1764,6 +1840,10 @@ PrefabInstance:
     - target: {fileID: 704277728301726414, guid: 90d53f6559a707746a2be6c8da761447, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 704277728301726414, guid: 90d53f6559a707746a2be6c8da761447, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1972,6 +2052,10 @@ PrefabInstance:
     - target: {fileID: 5930469976024273251, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Platform01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930469976024273251, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6414977074011540441, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2283,6 +2367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.493687
@@ -2431,6 +2519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1591307069791546447, guid: b5a0fffa0533d7245845b0706e7aa700, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2116311350183360245, guid: b5a0fffa0533d7245845b0706e7aa700, type: 3}
       propertyPath: m_LocalPosition.x
       value: -394.5
@@ -2545,6 +2637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2566,6 +2662,10 @@ PrefabInstance:
     - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8681585021681199220, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2628,6 +2728,10 @@ PrefabInstance:
     - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2832,6 +2936,10 @@ PrefabInstance:
     - target: {fileID: 6478079161564213783, guid: e354760adbba6434aa152c3c344d51f0, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_HoodooCliff06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478079161564213783, guid: e354760adbba6434aa152c3c344d51f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3050,6 +3158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA07 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7512644194076862626, guid: 6af230f498ccbee41b9949570ecbce64, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3112,6 +3224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC07
       objectReference: {fileID: 0}
+    - target: {fileID: 2277366028657295420, guid: 48bd7fb2976f724409b693d8e8be7779, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3173,6 +3289,10 @@ PrefabInstance:
     - target: {fileID: 6772048256431376403, guid: f520cf6c012530c40b53bd649c959ddf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772048256431376403, guid: f520cf6c012530c40b53bd649c959ddf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3333,6 +3453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6066301
@@ -3406,6 +3530,10 @@ PrefabInstance:
     - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf07 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3306463087459986526, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3509,6 +3637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3530,6 +3662,10 @@ PrefabInstance:
     - target: {fileID: 1591307069791546447, guid: b5a0fffa0533d7245845b0706e7aa700, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591307069791546447, guid: b5a0fffa0533d7245845b0706e7aa700, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2116311350183360245, guid: b5a0fffa0533d7245845b0706e7aa700, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3592,6 +3728,10 @@ PrefabInstance:
     - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3306463087459986526, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_LocalScale.x
@@ -3667,6 +3807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3306463087459986526, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0440258
@@ -3737,6 +3881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8179201
@@ -3802,6 +3950,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -3928,6 +4080,10 @@ PrefabInstance:
     - target: {fileID: 7648486373114563465, guid: 047991ff5479716499a6446f09b95fd9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Clump09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648486373114563465, guid: 047991ff5479716499a6446f09b95fd9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4149,6 +4305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5985482276772299946, guid: 5871ee517e0bb954286a80408f6f88a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6366793306476158480, guid: 5871ee517e0bb954286a80408f6f88a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 416.7
@@ -4211,6 +4371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC06
       objectReference: {fileID: 0}
+    - target: {fileID: 5039673265894987724, guid: 7af174093b8f43a4eaf17a3bad22f027, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5673221128072744310, guid: 7af174093b8f43a4eaf17a3bad22f027, type: 3}
       propertyPath: m_LocalPosition.x
       value: 377.66956
@@ -4272,6 +4436,10 @@ PrefabInstance:
     - target: {fileID: 345191623147039943, guid: 4a7ff218f884f22419f6ba46aa38bc8d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf05
+      objectReference: {fileID: 0}
+    - target: {fileID: 345191623147039943, guid: 4a7ff218f884f22419f6ba46aa38bc8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1117329623197087357, guid: 4a7ff218f884f22419f6ba46aa38bc8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4375,6 +4543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4437,6 +4609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf03
       objectReference: {fileID: 0}
+    - target: {fileID: 6751965776232230790, guid: feabf2e6fb3319b4bad702b86bbac208, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4458,6 +4634,10 @@ PrefabInstance:
     - target: {fileID: 3487842617200279026, guid: 6873461fb5dd04c469c3f2a91992e96a, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487842617200279026, guid: 6873461fb5dd04c469c3f2a91992e96a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4263957550988306248, guid: 6873461fb5dd04c469c3f2a91992e96a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4532,6 +4712,10 @@ PrefabInstance:
     - target: {fileID: 5039673265894987724, guid: 7af174093b8f43a4eaf17a3bad22f027, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039673265894987724, guid: 7af174093b8f43a4eaf17a3bad22f027, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5673221128072744310, guid: 7af174093b8f43a4eaf17a3bad22f027, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4721,6 +4905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 704277728301726414, guid: 90d53f6559a707746a2be6c8da761447, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4783,6 +4971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Platform02
       objectReference: {fileID: 0}
+    - target: {fileID: 4482488794961005953, guid: 76039d8905eb7b248ba0695951f88743, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4804,6 +4996,10 @@ PrefabInstance:
     - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928932805286526245, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4866,6 +5062,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4978,6 +5178,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5115,6 +5319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 149.9
@@ -5217,6 +5425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Clump08 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5610144019180550367, guid: 1c4fcf6ec6310df44b92a8f2b38ddfbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5238,6 +5450,10 @@ PrefabInstance:
     - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2125346162922037134, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5353,6 +5569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7512644194076862626, guid: 6af230f498ccbee41b9949570ecbce64, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5415,6 +5635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Rock12
       objectReference: {fileID: 0}
+    - target: {fileID: 4477173318855469476, guid: b02b7484f240a0544b21b4de9702b7cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5476,6 +5700,10 @@ PrefabInstance:
     - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5663,6 +5891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Clump08
       objectReference: {fileID: 0}
+    - target: {fileID: 5610144019180550367, guid: 1c4fcf6ec6310df44b92a8f2b38ddfbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5803,6 +6035,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5991,6 +6227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered07
       objectReference: {fileID: 0}
+    - target: {fileID: 704277728301726414, guid: 90d53f6559a707746a2be6c8da761447, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6012,6 +6252,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -6168,6 +6412,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6369,6 +6617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6483,6 +6735,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -6602,6 +6858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6517410582707778982, guid: 116b17d2b7ff96046a130ca9b729e1f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6623,6 +6883,10 @@ PrefabInstance:
     - target: {fileID: 5120514292134906007, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120514292134906007, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5495632013026349613, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6726,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4103409831580440951, guid: e73f40e01a5a0af429bf276caa2f71be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6747,6 +7015,10 @@ PrefabInstance:
     - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6850,6 +7122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7547696149058588018, guid: ee2dc1962c226fc44b694f28e4da7a78, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6871,6 +7147,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -6945,6 +7225,10 @@ PrefabInstance:
     - target: {fileID: 2786911307979069200, guid: a43d9f2c799f903418b07e4aa96f00cb, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Hoodoo05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786911307979069200, guid: a43d9f2c799f903418b07e4aa96f00cb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3307552790979333546, guid: a43d9f2c799f903418b07e4aa96f00cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7155,6 +7439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 418.3
@@ -7260,6 +7548,10 @@ PrefabInstance:
     - target: {fileID: 6517410582707778982, guid: 116b17d2b7ff96046a130ca9b729e1f0, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517410582707778982, guid: 116b17d2b7ff96046a130ca9b729e1f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7455,6 +7747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1957692640489502737, guid: 8c01e84cbb4d80540b93c6a1cc29d4dc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7476,6 +7772,10 @@ PrefabInstance:
     - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2125346162922037134, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7549,6 +7849,10 @@ PrefabInstance:
     - target: {fileID: 3485504309852810289, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485504309852810289, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4257360834842261131, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
       propertyPath: m_LocalScale.x
@@ -7667,6 +7971,10 @@ PrefabInstance:
     - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7954,6 +8262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8016,6 +8328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7547696149058588018, guid: ee2dc1962c226fc44b694f28e4da7a78, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8037,6 +8353,10 @@ PrefabInstance:
     - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalScale.x
@@ -8351,6 +8671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870175046590206402, guid: f6b333725a2c5524a808b2e6f6b61c3d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8372,6 +8696,10 @@ PrefabInstance:
     - target: {fileID: 3485504309852810289, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485504309852810289, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4257360834842261131, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8434,6 +8762,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -8549,6 +8881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA07
       objectReference: {fileID: 0}
+    - target: {fileID: 7512644194076862626, guid: 6af230f498ccbee41b9949570ecbce64, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8570,6 +8906,10 @@ PrefabInstance:
     - target: {fileID: 6181942661488786254, guid: f5b998153309cd341b7c9b6eb0b13f37, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181942661488786254, guid: f5b998153309cd341b7c9b6eb0b13f37, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6809861226201309684, guid: f5b998153309cd341b7c9b6eb0b13f37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8770,6 +9110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC02
       objectReference: {fileID: 0}
+    - target: {fileID: 6517410582707778982, guid: 116b17d2b7ff96046a130ca9b729e1f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8791,6 +9135,10 @@ PrefabInstance:
     - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3004374690026507648, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_LocalScale.x
@@ -8866,6 +9214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Hoodoo14
       objectReference: {fileID: 0}
+    - target: {fileID: 5042314572866062373, guid: ba5137abb6e240d4e8ac5f54fdfe5688, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5670655143964922527, guid: ba5137abb6e240d4e8ac5f54fdfe5688, type: 3}
       propertyPath: m_LocalPosition.x
       value: 339.67715
@@ -8927,6 +9279,10 @@ PrefabInstance:
     - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4157379404897701142, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9029,6 +9385,10 @@ PrefabInstance:
     - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9339,6 +9699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9360,6 +9724,10 @@ PrefabInstance:
     - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9423,6 +9791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Hoodoo11
       objectReference: {fileID: 0}
+    - target: {fileID: 5906837966807548848, guid: 572de55912391cc43adbf24c0ab164dc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6535459153893824778, guid: 572de55912391cc43adbf24c0ab164dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 398.8
@@ -9485,6 +9857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5120514292134906007, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5495632013026349613, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 101.4
@@ -9546,6 +9922,10 @@ PrefabInstance:
     - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600308110927676724, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2125346162922037134, guid: 4eb5eec67a4805f4e8a281128f47a262, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9648,6 +10028,10 @@ PrefabInstance:
     - target: {fileID: 4103409831580440951, guid: e73f40e01a5a0af429bf276caa2f71be, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103409831580440951, guid: e73f40e01a5a0af429bf276caa2f71be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9799,6 +10183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Clump10
       objectReference: {fileID: 0}
+    - target: {fileID: 4740697002206627139, guid: 6f3f8953490990146a45f5ffdc1138fb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368719990545014777, guid: 6f3f8953490990146a45f5ffdc1138fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 273.39
@@ -9861,6 +10249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Platform03
       objectReference: {fileID: 0}
+    - target: {fileID: 3859156544856379221, guid: a02125a5c41993545a803c3f9ef44ac6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4523209154562201071, guid: a02125a5c41993545a803c3f9ef44ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 121.3
@@ -9922,6 +10314,10 @@ PrefabInstance:
     - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5324606645738164415, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_LocalScale.x
@@ -10037,6 +10433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7512644194076862626, guid: 6af230f498ccbee41b9949570ecbce64, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10058,6 +10458,10 @@ PrefabInstance:
     - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5324606645738164415, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_LocalScale.x
@@ -10132,6 +10536,10 @@ PrefabInstance:
     - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8681585021681199220, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10247,6 +10655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf04
       objectReference: {fileID: 0}
+    - target: {fileID: 6746818603909149480, guid: 8109d8a68c56d9d4b8b59be9aac2c009, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10268,6 +10680,10 @@ PrefabInstance:
     - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928932805286526245, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10330,6 +10746,10 @@ PrefabInstance:
     - target: {fileID: 512616938666244704, guid: f13090f3026b7a548a6921919a389738, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf09
+      objectReference: {fileID: 0}
+    - target: {fileID: 512616938666244704, guid: f13090f3026b7a548a6921919a389738, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 889178143036596442, guid: f13090f3026b7a548a6921919a389738, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10429,6 +10849,10 @@ PrefabInstance:
     - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffC04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10624,6 +11048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalPosition.x
       value: 325
@@ -10796,6 +11224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Platform04
       objectReference: {fileID: 0}
+    - target: {fileID: 4201774858397048837, guid: ed5a7808236f38841b5956f4f98b3148, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10817,6 +11249,10 @@ PrefabInstance:
     - target: {fileID: 5120514292134906007, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120514292134906007, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5495632013026349613, guid: aefdfa22a2fed084eb09ef804508e6d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10879,6 +11315,10 @@ PrefabInstance:
     - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalScale.x
@@ -10954,6 +11394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB04
       objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4773
@@ -11027,6 +11471,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -11164,6 +11612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB03
       objectReference: {fileID: 0}
+    - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4157379404897701142, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4773
@@ -11238,6 +11690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB07
       objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 550.5
@@ -11299,6 +11755,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -11414,6 +11874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA06
       objectReference: {fileID: 0}
+    - target: {fileID: 7547696149058588018, guid: ee2dc1962c226fc44b694f28e4da7a78, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11435,6 +11899,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -11509,6 +11977,10 @@ PrefabInstance:
     - target: {fileID: 2801358995334228398, guid: 537782686acaef14ba4a1f75957ba3aa, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801358995334228398, guid: 537782686acaef14ba4a1f75957ba3aa, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3290932333389918996, guid: 537782686acaef14ba4a1f75957ba3aa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11680,6 +12152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.7099869
@@ -11847,6 +12323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2801358995334228398, guid: 537782686acaef14ba4a1f75957ba3aa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3290932333389918996, guid: 537782686acaef14ba4a1f75957ba3aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -371.2
@@ -11961,6 +12441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB05
       objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11982,6 +12466,10 @@ PrefabInstance:
     - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4157379404897701142, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_LocalScale.x
@@ -12080,6 +12568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_HoodooCliff08
       objectReference: {fileID: 0}
+    - target: {fileID: 7486123871743920420, guid: dcded3c6a4a884242ad7fc9b25c19790, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7831721626066359198, guid: dcded3c6a4a884242ad7fc9b25c19790, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.8054799
@@ -12145,6 +12637,10 @@ PrefabInstance:
     - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12248,6 +12744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6517410582707778982, guid: 116b17d2b7ff96046a130ca9b729e1f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12269,6 +12769,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12384,6 +12888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_HoodooCliff09
       objectReference: {fileID: 0}
+    - target: {fileID: 4197097380535184621, guid: cf42d432883fba842944f3fb1abcad44, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12458,6 +12966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1957692640489502737, guid: 8c01e84cbb4d80540b93c6a1cc29d4dc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12524,6 +13036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA02
       objectReference: {fileID: 0}
+    - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12586,6 +13102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12607,6 +13127,10 @@ PrefabInstance:
     - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673294790310729644, guid: c567219606d248547bc6bfbdebf14065, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4157379404897701142, guid: c567219606d248547bc6bfbdebf14065, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12670,6 +13194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 928932805286526245, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 337.2
@@ -12731,6 +13259,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12846,6 +13378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12960,6 +13496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 478.7
@@ -13021,6 +13561,10 @@ PrefabInstance:
     - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA03
+      objectReference: {fileID: 0}
+    - target: {fileID: 553920602570696607, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928932805286526245, guid: 3b02d64ff20478d4c9a3cfb97c35d32f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13158,6 +13702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8432383806985670167, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9101221559759230125, guid: 1c4511d234b6aed478916baa3577bc39, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5326
@@ -13264,6 +13812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13338,6 +13890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered02
       objectReference: {fileID: 0}
+    - target: {fileID: 3402899084818604444, guid: cde8f7bf12937f440b9452061d066c77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13359,6 +13915,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -13486,6 +14046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870175046590206402, guid: f6b333725a2c5524a808b2e6f6b61c3d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13507,7 +14071,7 @@ GameObject:
   - component: {fileID: 1779826392}
   - component: {fileID: 1779826391}
   - component: {fileID: 1779826390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13641,6 +14205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 813667603332644023, guid: 479dbeae93b95414ba43a6d10b8ef368, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13662,6 +14230,10 @@ PrefabInstance:
     - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3004374690026507648, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13756,6 +14328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190974002865289084, guid: 0825e712e51009541a9268992563f3b3, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7530203763327036870, guid: 0825e712e51009541a9268992563f3b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3940498
@@ -13830,6 +14406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -13896,6 +14476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA04 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8681585021681199220, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 275.1
@@ -13958,6 +14542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA04
       objectReference: {fileID: 0}
+    - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8681585021681199220, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 338.0828
@@ -14019,6 +14607,10 @@ PrefabInstance:
     - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
@@ -14134,6 +14726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772048256431376403, guid: f520cf6c012530c40b53bd649c959ddf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14195,6 +14791,10 @@ PrefabInstance:
     - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447393534754178569, guid: d04d5da207cee94468793b553abc6b46, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14258,6 +14858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffC08
       objectReference: {fileID: 0}
+    - target: {fileID: 1783689358969790965, guid: 47ab6f501bdc19249a8495b6d28b58e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14279,6 +14883,10 @@ PrefabInstance:
     - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffA04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300414729530684110, guid: af22b6883099f15478bfbf8e630391af, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8681585021681199220, guid: af22b6883099f15478bfbf8e630391af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14403,6 +15011,10 @@ PrefabInstance:
     - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785821634505619172, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3306463087459986526, guid: 73cc19d5bda8ff645aaeb8775aaacacf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14575,6 +15187,10 @@ PrefabInstance:
     - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -14901,6 +15517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB06
       objectReference: {fileID: 0}
+    - target: {fileID: 3485504309852810289, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4257360834842261131, guid: 7f7ae57e63b50d54ab26aca999f34d41, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4773
@@ -14975,6 +15595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf04
       objectReference: {fileID: 0}
+    - target: {fileID: 7190974002865289084, guid: 0825e712e51009541a9268992563f3b3, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7530203763327036870, guid: 0825e712e51009541a9268992563f3b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1326
@@ -15048,6 +15672,10 @@ PrefabInstance:
     - target: {fileID: 5930469976024273251, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Platform01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930469976024273251, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6414977074011540441, guid: 40f0b5c36850be34791c488030f343bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15151,6 +15779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Layered06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772048256431376403, guid: f520cf6c012530c40b53bd649c959ddf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15172,6 +15804,10 @@ PrefabInstance:
     - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15235,6 +15871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA05
       objectReference: {fileID: 0}
+    - target: {fileID: 5985482276772299946, guid: 5871ee517e0bb954286a80408f6f88a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6366793306476158480, guid: 5871ee517e0bb954286a80408f6f88a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 451.2943
@@ -15296,6 +15936,10 @@ PrefabInstance:
     - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489445349456924255, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7828393536107353317, guid: 9e3f3fca1f9cef94e96ff380cea43475, type: 3}
       propertyPath: m_LocalScale.x
@@ -15371,6 +16015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB04 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6172041556840280747, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6840035125134731281, guid: 4f4f8755acbab2145a42b4647e48d8f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 366.30002
@@ -15432,6 +16080,10 @@ PrefabInstance:
     - target: {fileID: 7190974002865289084, guid: 0825e712e51009541a9268992563f3b3, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190974002865289084, guid: 0825e712e51009541a9268992563f3b3, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7530203763327036870, guid: 0825e712e51009541a9268992563f3b3, type: 3}
       propertyPath: m_LocalScale.x
@@ -15506,6 +16158,10 @@ PrefabInstance:
     - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Shelf05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805091368375945733, guid: 172837924b12fd240b8684cb871d1451, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5324606645738164415, guid: 172837924b12fd240b8684cb871d1451, type: 3}
       propertyPath: m_LocalScale.x
@@ -15621,6 +16277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Clump09 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7648486373114563465, guid: 047991ff5479716499a6446f09b95fd9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15642,6 +16302,10 @@ PrefabInstance:
     - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalScale.x
@@ -15791,6 +16455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Shelf02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178059228740750339, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5519154486456014521, guid: 6d9240274890ddd499266b9894a9a14f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3358998
@@ -15905,6 +16573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_Hoodoo13
       objectReference: {fileID: 0}
+    - target: {fileID: 2252065097379080260, guid: e9757691139093e4593eed0cb67ef7cb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15926,6 +16598,10 @@ PrefabInstance:
     - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB07 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840191595192548019, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3180020284550815753, guid: 7cfe35a097092974eac7b0e1c0ed3eb4, type: 3}
       propertyPath: m_LocalScale.z
@@ -16112,6 +16788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16133,6 +16813,10 @@ PrefabInstance:
     - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffB02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265772121604712140, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8790528805172362358, guid: 5238f4aa5e90cb347af4ecedcbae399d, type: 3}
       propertyPath: m_LocalScale.x
@@ -16248,6 +16932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffB05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6778500180732904001, guid: d5ad7f6c1d403764baa5dc39bd3b6bc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16309,6 +16997,10 @@ PrefabInstance:
     - target: {fileID: 1957692640489502737, guid: 8c01e84cbb4d80540b93c6a1cc29d4dc, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_Layered04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1957692640489502737, guid: 8c01e84cbb4d80540b93c6a1cc29d4dc, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16372,6 +17064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockDesert_CliffA01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5261609866230775145, guid: 4808f84adfbd48c4c9bb040b700eecd6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16393,6 +17089,10 @@ PrefabInstance:
     - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_Name
       value: P_RockDesert_CliffHalf02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520465962067826490, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3004374690026507648, guid: e274fd48fa6b32940b4b35f2b47136e6, type: 3}
       propertyPath: m_LocalPosition.x

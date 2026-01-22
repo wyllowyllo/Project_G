@@ -245,6 +245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3253197085401288815, guid: 3d8476667fd6b404bbff72d043c5cc24, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -266,6 +270,10 @@ PrefabInstance:
     - target: {fileID: 3779119016842992634, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779119016842992634, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4555936474140885312, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
       propertyPath: m_LocalScale.x
@@ -340,6 +348,10 @@ PrefabInstance:
     - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5644232534040655015, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -443,6 +455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5698875468988295707, guid: 0f510b78d156c09468e8a0c90a125158, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6059177115131284430, guid: 0f510b78d156c09468e8a0c90a125158, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -468,6 +484,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -587,6 +607,10 @@ PrefabInstance:
     - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8464094879738757965, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -790,6 +814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -926,6 +954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -987,6 +1019,10 @@ PrefabInstance:
     - target: {fileID: 923552426024864943, guid: 4b76de5d81e2f9e4396ad254c0d33c0c, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB07
+      objectReference: {fileID: 0}
+    - target: {fileID: 923552426024864943, guid: 4b76de5d81e2f9e4396ad254c0d33c0c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1061,6 +1097,10 @@ PrefabInstance:
     - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8464094879738757965, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1252,6 +1292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock06
       objectReference: {fileID: 0}
+    - target: {fileID: 3721259015199753643, guid: 7bfb3ad3d222d28498413f51018fe77d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4102570315417378577, guid: 7bfb3ad3d222d28498413f51018fe77d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -277.5
@@ -1354,6 +1398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock14 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9161358086506460495, guid: 5bd9d2b028128074697bf455777fd64e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1375,6 +1423,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1437,6 +1489,10 @@ PrefabInstance:
     - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 817084151156229537, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1602,6 +1658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1668,6 +1728,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1753,6 +1817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -354.5
@@ -1814,6 +1882,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -1966,6 +2038,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2204,6 +2280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7649078134799313203, guid: 81a9a2cd3e22e7a4aab8ead7cda2d0f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2225,6 +2305,10 @@ PrefabInstance:
     - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7832346728337760896, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_LocalScale.x
@@ -2299,6 +2383,10 @@ PrefabInstance:
     - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalScale.x
@@ -2526,6 +2614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2600,6 +2692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2625,6 +2721,10 @@ PrefabInstance:
     - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7832346728337760896, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2687,6 +2787,10 @@ PrefabInstance:
     - target: {fileID: 6052993893720890737, guid: c552334fa838f5542a510985fd73b640, type: 3}
       propertyPath: m_Name
       value: P_RockClumpClassic4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052993893720890737, guid: c552334fa838f5542a510985fd73b640, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6866684641418921931, guid: c552334fa838f5542a510985fd73b640, type: 3}
       propertyPath: m_LocalScale.x
@@ -2761,6 +2865,10 @@ PrefabInstance:
     - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2076434368394355700, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2926,6 +3034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic7 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5274386797110210762, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5922970908354154783, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3054,6 +3166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3128,6 +3244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3253197085401288815, guid: 3d8476667fd6b404bbff72d043c5cc24, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3149,6 +3269,10 @@ PrefabInstance:
     - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3337,6 +3461,10 @@ PrefabInstance:
     - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3548,6 +3676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3610,6 +3742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3631,6 +3767,10 @@ PrefabInstance:
     - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6475433559221084546, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3693,6 +3833,10 @@ PrefabInstance:
     - target: {fileID: 2678328572102290975, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678328572102290975, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3341817200454399141, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3897,6 +4041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.106762
@@ -4066,6 +4214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05
       objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5794785
@@ -4195,6 +4347,10 @@ PrefabInstance:
     - target: {fileID: 4087037822721297649, guid: d310626b238bdbf47939a55c83995d18, type: 3}
       propertyPath: m_Name
       value: P_RockClassic14 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087037822721297649, guid: d310626b238bdbf47939a55c83995d18, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4350,6 +4506,10 @@ PrefabInstance:
     - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire08 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4630,6 +4790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4707,6 +4871,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4844,6 +5012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2229639253493036714, guid: ec8f15a3f1edd0f44bed3906bc67c79c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4932,6 +5104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1523585502475747228, guid: 02e02fb47f6b7a64f9c6ed3d90e77e7e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2192985140054992166, guid: 02e02fb47f6b7a64f9c6ed3d90e77e7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -292.98
@@ -4998,6 +5174,10 @@ PrefabInstance:
     - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalScale.x
@@ -5073,6 +5253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132.8
@@ -5135,6 +5319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -330.2563
@@ -5196,6 +5384,10 @@ PrefabInstance:
     - target: {fileID: 3865893228223758330, guid: 383e54566b21c264e96dd7f2ff3cf4fe, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Piece14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865893228223758330, guid: 383e54566b21c264e96dd7f2ff3cf4fe, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4534484651387725120, guid: 383e54566b21c264e96dd7f2ff3cf4fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5461,6 +5653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock15
       objectReference: {fileID: 0}
+    - target: {fileID: 8296511015247747546, guid: 10b2c9b7a039edb4c9d151412281b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8676448991602623328, guid: 10b2c9b7a039edb4c9d151412281b9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -263.51
@@ -5636,6 +5832,10 @@ PrefabInstance:
     - target: {fileID: 3373825303622724339, guid: 85adb98a94ba6fe40a545c8bc8db35a1, type: 3}
       propertyPath: m_Name
       value: P_RockClumpClassic6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373825303622724339, guid: 85adb98a94ba6fe40a545c8bc8db35a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5859,6 +6059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClumpClassic6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3373825303622724339, guid: 85adb98a94ba6fe40a545c8bc8db35a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3878373666903788326, guid: 85adb98a94ba6fe40a545c8bc8db35a1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5946,6 +6150,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6083,6 +6291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.3324541
@@ -6148,6 +6360,10 @@ PrefabInstance:
     - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6814258484192646890, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6312,6 +6528,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6561,6 +6781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75250995
@@ -6675,6 +6899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6696,6 +6924,10 @@ PrefabInstance:
     - target: {fileID: 6329284970833949866, guid: 30340d5b4566a81419bb30a2cf03e295, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Rock19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329284970833949866, guid: 30340d5b4566a81419bb30a2cf03e295, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6673757993549884944, guid: 30340d5b4566a81419bb30a2cf03e295, type: 3}
       propertyPath: m_LocalScale.x
@@ -6775,6 +7007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -229.7
@@ -6836,6 +7072,10 @@ PrefabInstance:
     - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5644232534040655015, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6951,6 +7191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7649078134799313203, guid: 81a9a2cd3e22e7a4aab8ead7cda2d0f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7024,6 +7268,10 @@ PrefabInstance:
     - target: {fileID: 688540476610337858, guid: 80826f7415ef77d498f52ed409d91c29, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Rock17
+      objectReference: {fileID: 0}
+    - target: {fileID: 688540476610337858, guid: 80826f7415ef77d498f52ed409d91c29, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7099,6 +7347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf04
       objectReference: {fileID: 0}
+    - target: {fileID: 6894927825529532524, guid: 0b4666bbe5ebd4a4bab6441ce6646a08, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7172,6 +7424,10 @@ PrefabInstance:
     - target: {fileID: 923552426024864943, guid: 4b76de5d81e2f9e4396ad254c0d33c0c, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 923552426024864943, guid: 4b76de5d81e2f9e4396ad254c0d33c0c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7256,6 +7512,10 @@ PrefabInstance:
     - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980848393111891485, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5644232534040655015, guid: eadc38d60e145bb4094d9b2579eb3a0a, type: 3}
       propertyPath: m_LocalScale.x
@@ -7371,6 +7631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7432,6 +7696,10 @@ PrefabInstance:
     - target: {fileID: 4293342751216241336, guid: ad83a5b41caf7ea4283c8d55b3762587, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Spire06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4293342751216241336, guid: ad83a5b41caf7ea4283c8d55b3762587, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7573,6 +7841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic7 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5274386797110210762, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7634,6 +7906,10 @@ PrefabInstance:
     - target: {fileID: 5605780139463839181, guid: 4509d12a7c6de174e9b75e174ce1ee1f, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605780139463839181, guid: 4509d12a7c6de174e9b75e174ce1ee1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7966,6 +8242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.925564
@@ -8068,6 +8348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClassic7
       objectReference: {fileID: 0}
+    - target: {fileID: 1771175319645874434, guid: a106f21ac43242f4981fcaf37cd18911, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8134,6 +8418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8159,6 +8447,10 @@ PrefabInstance:
     - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8265,6 +8557,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8407,6 +8703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -8485,6 +8785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8547,6 +8851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8573,6 +8881,10 @@ PrefabInstance:
     - target: {fileID: 2773065479691524994, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks09 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773065479691524994, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3256165134524547384, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8804,6 +9116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8878,6 +9194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8899,6 +9219,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -9036,6 +9360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6860507924018018969, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1061
@@ -9149,6 +9477,10 @@ PrefabInstance:
     - target: {fileID: 5754640554391399677, guid: c8a7d33edfa4d5a4db98350324ecc858, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Piece02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754640554391399677, guid: c8a7d33edfa4d5a4db98350324ecc858, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9956,6 +10288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9977,6 +10313,10 @@ PrefabInstance:
     - target: {fileID: 2773065479691524994, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks09 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773065479691524994, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3256165134524547384, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10102,6 +10442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB09 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2656903710776071629, guid: 31ced9f1edb39e949a5d98d9928671df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3428619708206272375, guid: 31ced9f1edb39e949a5d98d9928671df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -215.68
@@ -10216,6 +10560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10237,6 +10585,10 @@ PrefabInstance:
     - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2921837701642250348, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_LocalScale.x
@@ -10426,6 +10778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10583,6 +10939,10 @@ PrefabInstance:
     - target: {fileID: 2043198889429886255, guid: 64f61502c6ef8804e937f9d51f37f5dd, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043198889429886255, guid: 64f61502c6ef8804e937f9d51f37f5dd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10774,6 +11134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10898,6 +11262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10959,6 +11327,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11093,6 +11465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -11122,6 +11498,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.y
@@ -11369,6 +11749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11390,6 +11774,10 @@ PrefabInstance:
     - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6475433559221084546, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11493,6 +11881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic5
       objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11514,6 +11906,10 @@ PrefabInstance:
     - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11711,6 +12107,10 @@ PrefabInstance:
     - target: {fileID: 106848542631262763, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Platform03
+      objectReference: {fileID: 0}
+    - target: {fileID: 106848542631262763, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 734168663329710225, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11950,6 +12350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB12 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4765407334505203234, guid: e96bc32144a59a64895eba25880fab89, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5290023207851072664, guid: e96bc32144a59a64895eba25880fab89, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1591
@@ -12063,6 +12467,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -12266,6 +12674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire05
       objectReference: {fileID: 0}
+    - target: {fileID: 692400929469224367, guid: 737e312e8ecd3d7419418a25b9ce29a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12340,6 +12752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8511191981980789685, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -12369,6 +12785,10 @@ PrefabInstance:
     - target: {fileID: 3779119016842992634, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779119016842992634, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4555936474140885312, guid: 54c4970544fc105469e5ac007eb0a877, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12432,6 +12852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks09
       objectReference: {fileID: 0}
+    - target: {fileID: 2773065479691524994, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3256165134524547384, guid: 66126d16a9fba2d4893c099281ae4896, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.586272
@@ -12493,6 +12917,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -12701,6 +13129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12762,6 +13194,10 @@ PrefabInstance:
     - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3523232099396012286, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -12829,6 +13265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12891,6 +13331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8511191981980789685, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -12916,6 +13360,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13019,6 +13467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13103,6 +13555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.808715
@@ -13164,6 +13620,10 @@ PrefabInstance:
     - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8033121647147035334, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_LocalScale.x
@@ -13291,6 +13751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClumpClassic6 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3373825303622724339, guid: 85adb98a94ba6fe40a545c8bc8db35a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13415,6 +13879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13506,6 +13974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7832346728337760896, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2627357
@@ -13579,6 +14051,10 @@ PrefabInstance:
     - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 817084151156229537, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13681,6 +14157,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13983,6 +14463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14004,6 +14488,10 @@ PrefabInstance:
     - target: {fileID: 1594931601385444933, guid: d6f341d3e3254654b98dc14b7b98d2c0, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1594931601385444933, guid: d6f341d3e3254654b98dc14b7b98d2c0, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2119371866458000639, guid: d6f341d3e3254654b98dc14b7b98d2c0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14186,6 +14674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14329,6 +14821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14398,6 +14894,10 @@ PrefabInstance:
     - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14483,6 +14983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC04
       objectReference: {fileID: 0}
+    - target: {fileID: 1523585502475747228, guid: 02e02fb47f6b7a64f9c6ed3d90e77e7e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2192985140054992166, guid: 02e02fb47f6b7a64f9c6ed3d90e77e7e, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1326001
@@ -14561,6 +15065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire03
       objectReference: {fileID: 0}
+    - target: {fileID: 8179887556120836141, guid: 916871589e2345c4698bfc6ce57f4e56, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8849323438922801815, guid: 916871589e2345c4698bfc6ce57f4e56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 111.97
@@ -14626,6 +15134,10 @@ PrefabInstance:
     - target: {fileID: 3473311212655498457, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
       propertyPath: m_Name
       value: P_RockClassic4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473311212655498457, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285314175976476259, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
       propertyPath: m_LocalScale.x
@@ -14741,6 +15253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14803,6 +15319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14824,6 +15344,10 @@ PrefabInstance:
     - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalScale.z
@@ -15027,6 +15551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.652107
@@ -15141,6 +15669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire08 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15162,6 +15694,10 @@ PrefabInstance:
     - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic6 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7663241641118216952, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_LocalScale.x
@@ -15244,6 +15780,10 @@ PrefabInstance:
     - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3243745648039455075, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_LocalScale.x
@@ -15359,6 +15899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15425,6 +15969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15486,6 +16034,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15552,6 +16104,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15775,6 +16331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClump04
       objectReference: {fileID: 0}
+    - target: {fileID: 3035973402508806583, guid: f2057ec72ee80c845a6327b221a3f93b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3540125940551903330, guid: f2057ec72ee80c845a6327b221a3f93b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -15800,6 +16360,10 @@ PrefabInstance:
     - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6475433559221084546, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15965,6 +16529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16026,6 +16594,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -16167,6 +16739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 630276163297250995, guid: 0c3c7bf867cbd3e4088338d888ad8f0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1423081016063766374, guid: 0c3c7bf867cbd3e4088338d888ad8f0a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -16241,6 +16817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16302,6 +16882,10 @@ PrefabInstance:
     - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16427,6 +17011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16525,6 +17113,10 @@ PrefabInstance:
     - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16640,6 +17232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 630276163297250995, guid: 0c3c7bf867cbd3e4088338d888ad8f0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16701,6 +17297,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -16904,6 +17504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB08 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16977,6 +17581,10 @@ PrefabInstance:
     - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17062,6 +17670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire01
       objectReference: {fileID: 0}
+    - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 817084151156229537, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -197
@@ -17123,6 +17735,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -17393,6 +18009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock08
       objectReference: {fileID: 0}
+    - target: {fileID: 4390968693096401439, guid: 8d4a62a9034dae341a4ad6d473b65d7f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17414,6 +18034,10 @@ PrefabInstance:
     - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17517,6 +18141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Platform04
       objectReference: {fileID: 0}
+    - target: {fileID: 7806689270098499426, guid: 3944f4cff998a8d45ba8e8433a2d32ed, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17595,6 +18223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic7 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5274386797110210762, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5922970908354154783, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -17661,6 +18293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 923552426024864943, guid: 4b76de5d81e2f9e4396ad254c0d33c0c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17682,6 +18318,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17919,6 +18559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6860507924018018969, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3446997
@@ -17992,6 +18636,10 @@ PrefabInstance:
     - target: {fileID: 1508578208601090085, guid: 8f234cb8ac0a18f4287c821fb24da0a7, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Piece12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508578208601090085, guid: 8f234cb8ac0a18f4287c821fb24da0a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2280047709792531103, guid: 8f234cb8ac0a18f4287c821fb24da0a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18107,6 +18755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18128,6 +18780,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18190,6 +18846,10 @@ PrefabInstance:
     - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18404,6 +19064,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18744,6 +19408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic6 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7663241641118216952, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3712001
@@ -18909,6 +19577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18930,6 +19602,10 @@ PrefabInstance:
     - target: {fileID: 7017169203769084162, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
       propertyPath: m_Name
       value: P_RockClumpClassic3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017169203769084162, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7649978159454475192, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
       propertyPath: m_LocalScale.x
@@ -19045,6 +19721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19066,6 +19746,10 @@ PrefabInstance:
     - target: {fileID: 2678328572102290975, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678328572102290975, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3341817200454399141, guid: 9015de009792e0845b23b6025f8ca1e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -19193,6 +19877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -19258,6 +19946,10 @@ PrefabInstance:
     - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19538,6 +20230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19678,6 +20374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19703,6 +20403,10 @@ PrefabInstance:
     - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalScale.y
@@ -19836,6 +20540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6475433559221084546, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.73582
@@ -19905,6 +20613,10 @@ PrefabInstance:
     - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8033121647147035334, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_LocalScale.x
@@ -20019,6 +20731,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20144,6 +20860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic7 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5274386797110210762, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20240,6 +20960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8033121647147035334, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.92045
@@ -20313,6 +21037,10 @@ PrefabInstance:
     - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20490,6 +21218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20551,6 +21283,10 @@ PrefabInstance:
     - target: {fileID: 5538158287399199561, guid: 230d9094799ef78429e911e514d317b6, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538158287399199561, guid: 230d9094799ef78429e911e514d317b6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6330796562565759644, guid: 230d9094799ef78429e911e514d317b6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -20651,6 +21387,10 @@ PrefabInstance:
     - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3243745648039455075, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_LocalScale.x
@@ -20964,6 +21704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC02
       objectReference: {fileID: 0}
+    - target: {fileID: 4108576231960150727, guid: 1f0189389903cfd4693990d8cdf845ea, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21025,6 +21769,10 @@ PrefabInstance:
     - target: {fileID: 2229639253493036714, guid: ec8f15a3f1edd0f44bed3906bc67c79c, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229639253493036714, guid: ec8f15a3f1edd0f44bed3906bc67c79c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21287,6 +22035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC03
       objectReference: {fileID: 0}
+    - target: {fileID: 7649078134799313203, guid: 81a9a2cd3e22e7a4aab8ead7cda2d0f0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21432,6 +22184,10 @@ PrefabInstance:
     - target: {fileID: 351720490677871901, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic1
+      objectReference: {fileID: 0}
+    - target: {fileID: 351720490677871901, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1128819387804221351, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
       propertyPath: m_LocalScale.x
@@ -21609,6 +22365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -21634,6 +22394,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -21749,6 +22513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21832,6 +22600,10 @@ PrefabInstance:
     - target: {fileID: 3473311212655498457, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
       propertyPath: m_Name
       value: P_RockClassic4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473311212655498457, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285314175976476259, guid: ea70d4a3acd095246ae3a1fafc052623, type: 3}
       propertyPath: m_LocalScale.x
@@ -21947,6 +22719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB04
       objectReference: {fileID: 0}
+    - target: {fileID: 901720598989117027, guid: ca3f760207bf87d499a16505b2a72ce9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1694323689845798838, guid: ca3f760207bf87d499a16505b2a72ce9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -22034,6 +22810,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -22219,6 +22999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2921837701642250348, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -142.4
@@ -22320,6 +23104,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22483,6 +23271,10 @@ PrefabInstance:
     - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalScale.x
@@ -22820,6 +23612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB08 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22881,6 +23677,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23049,6 +23849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire02
       objectReference: {fileID: 0}
+    - target: {fileID: 7784573661410916118, guid: fcce67e2e16dca144903fc9010c1733d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23110,6 +23914,10 @@ PrefabInstance:
     - target: {fileID: 4108576231960150727, guid: 1f0189389903cfd4693990d8cdf845ea, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpC02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108576231960150727, guid: 1f0189389903cfd4693990d8cdf845ea, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23173,6 +23981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23198,6 +24010,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.x
@@ -23387,6 +24203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClassic10
       objectReference: {fileID: 0}
+    - target: {fileID: 8694784502133668421, guid: df9377a77cb35fe47be92311b4cade76, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23471,6 +24291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -191.4
@@ -23532,6 +24356,10 @@ PrefabInstance:
     - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23639,6 +24467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23660,6 +24492,10 @@ PrefabInstance:
     - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7832346728337760896, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23789,6 +24625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf08 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1491348238596643592, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2304020013956546994, guid: d9396ed6e298ee449bf43206f11f214b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -287.6
@@ -23903,6 +24743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClump02
       objectReference: {fileID: 0}
+    - target: {fileID: 4371828255401535032, guid: 408ba442cb681d843b64ed1dfc6f456b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23924,6 +24768,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalScale.x
@@ -24117,6 +24965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24178,6 +25030,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24636,6 +25492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB08
       objectReference: {fileID: 0}
+    - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24698,6 +25558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24759,6 +25623,10 @@ PrefabInstance:
     - target: {fileID: 3415314278522273410, guid: 143c09acc6150454b8e5978c608a61ea, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Piece03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415314278522273410, guid: 143c09acc6150454b8e5978c608a61ea, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24917,6 +25785,10 @@ PrefabInstance:
     - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic3 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429118667063086452, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3097955522643531726, guid: 78edcc088dee4ad42b6b945e4b37a930, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25094,6 +25966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25115,6 +25991,10 @@ PrefabInstance:
     - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760647024266982361, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3243745648039455075, guid: 173744a806cd9db4bb78d8c523162bf9, type: 3}
       propertyPath: m_LocalScale.x
@@ -25229,6 +26109,10 @@ PrefabInstance:
     - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25416,6 +26300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7784573661410916118, guid: fcce67e2e16dca144903fc9010c1733d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25437,6 +26325,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25499,6 +26391,10 @@ PrefabInstance:
     - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6814258484192646890, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_LocalScale.x
@@ -25688,6 +26584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 630276163297250995, guid: 0c3c7bf867cbd3e4088338d888ad8f0a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25766,6 +26666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25840,6 +26744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_BoulderClassic3
       objectReference: {fileID: 0}
+    - target: {fileID: 3155803217584034488, guid: cf74e8f10d973f04ab307266f2e78438, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25902,6 +26810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25923,6 +26835,10 @@ PrefabInstance:
     - target: {fileID: 7017169203769084162, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
       propertyPath: m_Name
       value: P_RockClumpClassic3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017169203769084162, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7649978159454475192, guid: 7c54db72bbfd31f4e90f9f271dc124a5, type: 3}
       propertyPath: m_LocalScale.x
@@ -25998,6 +26914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks02
       objectReference: {fileID: 0}
+    - target: {fileID: 3750443143770567388, guid: a2e4b7d911ef399439be71bacf5bffcb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4559772060385945702, guid: a2e4b7d911ef399439be71bacf5bffcb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.934563
@@ -26059,6 +26979,10 @@ PrefabInstance:
     - target: {fileID: 2468258185431759433, guid: 9c9447de94b75394592be89c39d83247, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468258185431759433, guid: 9c9447de94b75394592be89c39d83247, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2957408182238732531, guid: 9c9447de94b75394592be89c39d83247, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26125,6 +27049,10 @@ PrefabInstance:
     - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6860507924018018969, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_LocalScale.x
@@ -26251,6 +27179,10 @@ PrefabInstance:
     - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB08 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26380,6 +27312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26453,6 +27389,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26730,6 +27670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26751,6 +27695,10 @@ PrefabInstance:
     - target: {fileID: 106848542631262763, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Platform03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 106848542631262763, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 734168663329710225, guid: 064977018ac13ac4c9d968a59583174b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26851,6 +27799,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26954,6 +27906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6894927825529532524, guid: 0b4666bbe5ebd4a4bab6441ce6646a08, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27028,6 +27984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27089,6 +28049,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27164,6 +28128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB06
       objectReference: {fileID: 0}
+    - target: {fileID: 3253197085401288815, guid: 3d8476667fd6b404bbff72d043c5cc24, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27225,6 +28193,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27300,6 +28272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClumpClassic1
       objectReference: {fileID: 0}
+    - target: {fileID: 999086665677293196, guid: e97b98900f124c147b4f159c49ca5920, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27373,6 +28349,10 @@ PrefabInstance:
     - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8464094879738757965, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -27452,6 +28432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27477,6 +28461,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27580,6 +28568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire08 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3163203269643168043, guid: 1bc8fb6213c05ff4aa14941b13b3c159, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27601,6 +28593,10 @@ PrefabInstance:
     - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2076434368394355700, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27865,6 +28861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClumpClassic9
       objectReference: {fileID: 0}
+    - target: {fileID: 2723892136268015999, guid: 661e4c1dc44d24d48946f846a9686113, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3352619704841434053, guid: 661e4c1dc44d24d48946f846a9686113, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.429852
@@ -27938,6 +28938,10 @@ PrefabInstance:
     - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalScale.x
@@ -28289,6 +29293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28351,6 +29359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28376,6 +29388,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28491,6 +29507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28586,6 +29606,10 @@ PrefabInstance:
     - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28937,6 +29961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28958,6 +29986,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.x
@@ -29135,6 +30167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29156,6 +30192,10 @@ PrefabInstance:
     - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic6 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7663241641118216952, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_LocalScale.x
@@ -29282,6 +30322,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29589,6 +30633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.43999
@@ -29765,6 +30813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic7 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5274386797110210762, guid: c64049fdafcd8e0408a99fadf303f1c2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29826,6 +30878,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29922,6 +30978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -326.1
@@ -29984,6 +31044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_BoulderClassic5
       objectReference: {fileID: 0}
+    - target: {fileID: 7270559258662539535, guid: 645afe493a7ad4a4ba4e82e68f75c4de, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8047342867073616821, guid: 645afe493a7ad4a4ba4e82e68f75c4de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.92
@@ -30045,6 +31109,10 @@ PrefabInstance:
     - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2921837701642250348, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_LocalScale.x
@@ -30124,6 +31192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.94697
@@ -30198,6 +31270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf02
       objectReference: {fileID: 0}
+    - target: {fileID: 7492236568102680634, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7832346728337760896, guid: c29839311262fe84fb0454edf6d1393a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -232.69807
@@ -30259,6 +31335,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.y
@@ -30329,6 +31409,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30432,6 +31516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClassic16
       objectReference: {fileID: 0}
+    - target: {fileID: 7772095185396075608, guid: 3d058a9144d5ed143b7d76fff721dd31, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30457,6 +31545,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30560,6 +31652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic5 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30634,6 +31730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30695,6 +31795,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30824,6 +31928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30885,6 +31993,10 @@ PrefabInstance:
     - target: {fileID: 3415314278522273410, guid: 143c09acc6150454b8e5978c608a61ea, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Piece03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415314278522273410, guid: 143c09acc6150454b8e5978c608a61ea, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30960,6 +32072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31021,6 +32137,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31179,6 +32299,10 @@ PrefabInstance:
     - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic6 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994825826200283202, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7663241641118216952, guid: 994d8c338abc84b499a5d03216b8cccb, type: 3}
       propertyPath: m_LocalScale.x
@@ -31377,6 +32501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31472,6 +32600,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31600,6 +32732,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31839,6 +32975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -31905,6 +33045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31967,6 +33111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31988,6 +33136,10 @@ PrefabInstance:
     - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2921837701642250348, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_LocalScale.x
@@ -32107,6 +33259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32168,6 +33324,10 @@ PrefabInstance:
     - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32293,6 +33453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic6 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5404506105498546968, guid: 3759edc56b8f15d4f9d5f026b49f6078, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32354,6 +33518,10 @@ PrefabInstance:
     - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB08 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650210291427824652, guid: b8e54c45cea61f44f8ca30a8cf4ee65d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32496,6 +33664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32517,6 +33689,10 @@ PrefabInstance:
     - target: {fileID: 7193084024437464521, guid: 376015c860a078d478570c1550175661, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Spire04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193084024437464521, guid: 376015c860a078d478570c1550175661, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7537098761270560627, guid: 376015c860a078d478570c1550175661, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32744,6 +33920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32828,6 +34008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8033121647147035334, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.7641556
@@ -32901,6 +34085,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33026,6 +34214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8296511015247747546, guid: 10b2c9b7a039edb4c9d151412281b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8676448991602623328, guid: 10b2c9b7a039edb4c9d151412281b9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -284.37
@@ -33087,6 +34279,10 @@ PrefabInstance:
     - target: {fileID: 351720490677871901, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
       propertyPath: m_Name
       value: P_BoulderClassic1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 351720490677871901, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1128819387804221351, guid: 3bdd971261f50284dbcf9ad07cc75e0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33460,6 +34656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.76136
@@ -33537,6 +34737,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33644,6 +34848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33706,6 +34914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -33731,6 +34943,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalScale.x
@@ -33805,6 +35021,10 @@ PrefabInstance:
     - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34176,6 +35396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -93.49271
@@ -34237,6 +35461,10 @@ PrefabInstance:
     - target: {fileID: 3750443143770567388, guid: a2e4b7d911ef399439be71bacf5bffcb, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Rocks02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3750443143770567388, guid: a2e4b7d911ef399439be71bacf5bffcb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4559772060385945702, guid: a2e4b7d911ef399439be71bacf5bffcb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34498,6 +35726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 817084151156229537, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4243
@@ -34634,6 +35866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire01
       objectReference: {fileID: 0}
+    - target: {fileID: 1712250698730987945, guid: 20b031f75db564044af6c0eb98f2e15c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2056159710384896787, guid: 20b031f75db564044af6c0eb98f2e15c, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.9009601
@@ -34740,6 +35976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34803,6 +36043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Spire04
       objectReference: {fileID: 0}
+    - target: {fileID: 7193084024437464521, guid: 376015c860a078d478570c1550175661, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7537098761270560627, guid: 376015c860a078d478570c1550175661, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.59
@@ -34864,6 +36108,10 @@ PrefabInstance:
     - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire06 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464684722419145124, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4278095055462613790, guid: 7cecbe29e99bd294c9a647a40b34ef24, type: 3}
       propertyPath: m_LocalScale.x
@@ -34938,6 +36186,10 @@ PrefabInstance:
     - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalScale.x
@@ -35057,6 +36309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6894927825529532524, guid: 0b4666bbe5ebd4a4bab6441ce6646a08, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35123,6 +36379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35144,6 +36404,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalScale.x
@@ -35218,6 +36482,10 @@ PrefabInstance:
     - target: {fileID: 2656903710776071629, guid: 31ced9f1edb39e949a5d98d9928671df, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2656903710776071629, guid: 31ced9f1edb39e949a5d98d9928671df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3428619708206272375, guid: 31ced9f1edb39e949a5d98d9928671df, type: 3}
       propertyPath: m_LocalScale.x
@@ -35341,6 +36609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35424,6 +36696,10 @@ PrefabInstance:
     - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177172396416795, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 817084151156229537, guid: c650e0b7fb683ab4899b94364b1b1cbb, type: 3}
       propertyPath: m_LocalScale.x
@@ -35613,6 +36889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks01
       objectReference: {fileID: 0}
+    - target: {fileID: 5304419836391343180, guid: 0a4967e1d2ccc5b48939494f5c5307ce, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35787,6 +37067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35808,6 +37092,10 @@ PrefabInstance:
     - target: {fileID: 3577617813843308259, guid: 6bb2a5d82ad65f4429dd58756fa293e1, type: 3}
       propertyPath: m_Name
       value: P_RockClassic8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577617813843308259, guid: 6bb2a5d82ad65f4429dd58756fa293e1, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4246209310101419097, guid: 6bb2a5d82ad65f4429dd58756fa293e1, type: 3}
       propertyPath: m_LocalScale.x
@@ -35923,6 +37211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35984,6 +37276,10 @@ PrefabInstance:
     - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36051,6 +37347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36072,6 +37372,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36196,6 +37500,10 @@ PrefabInstance:
     - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2076434368394355700, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_LocalScale.x
@@ -36602,6 +37910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5466909441988118322, guid: 7b8b7d3c0b7147d4ea00087fac6beb41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36623,6 +37935,10 @@ PrefabInstance:
     - target: {fileID: 3912136987093437375, guid: faacd432572dcda4792cb6ebea98abea, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_RockSlanted03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3912136987093437375, guid: faacd432572dcda4792cb6ebea98abea, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4395904045570543877, guid: faacd432572dcda4792cb6ebea98abea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36747,6 +38063,10 @@ PrefabInstance:
     - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186480584740490320, guid: f5d6e23f623add54f94050679e236087, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6814258484192646890, guid: f5d6e23f623add54f94050679e236087, type: 3}
       propertyPath: m_LocalScale.x
@@ -36873,6 +38193,10 @@ PrefabInstance:
     - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37072,6 +38396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37139,6 +38467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37200,6 +38532,10 @@ PrefabInstance:
     - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792580349763546526, guid: a1492af58e03c684690f2c7dd07679be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37392,6 +38728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -37474,6 +38814,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37598,6 +38942,10 @@ PrefabInstance:
     - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183174666678129391, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8852857149796321365, guid: 9069254cfa1d346409229c6319ee1b30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37909,6 +39257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2578208824733905622, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2921837701642250348, guid: 1717c659aeb21f74cadad676ea2af1e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -166.21
@@ -38011,6 +39363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Spire04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1980868631248009572, guid: 0c28049c3c369354cb8b25f75f0cb3d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38072,6 +39428,10 @@ PrefabInstance:
     - target: {fileID: 7806689270098499426, guid: 3944f4cff998a8d45ba8e8433a2d32ed, type: 3}
       propertyPath: m_Name
       value: P_RockHexic_Platform04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7806689270098499426, guid: 3944f4cff998a8d45ba8e8433a2d32ed, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38258,6 +39618,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38461,6 +39825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Shelf07 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5392330167205147538, guid: 3f33200641a82e84988b16053fc20126, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38482,6 +39850,10 @@ PrefabInstance:
     - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378447622732492687, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9155229890841146677, guid: b64ba3f850bd4c94a993dce4f0b93518, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38585,6 +39957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38646,6 +40022,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38731,6 +40111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks04
       objectReference: {fileID: 0}
+    - target: {fileID: 2468258185431759433, guid: 9c9447de94b75394592be89c39d83247, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2957408182238732531, guid: 9c9447de94b75394592be89c39d83247, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.86
@@ -38792,6 +40176,10 @@ PrefabInstance:
     - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951098091421858616, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6475433559221084546, guid: 127d0a53f524726419cb9beff9df7589, type: 3}
       propertyPath: m_LocalScale.x
@@ -38906,6 +40294,10 @@ PrefabInstance:
     - target: {fileID: 6894927825529532524, guid: 0b4666bbe5ebd4a4bab6441ce6646a08, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Shelf04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6894927825529532524, guid: 0b4666bbe5ebd4a4bab6441ce6646a08, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39030,6 +40422,10 @@ PrefabInstance:
     - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic4 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201262857588828065, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3994085851374306932, guid: 628e0a53818570d4ab828e8512f5e293, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -39282,6 +40678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39303,6 +40703,10 @@ PrefabInstance:
     - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_Name
       value: P_ShelfClassic2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088509591810269219, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6860507924018018969, guid: 7e0793331f40daf43a38df0cef4d49db, type: 3}
       propertyPath: m_LocalScale.x
@@ -39430,6 +40834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_Rock14
       objectReference: {fileID: 0}
+    - target: {fileID: 9161358086506460495, guid: 5bd9d2b028128074697bf455777fd64e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39504,6 +40912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockClassic14
       objectReference: {fileID: 0}
+    - target: {fileID: 4087037822721297649, guid: d310626b238bdbf47939a55c83995d18, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39530,6 +40942,10 @@ PrefabInstance:
     - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_Name
       value: P_BoulderClumpClassic1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2076434368394355700, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_LocalScale.x
@@ -39605,6 +41021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -64.6
@@ -39666,6 +41086,10 @@ PrefabInstance:
     - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_Spire03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219465087839596668, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8033121647147035334, guid: 05e23ac5b3a9a9c4b943388f9690b9cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39769,6 +41193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7862485000383466080, guid: cb0f1f1ba71e1f346b108f7b8036e520, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39790,6 +41218,10 @@ PrefabInstance:
     - target: {fileID: 4765407334505203234, guid: e96bc32144a59a64895eba25880fab89, type: 3}
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765407334505203234, guid: e96bc32144a59a64895eba25880fab89, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5290023207851072664, guid: e96bc32144a59a64895eba25880fab89, type: 3}
       propertyPath: m_LocalScale.x
@@ -39864,6 +41296,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40197,6 +41633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB03
       objectReference: {fileID: 0}
+    - target: {fileID: 5698875468988295707, guid: 0f510b78d156c09468e8a0c90a125158, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40333,6 +41773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40421,6 +41865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CliffClassic3 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
       value: -163.6
@@ -40482,6 +41930,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40654,6 +42106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockHexic_Rocks06
       objectReference: {fileID: 0}
+    - target: {fileID: 2229639253493036714, guid: ec8f15a3f1edd0f44bed3906bc67c79c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40675,6 +42131,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40793,6 +42253,10 @@ PrefabInstance:
     - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997777358036083150, guid: 07ad69fd18a0ae4409a57c08441acbde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40943,6 +42407,10 @@ PrefabInstance:
     - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic3 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362336819944152280, guid: 858158bdf4a305740baf756e42131928, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9171349351350437474, guid: 858158bdf4a305740baf756e42131928, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41212,6 +42680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RockSpire_RockClumpB05 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 131327730434076489, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 763713409091778035, guid: 21f8924904faa3a48bff626ab978e842, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6324776
@@ -41470,6 +42942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_BoulderClumpClassic1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1701000163381655886, guid: ec2fabdbec682e241991705084e4e887, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2076434368394355700, guid: ec2fabdbec682e241991705084e4e887, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3889
@@ -41596,6 +43072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_ShelfClassic1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7959686843172627096, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8464094879738757965, guid: ecdc4d94f99d8264b813c8b93b4dece5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -41661,6 +43141,10 @@ PrefabInstance:
     - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
       propertyPath: m_Name
       value: P_CliffClassic2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800946113022530221, guid: 64e3149501f84704889eaee1c0df2117, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
