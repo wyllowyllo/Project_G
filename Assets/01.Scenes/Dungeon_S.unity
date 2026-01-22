@@ -141,31 +141,31 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5685c8835e9a76a4fb26b4868cbf11e4, type: 2}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.2806625
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.428935
+      value: 1.8860893
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.873829
+      value: -3.787159
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9234393
+      value: 0.9017342
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.38374445
+      value: 0.4006583
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.14833878
       objectReference: {fileID: 0}
     - target: {fileID: 1608427431548161767, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.06590985
       objectReference: {fileID: 0}
     - target: {fileID: 1961971991346854937, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -6124,7 +6124,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15083,8 +15083,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494139083}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3837444, y: 0.00000003096072, z: -0.000000012866035, w: 0.9234394}
-  m_LocalPosition: {x: 66.4, y: 36.255665, z: 55.952843}
+  m_LocalRotation: {x: 0.40065828, y: 0.148339, z: -0.06590994, w: 0.9017341}
+  m_LocalPosition: {x: 65.84344, y: 36.323727, z: 56.154133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
