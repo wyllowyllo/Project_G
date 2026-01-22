@@ -1330,9 +1330,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9ac70b5c49f3b44249cdc562e9f2ee69, type: 3}
   - {fileID: 8300000, guid: d0bf105713aa144aeb0ee26e8b98bc22, type: 3}
   _hitSFX:
-  - {fileID: 8300000, guid: 4f26ebd79041449d49a552ac9e61741a, type: 3}
-  - {fileID: 8300000, guid: 774364bbd3c854a058e05b8d7ec3598f, type: 3}
-  - {fileID: 8300000, guid: dc7928fab56f94e1c9e4676bee2b002d, type: 3}
+  - {fileID: 8300000, guid: 39960076d0de74ff8b18f04ea40a877c, type: 3}
   _damagedSFX:
   - {fileID: 8300000, guid: 1c8c1ed1428be493ca85c3e7a4d77891, type: 3}
   - {fileID: 8300000, guid: eb75b7615351440baa82bca6c48ceabb, type: 3}
@@ -1703,8 +1701,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3, y: 2, z: 3}
+  m_Center: {x: -1.3060352e-13, y: 0.13, z: -1.2510099e-13}
 --- !u!114 &1310565458384622291
 MonoBehaviour:
   m_ObjectHideFlags: 0

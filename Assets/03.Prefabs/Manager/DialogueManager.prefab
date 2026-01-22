@@ -78,6 +78,9 @@ MonoBehaviour:
   _dialogueText: {fileID: 2920600518605301412}
   _fadeDuration: 0.3
   _typeSpeed: 0.03
+  _typingSounds:
+  - {fileID: 8300000, guid: b654ba223a42a4d4b8d1887c5e84d928, type: 3}
+  _typingSoundInterval: 2
 --- !u!1 &196333849784142907
 GameObject:
   m_ObjectHideFlags: 0

@@ -110,10 +110,10 @@ MonoBehaviour:
   _footstepSounds:
   - Type: 1
     Clips:
-    - {fileID: 8300000, guid: 33c98c666dfd6498598a55e3f6365816, type: 3}
+    - {fileID: 8300000, guid: e6dcd9fc7a2d143d89ad03b5a002b4a4, type: 3}
     - {fileID: 8300000, guid: d6f53cd02d6234ab187dc5b6397c24c2, type: 3}
     - {fileID: 8300000, guid: df51b91305414479eb37745a8ef8c176, type: 3}
-    - {fileID: 8300000, guid: 5b4aaba19887943f6b6ab3661f5d7137, type: 3}
+    - {fileID: 8300000, guid: 20d199d23d718421bb22fdbb643acc9d, type: 3}
   - Type: 2
     Clips:
     - {fileID: 8300000, guid: 85d1a9a1124c340309910853ad7d9483, type: 3}
