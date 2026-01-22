@@ -8029,6 +8029,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319036744139619472, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_text
+      value: "3\uCD08 \uD6C4 \uB3C4\uC2DC\uB85C \uBCF5\uADC0\uD569\uB2C8\uB2E4."
+      objectReference: {fileID: 0}
     - target: {fileID: 973114792894649387, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: _skillViewerInput
       value: 
@@ -8128,6 +8132,10 @@ PrefabInstance:
     - target: {fileID: 2765400387532656212, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371481365706501454, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
+      propertyPath: m_text
+      value: "3\uCD08 \uD6C4 \uB3C4\uC2DC\uB85C \uBCF5\uADC0\uD569\uB2C8\uB2E4."
       objectReference: {fileID: 0}
     - target: {fileID: 4695107343396494873, guid: c8e5560737b86284a95562ac4a974f7a, type: 3}
       propertyPath: m_AnchorMax.x
