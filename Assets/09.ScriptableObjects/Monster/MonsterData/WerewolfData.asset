@@ -27,12 +27,8 @@ MonoBehaviour:
   _lightAttackRange: 2
   _heavyAttackRange: 4
   _attackCooldown: 1.5
-  _projectilePrefab: {fileID: 0}
-  _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
-  _projectileSpeed: 15
   _rangedAttackRange: 10
   _rangedMinDistance: 4
-  _rangedDamageMultiplier: 1
   _moveSpeed: 3.5
   _patrolSpeed: 2
   _rotationSpeed: 120
