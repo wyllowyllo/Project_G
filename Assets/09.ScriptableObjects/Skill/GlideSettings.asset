@@ -33,11 +33,14 @@ MonoBehaviour:
   _cooldown: 0.5
   _landingTimeout: 1.5
   _prepareSound: {fileID: 0}
-  _superJumpSound: {fileID: 0}
+  _superJumpSounds:
+  - {fileID: 8300000, guid: d7e2de603a0dd495cbd6354a6f1bb4a5, type: 3}
   _glidingLoopSounds:
   - {fileID: 8300000, guid: ab2b660e083ba4f6c9590ca812909da1, type: 3}
+  _continuousLoopSounds:
   - {fileID: 8300000, guid: 6d5300ff85b5d448081efa939579c278, type: 3}
-  _diveBombSound: {fileID: 0}
-  _landingSound: {fileID: 0}
-  _diveBombLandingSound: {fileID: 0}
+  _diveBombSound: {fileID: 8300000, guid: 2edd1af629c204d6b96f027a42b682d0, type: 3}
+  _landingSound: {fileID: 8300000, guid: 5bbc75cc6e287407b8e6be4c81761b09, type: 3}
+  _diveBombLandingSound: {fileID: 8300000, guid: 66842aadb5b244d709f6040248e480b2, type: 3}
   _glidingLoopVolume: 0.6
+  _continuousLoopVolume: 0.6
