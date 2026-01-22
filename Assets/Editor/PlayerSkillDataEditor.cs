@@ -96,7 +96,7 @@ public class PlayerSkillDataEditor : Editor
             EditorGUILayout.Space(5);
             EditorGUILayout.LabelField("Presentation", EditorStyles.miniBoldLabel);
             EditorGUILayout.PropertyField(tier.FindPropertyRelative("_vfxDataList"), true);
-            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_skillSound"));
+            EditorGUILayout.PropertyField(tier.FindPropertyRelative("_skillSounds"), true);
 
             EditorGUILayout.Space(5);
             EditorGUILayout.LabelField("Camera", EditorStyles.miniBoldLabel);

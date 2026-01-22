@@ -30,7 +30,11 @@ MonoBehaviour:
     - _prefab: {fileID: 2484418971901763318, guid: 959cc31f89e09e942a59263a56196f33, type: 3}
       _positionOffset: {x: 0, y: 1, z: 0}
       _rotationOffset: {x: 0, y: 180, z: 0}
-    _skillSound: {fileID: 0}
+    _skillSounds:
+    - _clip: {fileID: 8300000, guid: 180bc017b693f40db8c1972d12cd3482, type: 3}
+      _normalizedTime: 0
+    - _clip: {fileID: 8300000, guid: c2c6b871c5b5445d3ba5be2752325b63, type: 3}
+      _normalizedTime: 0.6
     _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
     _animationDuration: 0.833
   - _damageMultiplier: 2.2
@@ -46,7 +50,11 @@ MonoBehaviour:
     - _prefab: {fileID: 2484418971901763318, guid: 63e011dae308e0842baf9b3f69e9e314, type: 3}
       _positionOffset: {x: 0, y: 1, z: 0}
       _rotationOffset: {x: 0, y: 180, z: 0}
-    _skillSound: {fileID: 0}
+    _skillSounds:
+    - _clip: {fileID: 8300000, guid: 180bc017b693f40db8c1972d12cd3482, type: 3}
+      _normalizedTime: 0
+    - _clip: {fileID: 8300000, guid: c2c6b871c5b5445d3ba5be2752325b63, type: 3}
+      _normalizedTime: 0.6
     _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
     _animationDuration: 0.833
   - _damageMultiplier: 2.4
@@ -62,7 +70,11 @@ MonoBehaviour:
     - _prefab: {fileID: 2484418971901763318, guid: 0cb83cf1aee10ee438c176a476cb63e6, type: 3}
       _positionOffset: {x: 0, y: 1, z: 0}
       _rotationOffset: {x: 0, y: 180, z: 0}
-    _skillSound: {fileID: 0}
+    _skillSounds:
+    - _clip: {fileID: 8300000, guid: 180bc017b693f40db8c1972d12cd3482, type: 3}
+      _normalizedTime: 0
+    - _clip: {fileID: 8300000, guid: c2c6b871c5b5445d3ba5be2752325b63, type: 3}
+      _normalizedTime: 0.6
     _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
     _animationDuration: 0.833
   - _damageMultiplier: 2.5
@@ -78,6 +90,12 @@ MonoBehaviour:
     - _prefab: {fileID: 2484418971901763318, guid: 53bcafe87131afd449cf74362fff63f5, type: 3}
       _positionOffset: {x: 0, y: 1, z: 0}
       _rotationOffset: {x: 0, y: 180, z: 0}
-    _skillSound: {fileID: 0}
+    _skillSounds:
+    - _clip: {fileID: 8300000, guid: 180bc017b693f40db8c1972d12cd3482, type: 3}
+      _normalizedTime: 0
+    - _clip: {fileID: 8300000, guid: c2c6b871c5b5445d3ba5be2752325b63, type: 3}
+      _normalizedTime: 0.6
+    - _clip: {fileID: 8300000, guid: 67c513259c037469fa4e098c4690fdec, type: 3}
+      _normalizedTime: 0.6
     _cameraConfig: {fileID: 11400000, guid: 5f1a7bea73bfe467a86395716808259f, type: 2}
     _animationDuration: 0.833
