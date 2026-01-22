@@ -38699,6 +38699,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Water
       objectReference: {fileID: 0}
+    - target: {fileID: 802339559495243202, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629816680535584664, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441094539789449041, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441094539789449041, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441094539789449041, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8355643378142925880, guid: 623ff708cff91794fb1a71aa999d1476, type: 3}
       propertyPath: m_LocalScale.x
       value: 10000

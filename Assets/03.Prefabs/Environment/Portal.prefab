@@ -75,6 +75,9 @@ MonoBehaviour:
   _outlineParticleSystems: []
   _dungeonData: {fileID: 0}
   _clearedIndicator: {fileID: 0}
+  _portalEnterSound: {fileID: 8300000, guid: 9f1e8f125790a471a9d3ea1b6564457f, type: 3}
+  _portalAmbientSound: {fileID: 8300000, guid: 9c45ec25ab0ee4428946f2ea7b951cf3, type: 3}
+  _ambientVolume: 1
 --- !u!1001 &3491860504896980846
 PrefabInstance:
   m_ObjectHideFlags: 0

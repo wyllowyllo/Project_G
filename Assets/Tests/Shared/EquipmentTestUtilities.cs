@@ -12,10 +12,11 @@ namespace Tests.Shared
             EquipmentGrade grade,
             float attackBonus = 0f,
             float defenseBonus = 0f,
+            float healthBonus = 0f,
             float criticalChanceBonus = 0f,
             string equipmentName = "TestEquipment")
         {
-            return EquipmentData.CreateForTest(slot, grade, attackBonus, defenseBonus, criticalChanceBonus, equipmentName);
+            return EquipmentData.CreateForTest(slot, grade, attackBonus, defenseBonus, healthBonus, criticalChanceBonus, equipmentName);
         }
 
         public static DropTableData CreateDropTableData(

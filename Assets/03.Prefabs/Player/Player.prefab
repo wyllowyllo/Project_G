@@ -951,6 +951,7 @@ GameObject:
   - component: {fileID: 8845920389425372171}
   - component: {fileID: 4694379413470769696}
   - component: {fileID: 9086677996957017508}
+  - component: {fileID: 2235116821565378450}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -989,6 +990,7 @@ Transform:
   - {fileID: 5256294399105134149}
   - {fileID: 662374089599655350}
   - {fileID: 1614140301351509939}
+  - {fileID: 5412616403774496956}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6944842755819813745
@@ -1490,6 +1492,92 @@ MonoBehaviour:
     boxOverlayOffset: {x: 0, y: 0, z: -8}
     coneOverlayPrefab: {fileID: 5426856386950650135, guid: d3c58f2da8557db4e9af490a7e378a53, type: 3}
     coneOverlayOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &2235116821565378450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448824847059235598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c622884a4ac24113aba61c9b20b3a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Player.FootstepSystem
+  _soundData: {fileID: 11400000, guid: e4d09f0b95c834bfbbbf6e269b228aaa, type: 2}
+  _leftFoot: {fileID: 0}
+  _rightFoot: {fileID: 0}
+  _groundThreshold: 0.5
+  _minStepInterval: 0.2
+  _raycastDistance: 1.5
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  _waterLayer:
+    serializedVersion: 2
+    m_Bits: 16
+  _waterCheckDistance: 2
+  _baseVolume: 0.5
+  _debugMode: 1
+--- !u!1 &4761265696923036837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5412616403774496956}
+  - component: {fileID: 9073400664675620424}
+  m_Layer: 0
+  m_Name: FootstepSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5412616403774496956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761265696923036837}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.660553, y: 2.5478802, z: 1.43943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3815635930778169777}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9073400664675620424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761265696923036837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c622884a4ac24113aba61c9b20b3a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Player.FootstepSystem
+  _soundData: {fileID: 11400000, guid: e4d09f0b95c834bfbbbf6e269b228aaa, type: 2}
+  _leftFoot: {fileID: 0}
+  _rightFoot: {fileID: 0}
+  _groundThreshold: 0.15
+  _minStepInterval: 0.2
+  _raycastDistance: 0.5
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  _waterLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  _waterCheckDistance: 2
+  _baseVolume: 0.5
+  _debugMode: 0
 --- !u!1 &4828337330146463391
 GameObject:
   m_ObjectHideFlags: 0
@@ -6143,6 +6231,14 @@ PrefabInstance:
     - target: {fileID: 3704055831343946553, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501175054317116787, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: ShapeModule.m_Position.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501175054317116787, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5425379163223972874, guid: 6609ceca7e3744821b9b3011ed76a6ac, type: 3}
       propertyPath: m_Name
