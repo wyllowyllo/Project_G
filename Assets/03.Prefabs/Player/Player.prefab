@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 2139367533633223435}
   - component: {fileID: 7260687562472004614}
   - component: {fileID: 1400533556797521628}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: InteractionDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f945968b37614bd197a3806eff34efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.PlayerProgression
-  _config: {fileID: 11400000, guid: 4bc3df7112686440182de5f79dc4c0ef, type: 2}
 --- !u!114 &1962076813446573125
 MonoBehaviour:
   m_ObjectHideFlags: 0

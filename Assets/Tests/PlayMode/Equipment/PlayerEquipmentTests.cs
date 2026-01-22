@@ -11,13 +11,18 @@ namespace Tests.PlayMode
     public class PlayerEquipmentTests
     {
         private GameObject _playerObject;
+        private GameObject _managerObject;
         private Combatant _combatant;
         private PlayerEquipment _playerEquipment;
+        private EquipmentDataManager _dataManager;
         private CombatStatsData _statsData;
 
         [SetUp]
         public void SetUp()
         {
+            _managerObject = new GameObject("EquipmentDataManager");
+            _dataManager = _managerObject.AddComponent<EquipmentDataManager>();
+
             _statsData = ProgressionTestUtilities.CreateStatsData(
                 baseAttackDamage: 10f,
                 criticalChance: 0.1f,
@@ -32,6 +37,8 @@ namespace Tests.PlayMode
         {
             if (_playerObject != null)
                 Object.DestroyImmediate(_playerObject);
+            if (_managerObject != null)
+                Object.DestroyImmediate(_managerObject);
             if (_statsData != null)
                 Object.DestroyImmediate(_statsData);
         }
@@ -41,7 +48,7 @@ namespace Tests.PlayMode
         [Test]
         public void TryEquip_NullEquipment_ReturnsFalse()
         {
-            bool result = _playerEquipment.TryEquip(null);
+            bool result = _dataManager.TryEquip(null);
 
             Assert.IsFalse(result);
         }
@@ -52,10 +59,10 @@ namespace Tests.PlayMode
             var weapon = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal);
 
-            bool result = _playerEquipment.TryEquip(weapon);
+            bool result = _dataManager.TryEquip(weapon);
 
             Assert.IsTrue(result);
-            Assert.AreEqual(weapon, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(weapon, _dataManager.GetEquipment(EquipmentSlot.Weapon));
 
             Object.DestroyImmediate(weapon);
         }
@@ -68,11 +75,11 @@ namespace Tests.PlayMode
             var rare = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Rare);
 
-            _playerEquipment.TryEquip(normal);
-            bool result = _playerEquipment.TryEquip(rare);
+            _dataManager.TryEquip(normal);
+            bool result = _dataManager.TryEquip(rare);
 
             Assert.IsTrue(result);
-            Assert.AreEqual(rare, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(rare, _dataManager.GetEquipment(EquipmentSlot.Weapon));
 
             Object.DestroyImmediate(normal);
             Object.DestroyImmediate(rare);
@@ -86,11 +93,11 @@ namespace Tests.PlayMode
             var weapon2 = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Rare, equipmentName: "Weapon2");
 
-            _playerEquipment.TryEquip(weapon1);
-            bool result = _playerEquipment.TryEquip(weapon2);
+            _dataManager.TryEquip(weapon1);
+            bool result = _dataManager.TryEquip(weapon2);
 
             Assert.IsFalse(result);
-            Assert.AreEqual(weapon1, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(weapon1, _dataManager.GetEquipment(EquipmentSlot.Weapon));
 
             Object.DestroyImmediate(weapon1);
             Object.DestroyImmediate(weapon2);
@@ -104,11 +111,11 @@ namespace Tests.PlayMode
             var normal = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal);
 
-            _playerEquipment.TryEquip(rare);
-            bool result = _playerEquipment.TryEquip(normal);
+            _dataManager.TryEquip(rare);
+            bool result = _dataManager.TryEquip(normal);
 
             Assert.IsFalse(result);
-            Assert.AreEqual(rare, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(rare, _dataManager.GetEquipment(EquipmentSlot.Weapon));
 
             Object.DestroyImmediate(rare);
             Object.DestroyImmediate(normal);
@@ -122,11 +129,11 @@ namespace Tests.PlayMode
             var helmet = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Helmet, EquipmentGrade.Normal);
 
-            _playerEquipment.TryEquip(weapon);
-            _playerEquipment.TryEquip(helmet);
+            _dataManager.TryEquip(weapon);
+            _dataManager.TryEquip(helmet);
 
-            Assert.AreEqual(weapon, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
-            Assert.AreEqual(helmet, _playerEquipment.GetEquipment(EquipmentSlot.Helmet));
+            Assert.AreEqual(weapon, _dataManager.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(helmet, _dataManager.GetEquipment(EquipmentSlot.Helmet));
 
             Object.DestroyImmediate(weapon);
             Object.DestroyImmediate(helmet);
@@ -146,17 +153,17 @@ namespace Tests.PlayMode
             var boots = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Boots, EquipmentGrade.Normal);
 
-            Assert.IsTrue(_playerEquipment.TryEquip(weapon));
-            Assert.IsTrue(_playerEquipment.TryEquip(helmet));
-            Assert.IsTrue(_playerEquipment.TryEquip(armor));
-            Assert.IsTrue(_playerEquipment.TryEquip(gloves));
-            Assert.IsTrue(_playerEquipment.TryEquip(boots));
+            Assert.IsTrue(_dataManager.TryEquip(weapon));
+            Assert.IsTrue(_dataManager.TryEquip(helmet));
+            Assert.IsTrue(_dataManager.TryEquip(armor));
+            Assert.IsTrue(_dataManager.TryEquip(gloves));
+            Assert.IsTrue(_dataManager.TryEquip(boots));
 
-            Assert.AreEqual(weapon, _playerEquipment.GetEquipment(EquipmentSlot.Weapon));
-            Assert.AreEqual(helmet, _playerEquipment.GetEquipment(EquipmentSlot.Helmet));
-            Assert.AreEqual(armor, _playerEquipment.GetEquipment(EquipmentSlot.Armor));
-            Assert.AreEqual(gloves, _playerEquipment.GetEquipment(EquipmentSlot.Gloves));
-            Assert.AreEqual(boots, _playerEquipment.GetEquipment(EquipmentSlot.Boots));
+            Assert.AreEqual(weapon, _dataManager.GetEquipment(EquipmentSlot.Weapon));
+            Assert.AreEqual(helmet, _dataManager.GetEquipment(EquipmentSlot.Helmet));
+            Assert.AreEqual(armor, _dataManager.GetEquipment(EquipmentSlot.Armor));
+            Assert.AreEqual(gloves, _dataManager.GetEquipment(EquipmentSlot.Gloves));
+            Assert.AreEqual(boots, _dataManager.GetEquipment(EquipmentSlot.Boots));
 
             Object.DestroyImmediate(weapon);
             Object.DestroyImmediate(helmet);
@@ -176,7 +183,7 @@ namespace Tests.PlayMode
             var weapon = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal, attackBonus: 15f);
 
-            _playerEquipment.TryEquip(weapon);
+            _dataManager.TryEquip(weapon);
 
             Assert.AreEqual(baseAttack + 15f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
@@ -190,7 +197,7 @@ namespace Tests.PlayMode
             var armor = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Armor, EquipmentGrade.Normal, defenseBonus: 10f);
 
-            _playerEquipment.TryEquip(armor);
+            _dataManager.TryEquip(armor);
 
             Assert.AreEqual(baseDefense + 10f, _combatant.Stats.Defense.Value, 0.01f);
 
@@ -204,7 +211,7 @@ namespace Tests.PlayMode
             var gloves = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Gloves, EquipmentGrade.Normal, criticalChanceBonus: 0.05f);
 
-            _playerEquipment.TryEquip(gloves);
+            _dataManager.TryEquip(gloves);
 
             Assert.AreEqual(baseCrit + 0.05f, _combatant.Stats.CriticalChance.Value, 0.001f);
 
@@ -220,8 +227,8 @@ namespace Tests.PlayMode
             var gloves = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Gloves, EquipmentGrade.Normal, attackBonus: 5f);
 
-            _playerEquipment.TryEquip(weapon);
-            _playerEquipment.TryEquip(gloves);
+            _dataManager.TryEquip(weapon);
+            _dataManager.TryEquip(gloves);
 
             Assert.AreEqual(baseAttack + 15f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
@@ -238,10 +245,10 @@ namespace Tests.PlayMode
             var rareWeapon = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Rare, attackBonus: 20f);
 
-            _playerEquipment.TryEquip(normalWeapon);
+            _dataManager.TryEquip(normalWeapon);
             Assert.AreEqual(baseAttack + 10f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
-            _playerEquipment.TryEquip(rareWeapon);
+            _dataManager.TryEquip(rareWeapon);
             Assert.AreEqual(baseAttack + 20f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
             Object.DestroyImmediate(normalWeapon);
@@ -259,11 +266,11 @@ namespace Tests.PlayMode
             var gloves = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Gloves, EquipmentGrade.Normal, attackBonus: 5f);
 
-            _playerEquipment.TryEquip(normalWeapon);
-            _playerEquipment.TryEquip(gloves);
+            _dataManager.TryEquip(normalWeapon);
+            _dataManager.TryEquip(gloves);
             Assert.AreEqual(baseAttack + 15f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
-            _playerEquipment.TryEquip(rareWeapon);
+            _dataManager.TryEquip(rareWeapon);
             Assert.AreEqual(baseAttack + 25f, _combatant.Stats.AttackDamage.Value, 0.01f);
 
             Object.DestroyImmediate(normalWeapon);
@@ -281,9 +288,9 @@ namespace Tests.PlayMode
             var weapon = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal);
             EquipmentData changedEquipment = null;
-            _playerEquipment.OnEquipmentChanged += eq => changedEquipment = eq;
+            _dataManager.OnEquipmentChanged += eq => changedEquipment = eq;
 
-            _playerEquipment.TryEquip(weapon);
+            _dataManager.TryEquip(weapon);
 
             Assert.AreEqual(weapon, changedEquipment);
 
@@ -297,12 +304,12 @@ namespace Tests.PlayMode
                 EquipmentSlot.Weapon, EquipmentGrade.Rare);
             var normal = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal);
-            _playerEquipment.TryEquip(rare);
+            _dataManager.TryEquip(rare);
 
             bool eventInvoked = false;
-            _playerEquipment.OnEquipmentChanged += _ => eventInvoked = true;
+            _dataManager.OnEquipmentChanged += _ => eventInvoked = true;
 
-            _playerEquipment.TryEquip(normal);
+            _dataManager.TryEquip(normal);
 
             Assert.IsFalse(eventInvoked);
 
@@ -317,7 +324,7 @@ namespace Tests.PlayMode
         [Test]
         public void GetEquipment_EmptySlot_ReturnsNull()
         {
-            var result = _playerEquipment.GetEquipment(EquipmentSlot.Weapon);
+            var result = _dataManager.GetEquipment(EquipmentSlot.Weapon);
 
             Assert.IsNull(result);
         }
@@ -327,9 +334,9 @@ namespace Tests.PlayMode
         {
             var weapon = EquipmentTestUtilities.CreateEquipmentData(
                 EquipmentSlot.Weapon, EquipmentGrade.Normal);
-            _playerEquipment.TryEquip(weapon);
+            _dataManager.TryEquip(weapon);
 
-            var result = _playerEquipment.GetEquipment(EquipmentSlot.Weapon);
+            var result = _dataManager.GetEquipment(EquipmentSlot.Weapon);
 
             Assert.AreEqual(weapon, result);
 
