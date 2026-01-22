@@ -420,11 +420,11 @@ MonoBehaviour:
   _chargeSound: {fileID: 0}
   _breathSound: {fileID: 8300000, guid: e6549e72cbcd23940a1a9bbbbe9db636, type: 3}
   _projectileSound: {fileID: 8300000, guid: d7ab4ebd7e80d3f4e8394ca2f67505f9, type: 3}
-  _summonSound: {fileID: 0}
+  _summonSound: {fileID: 8300000, guid: f59a6a92fae965843b4794fd2be10af7, type: 3}
   _roarSound: {fileID: 0}
   _hitSound: {fileID: 0}
   _staggerSound: {fileID: 0}
-  _deathSound: {fileID: 0}
+  _deathSound: {fileID: 8300000, guid: 413c767cb39cae944b9e02f28e8f9e41, type: 3}
   _idleSounds: []
   _idleSoundMinInterval: 5
   _idleSoundMaxInterval: 12
