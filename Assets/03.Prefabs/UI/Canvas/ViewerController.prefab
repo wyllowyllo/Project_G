@@ -53,6 +53,7 @@ MonoBehaviour:
   _playerEquipment: {fileID: 0}
   _playerMovement: {fileID: 0}
   _playerCombat: {fileID: 0}
+  _playerCombatant: {fileID: 0}
   _inputHandler: {fileID: 5800259602977626692}
   _cameraController: {fileID: 7114677859182961398}
   _renderTextureWidth: 830
