@@ -45,3 +45,13 @@ MonoBehaviour:
       Force: 0
       Duration: 0
       Direction: {x: 0, y: 0, z: 0}
+  - _speakerName: "\uC2DC\uC2A4\uD15C"
+    _portrait: {fileID: 0}
+    _text: "\uC790\uC720 \uBAA8\uB4DC\uAC00 \uC2DC\uC791\uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n\uC9C0\uAE08\uAE4C\uC9C0
+      \uBC1C\uC0DD\uD588\uB358 \uAC8C\uC774\uD2B8\uAC00 \uC804\uBD80 \uC7AC\uAC1C\uBC29\uB418\uC5B4
+      \uC6D0\uD558\uB294 \uAC8C\uC774\uD2B8\uC5D0 \uC9C4\uC785\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    _cameraShake:
+      Enabled: 0
+      Force: 0
+      Duration: 0
+      Direction: {x: 0, y: 0, z: 0}
