@@ -26,7 +26,7 @@ MonoBehaviour:
       Direction: {x: 0, y: 0, z: 0}
   - _speakerName: "\uD55C\uB3C4\uC724"
     _portrait: {fileID: 21300000, guid: ad3b7ca084f9f4c97b430c30d359b73d, type: 3}
-    _text: "...!!\uC800"
+    _text: "\u2026!!"
     _cameraShake:
       Enabled: 1
       Force: 0.1
@@ -55,7 +55,8 @@ MonoBehaviour:
   - _speakerName: "\uD55C\uB3C4\uC724"
     _portrait: {fileID: 21300000, guid: ad3b7ca084f9f4c97b430c30d359b73d, type: 3}
     _text: "\uBBF8\uB974, \uC774\uC81C\uBD80\uD130\uB294 \uC784\uBB34\uAC00 \uC544\uB2CC
-      \uC7AC\uB09C \uC0C1\uD669\uC774\uB2E4."
+      \uC7AC\uB09C \uC0C1\uD669\uC774\uB2E4.\n\uC9C0\uAE08 \uD604\uC7A5\uC5D0\uC11C
+      \uC800\uAC78 \uB9C9\uC544\uC904 \uC218 \uC788\uB294 \uAC74 \uB108\uBFD0\uC774\uB2E4."
     _cameraShake:
       Enabled: 0
       Force: 0
@@ -63,8 +64,7 @@ MonoBehaviour:
       Direction: {x: 0, y: 0, z: 0}
   - _speakerName: "\uD55C\uB3C4\uC724"
     _portrait: {fileID: 21300000, guid: ad3b7ca084f9f4c97b430c30d359b73d, type: 3}
-    _text: "\u2026\uC9C0\uAE08 \uD604\uC7A5\uC5D0\uC11C \uC800\uAC78 \uB9C9\uC544\uC904
-      \uC218 \uC788\uB294 \uAC74 \uB108\uBFD0\uC774\uB2E4."
+    _text: 
     _cameraShake:
       Enabled: 0
       Force: 0

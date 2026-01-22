@@ -45,21 +45,12 @@ MonoBehaviour:
       Direction: {x: 0, y: 0, z: 0}
   - _speakerName: "\uD55C\uB3C4\uC724"
     _portrait: {fileID: 21300000, guid: ad3b7ca084f9f4c97b430c30d359b73d, type: 3}
-    _text: "\uBBF8\uB974, \uC9C0\uB839\uC744 \uAC31\uC2E0\uD55C\uB2E4. \uC989\uC2DC
-      \uD604\uC7A5\uC73C\uB85C \uC774\uB3D9\uD574.\n\uC774\uBC88\uC5D4 \uBC29\uC2EC\uD558\uBA74
-      \uC548 \uB41C\uB2E4. \uC774\uC0C1 \uC9D5\uD6C4\uAC00 \uBCF4\uC774\uBA74 \uC989\uC2DC
-      \uBCF4\uACE0\uD558\uACE0, \uCCA0\uC218 \uD310\uB2E8\uC744 \uB2A6\uCD94\uC9C0
-      \uB9C8."
+    _text: "\uBBF8\uB974, \uC989\uC2DC \uD604\uC7A5\uC73C\uB85C \uC774\uB3D9\uD574.\n\uC774\uBC88\uC5D4
+      \uBC29\uC2EC\uD558\uBA74 \uC548 \uB41C\uB2E4. \uC774\uC0C1 \uC9D5\uD6C4\uAC00
+      \uBCF4\uC774\uBA74 \uC989\uC2DC \uBCF4\uACE0\uD558\uACE0, \uCCA0\uC218 \uD310\uB2E8\uC744
+      \uB2A6\uCD94\uC9C0 \uB9C8.\n\u2026\uAC74\uD22C\uB97C \uBE48\uB2E4."
     _cameraShake:
       Enabled: 0
       Force: 0.1
       Duration: 1
       Direction: {x: 0, y: -1, z: 0}
-  - _speakerName: "\uD55C\uB3C4\uC724"
-    _portrait: {fileID: 21300000, guid: ad3b7ca084f9f4c97b430c30d359b73d, type: 3}
-    _text: "\u2026\uAC74\uD22C\uB97C \uBE48\uB2E4."
-    _cameraShake:
-      Enabled: 0
-      Force: 0
-      Duration: 0
-      Direction: {x: 0, y: 0, z: 0}
