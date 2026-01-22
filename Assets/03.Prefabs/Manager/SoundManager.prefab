@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::SoundManager
   _dungeonBgms: []
-  _bgmVolume: 0.7
+  _bgmVolume: 0
   _playerSfxs: []
   _enemySfxs: []
   _bossSfxs: []
@@ -54,8 +54,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bbe8e1a830025b543bb0a292c592b77d, type: 3}
   - {fileID: 8300000, guid: 57a6e58f52afb6144b217f8b3db28875, type: 3}
   - {fileID: 8300000, guid: 5eebb0cc08f19d344a4eac8af2bdeae9, type: 3}
-  - {fileID: 8300000, guid: a9a1e5ced201a464188058403fe2ad4e, type: 3}
+  - {fileID: 8300000, guid: bbe8e1a830025b543bb0a292c592b77d, type: 3}
   - {fileID: 8300000, guid: cd024a5990eb862449e73acb88218c9c, type: 3}
+  - {fileID: 8300000, guid: 06a705227f87f02479dafc6de3219ef9, type: 3}
+  - {fileID: 8300000, guid: 510ce9010577927459ec34ccfafdf2a0, type: 3}
+  - {fileID: 8300000, guid: d54c43be6482b2f4fa53e06078b2c524, type: 3}
   _playerSkillSfxs: []
   _sfxs:
   - {fileID: 8300000, guid: 9a72a06853abbe047ad54431b29bff52, type: 3}
