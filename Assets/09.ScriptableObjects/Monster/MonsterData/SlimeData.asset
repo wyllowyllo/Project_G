@@ -20,19 +20,15 @@ MonoBehaviour:
   _patrolWaitTimeMin: 1
   _patrolWaitTimeMax: 3
   _attackType: 0
-  _preferredMinDistance: 1.5
+  _preferredMinDistance: 1
   _preferredMaxDistance: 3.5
   _strafeSpeed: 2.5
   _attackRange: 2.5
-  _lightAttackRange: 1.5
-  _heavyAttackRange: 2.5
+  _lightAttackRange: 1
+  _heavyAttackRange: 2
   _attackCooldown: 3
-  _projectilePrefab: {fileID: 0}
-  _projectileSpawnOffset: {x: 0, y: 1, z: 0.5}
-  _projectileSpeed: 15
   _rangedAttackRange: 10
   _rangedMinDistance: 4
-  _rangedDamageMultiplier: 1
   _moveSpeed: 3.5
   _patrolSpeed: 2
   _rotationSpeed: 120

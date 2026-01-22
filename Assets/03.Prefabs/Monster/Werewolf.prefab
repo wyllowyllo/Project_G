@@ -249,7 +249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentDropOnDeath
   _dropTable: {fileID: 0}
-  _droppedEquipmentPrefab: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
 --- !u!1 &5438919209877003581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,8 +1181,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.5, z: 0.5}
-  m_Center: {x: -0.2, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0.3}
 --- !u!114 &4930471533995285337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1221,8 +1220,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.5, z: 0.5}
-  m_Center: {x: -0.2, y: 0, z: 0}
+  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.3}
 --- !u!114 &528972669156066003
 MonoBehaviour:
   m_ObjectHideFlags: 0
