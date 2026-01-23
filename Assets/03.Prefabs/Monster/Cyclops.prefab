@@ -369,7 +369,7 @@ MonoBehaviour:
   _idleSounds: []
   _idleSoundMinInterval: 3
   _idleSoundMaxInterval: 8
-  _alertSound: {fileID: 0}
+  _alertSound: {fileID: 8300000, guid: a820e4530837ab042a9f64f0c1da3fa5, type: 3}
   _normalAttackSound: {fileID: 0}
   _heavyAttackSound: {fileID: 0}
   _footstepSound: {fileID: 0}
