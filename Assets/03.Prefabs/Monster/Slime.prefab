@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0da79bc8f5f3439ca6c0b20e055cf18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.XpDropOnDeath
-  _xpReward: 8
+  _xpReward: 150
 --- !u!114 &7214709007326686336
 MonoBehaviour:
   m_ObjectHideFlags: 0
