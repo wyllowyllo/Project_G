@@ -388,17 +388,7 @@ MonoBehaviour:
   _skillHitVFXPrefab: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0, type: 3}
   _deathVFXPrefab: {fileID: 0}
   _vfxLifetime: 0.3
-  _audioSource: {fileID: 0}
-  _hitSound: {fileID: 0}
-  _criticalHitSound: {fileID: 0}
-  _deathSound: {fileID: 0}
-  _sfxVolume: 1
-  _idleSounds: []
-  _idleSoundMinInterval: 3
-  _idleSoundMaxInterval: 8
-  _alertSound: {fileID: 0}
-  _normalAttackSound: {fileID: 0}
-  _heavyAttackSound: {fileID: 0}
+  _soundPlayer: {fileID: 0}
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: 7064861993ebde54f82fa258ba9d679a, type: 2}
@@ -426,7 +416,9 @@ MonoBehaviour:
   _hitSound: {fileID: 0}
   _staggerSound: {fileID: 0}
   _deathSound: {fileID: 8300000, guid: 413c767cb39cae944b9e02f28e8f9e41, type: 3}
-  _idleSounds: []
+  _idleSounds:
+  - {fileID: 8300000, guid: 35135edb89fa46446add6031ba919b8e, type: 3}
+  - {fileID: 8300000, guid: 5cc9bd0a589d99c4f803d5d3dc35961b, type: 3}
   _idleSoundMinInterval: 5
   _idleSoundMaxInterval: 12
 --- !u!82 &4073323888366075062
@@ -1532,6 +1524,8 @@ MonoBehaviour:
   _breathAttacker: {fileID: 0}
   _projectileLauncher: {fileID: 0}
   _soundPlayer: {fileID: 0}
+  _animator: {fileID: 0}
+  _footstepSpeedThreshold: 0.1
 --- !u!4 &7225676640653768180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8655002655558587956, guid: 02fc1d12fd394a52b497e1088c46d6e8, type: 3}
