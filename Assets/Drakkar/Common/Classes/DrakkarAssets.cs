@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
@@ -9,3 +10,4 @@ namespace Drakkar
 		internal static void drakkraAssets() => Application.OpenURL("https://assetstore.unity.com/publishers/108531");
 	}
 }
+#endif
