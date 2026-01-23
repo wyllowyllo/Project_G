@@ -2198,6 +2198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salamander
       objectReference: {fileID: 0}
+    - target: {fileID: 1583743855987673142, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      propertyPath: _unlitColorShader
+      value: 
+      objectReference: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 1583743855987673142, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
+      propertyPath: _spritesDefaultShader
+      value: 
+      objectReference: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7458947033713849593, guid: 2d3796790e2fd424f94406a0cb9bc891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 153.9
