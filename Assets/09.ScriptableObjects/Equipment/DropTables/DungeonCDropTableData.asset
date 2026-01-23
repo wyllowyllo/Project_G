@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c2e55d1270c42c5a52b61be6362427, type: 3}
   m_Name: DungeonCDropTableData
   m_EditorClassIdentifier: ProjectG::Equipment.DropTableData
-  _dropChance: 0.5
-  _normalWeight: 80
-  _rareWeight: 20
+  _dropChance: 0.3
+  _normalWeight: 70
+  _rareWeight: 30
   _uniqueWeight: 0
   _legendaryWeight: 0
   _normalPool:
