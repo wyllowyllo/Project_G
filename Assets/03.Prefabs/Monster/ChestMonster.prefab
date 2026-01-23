@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 7370425101128650537}
   - component: {fileID: 6864154480999972342}
   - component: {fileID: 6709057971141303328}
+  - component: {fileID: 485491338290717071}
+  - component: {fileID: -8116481897345180082}
   m_Layer: 9
   m_Name: ChestMonster
   m_TagString: Untagged
@@ -144,11 +146,7 @@ MonoBehaviour:
   _skillHitVFXPrefab: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0, type: 3}
   _deathVFXPrefab: {fileID: 0}
   _vfxLifetime: 0.3
-  _audioSource: {fileID: 0}
-  _hitSound: {fileID: 0}
-  _criticalHitSound: {fileID: 0}
-  _deathSound: {fileID: 0}
-  _sfxVolume: 1
+  _soundPlayer: {fileID: 0}
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: 203decd07a98cf74e931c0eaa4ec7307, type: 2}
@@ -248,7 +246,127 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentDropOnDeath
   _dropTable: {fileID: 0}
-  _droppedEquipmentPrefab: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+--- !u!82 &485491338290717071
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911528517546500095}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-8116481897345180082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911528517546500095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc63585f535ea354cbd3e60a0c53f9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterSoundPlayer
+  _audioSource: {fileID: 0}
+  _sfxVolume: 1
+  _hitSound: {fileID: 0}
+  _criticalHitSound: {fileID: 0}
+  _deathSound: {fileID: 0}
+  _idleSounds: []
+  _idleSoundMinInterval: 3
+  _idleSoundMaxInterval: 8
+  _alertSound: {fileID: 0}
+  _normalAttackSound: {fileID: 0}
+  _heavyAttackSound: {fileID: 0}
+  _footstepSound: {fileID: 0}
 --- !u!1 &8605921513639506963
 GameObject:
   m_ObjectHideFlags: 0

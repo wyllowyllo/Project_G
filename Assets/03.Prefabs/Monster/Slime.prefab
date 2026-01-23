@@ -51,6 +51,7 @@ GameObject:
   - component: {fileID: 6494239090798905283}
   - component: {fileID: 1870627515788993013}
   - component: {fileID: 7214709007326686336}
+  - component: {fileID: 3729531176295707022}
   m_Layer: 9
   m_Name: Slime
   m_TagString: Untagged
@@ -176,11 +177,7 @@ MonoBehaviour:
   _skillHitVFXPrefab: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0, type: 3}
   _deathVFXPrefab: {fileID: 0}
   _vfxLifetime: 0.3
-  _audioSource: {fileID: 0}
-  _hitSound: {fileID: 0}
-  _criticalHitSound: {fileID: 0}
-  _deathSound: {fileID: 0}
-  _sfxVolume: 1
+  _soundPlayer: {fileID: 0}
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: fdad1fd7c36346742a77c5b069608c21, type: 2}
@@ -280,7 +277,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentDropOnDeath
   _dropTable: {fileID: 0}
-  _droppedEquipmentPrefab: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
+--- !u!114 &3729531176295707022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710055614459436209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc63585f535ea354cbd3e60a0c53f9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterSoundPlayer
+  _audioSource: {fileID: 0}
+  _sfxVolume: 1
+  _hitSound: {fileID: 8300000, guid: 95038de6c31954d46b0add8f8f76ae99, type: 3}
+  _criticalHitSound: {fileID: 8300000, guid: 95038de6c31954d46b0add8f8f76ae99, type: 3}
+  _deathSound: {fileID: 8300000, guid: fa52b5b5b3e7cfe48908a5cd564193b9, type: 3}
+  _idleSounds: []
+  _idleSoundMinInterval: 3
+  _idleSoundMaxInterval: 8
+  _alertSound: {fileID: 0}
+  _normalAttackSound: {fileID: 0}
+  _heavyAttackSound: {fileID: 0}
+  _footstepSound: {fileID: 0}
 --- !u!1 &8293834644207973112
 GameObject:
   m_ObjectHideFlags: 0
