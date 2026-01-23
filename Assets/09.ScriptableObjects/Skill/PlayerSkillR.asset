@@ -19,7 +19,7 @@ MonoBehaviour:
   _tiers:
   - _damageMultiplier: 2
     _range: 15
-    _cooldown: 0.5
+    _cooldown: 7
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
     _coneHeight: 2
@@ -39,7 +39,7 @@ MonoBehaviour:
     _animationDuration: 0.833
   - _damageMultiplier: 2.2
     _range: 15.2
-    _cooldown: 0.5
+    _cooldown: 7
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
     _coneHeight: 2
@@ -59,7 +59,7 @@ MonoBehaviour:
     _animationDuration: 0.833
   - _damageMultiplier: 2.4
     _range: 15.4
-    _cooldown: 0.5
+    _cooldown: 7
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
     _coneHeight: 2
@@ -79,7 +79,7 @@ MonoBehaviour:
     _animationDuration: 0.833
   - _damageMultiplier: 2.5
     _range: 15.5
-    _cooldown: 0.5
+    _cooldown: 7
     _positionOffset: {x: 0, y: 0, z: 0.5}
     _angle: 180
     _coneHeight: 2

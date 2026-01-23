@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b580d73a3c1472a8c6cfcb2e73f086, type: 3}
   m_Name: TurtleCombatStats
   m_EditorClassIdentifier: ProjectG::Combat.Data.CombatStatsData
-  _baseAttackDamage: 10
+  _baseAttackDamage: 8
   _criticalChance: 0
   _criticalMultiplier: 1.5
   _defense: 0
