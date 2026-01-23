@@ -389,15 +389,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterSoundPlayer
   _audioSource: {fileID: 0}
   _sfxVolume: 1
-  _hitSound: {fileID: 0}
-  _criticalHitSound: {fileID: 0}
-  _deathSound: {fileID: 0}
+  _hitSound: {fileID: 8300000, guid: 797d8b3dfdfd73647af7c09b77404761, type: 3}
+  _criticalHitSound: {fileID: 8300000, guid: 797d8b3dfdfd73647af7c09b77404761, type: 3}
+  _deathSound: {fileID: 8300000, guid: e5564c2ccd73b7b4abe729b927e2e498, type: 3}
   _idleSounds: []
   _idleSoundMinInterval: 3
   _idleSoundMaxInterval: 8
   _alertSound: {fileID: 8300000, guid: a820e4530837ab042a9f64f0c1da3fa5, type: 3}
-  _normalAttackSound: {fileID: 0}
-  _heavyAttackSound: {fileID: 0}
+  _normalAttackSound: {fileID: 8300000, guid: 0ed8733b152677f449a19ec9564b14f3, type: 3}
+  _heavyAttackSound: {fileID: 8300000, guid: 0ed8733b152677f449a19ec9564b14f3, type: 3}
   _footstepSound: {fileID: 0}
 --- !u!1001 &5760322552170732377
 PrefabInstance:
