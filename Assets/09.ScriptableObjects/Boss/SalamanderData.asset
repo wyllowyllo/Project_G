@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6f8f7f29d4c254eb6713217b4bc308, type: 3}
   m_Name: SalamanderData
   m_EditorClassIdentifier: ProjectG::Boss.Data.BossData
-  _maxHP: 1000
+  _maxHP: 100000
   _moveSpeed: 4
   _rotationSpeed: 120
-  _maxPoise: 100
+  _maxPoise: 1000
   _poiseRecoveryDelay: 2
   _meleeRange: 3
   _meleeDamage: 30
