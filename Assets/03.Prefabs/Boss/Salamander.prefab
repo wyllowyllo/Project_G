@@ -421,6 +421,7 @@ MonoBehaviour:
   _breathSound: {fileID: 8300000, guid: e6549e72cbcd23940a1a9bbbbe9db636, type: 3}
   _projectileSound: {fileID: 8300000, guid: d7ab4ebd7e80d3f4e8394ca2f67505f9, type: 3}
   _summonSound: {fileID: 8300000, guid: f59a6a92fae965843b4794fd2be10af7, type: 3}
+  _footstepSound: {fileID: 8300000, guid: f76d4e613890eaa48afb55ccd7a7a316, type: 3}
   _roarSound: {fileID: 0}
   _hitSound: {fileID: 0}
   _staggerSound: {fileID: 0}
