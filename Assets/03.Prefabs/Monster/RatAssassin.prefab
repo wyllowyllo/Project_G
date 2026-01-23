@@ -181,6 +181,12 @@ MonoBehaviour:
   _criticalHitSound: {fileID: 0}
   _deathSound: {fileID: 0}
   _sfxVolume: 1
+  _idleSounds: []
+  _idleSoundMinInterval: 3
+  _idleSoundMaxInterval: 8
+  _alertSound: {fileID: 0}
+  _normalAttackSound: {fileID: 0}
+  _heavyAttackSound: {fileID: 0}
   _damageNumberPrefab: {fileID: 0}
   _damageNumberOffset: {x: 0, y: 2, z: 0}
   _feedbackSettings: {fileID: 11400000, guid: 28ba55a17c9057849a65a81ef84d34e9, type: 2}
@@ -266,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0da79bc8f5f3439ca6c0b20e055cf18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Progression.XpDropOnDeath
-  _xpReward: 50
+  _xpReward: 25
 --- !u!114 &1686301301394914155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::Equipment.EquipmentDropOnDeath
   _dropTable: {fileID: 0}
-  _droppedEquipmentPrefab: {fileID: 3216122847117118273, guid: eca35e0750e4348c3a28c87d15a2f19a, type: 3}
 --- !u!1001 &5760322552170732377
 PrefabInstance:
   m_ObjectHideFlags: 0
