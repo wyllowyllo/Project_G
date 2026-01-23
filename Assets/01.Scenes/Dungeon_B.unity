@@ -18140,6 +18140,10 @@ PrefabInstance:
       propertyPath: _playerCombatant
       value: 
       objectReference: {fileID: 725778295}
+    - target: {fileID: 3499257109234270649, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
+      propertyPath: _playerEquipment
+      value: 
+      objectReference: {fileID: 1884382403}
     - target: {fileID: 3815635930778169777, guid: 87b9c1f84e5d649f8b27eb3249f0b451, type: 3}
       propertyPath: m_LocalPosition.x
       value: 71.55
