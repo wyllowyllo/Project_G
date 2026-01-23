@@ -16,6 +16,7 @@ MonoBehaviour:
   _slot: 4
   _grade: 2
   _icon: {fileID: 21300000, guid: d637944f1505180439a3059e0733b53e, type: 3}
-  _attackBonus: 30
+  _attackBonus: 0
   _defenseBonus: 0
+  _healthBonus: 30
   _criticalChanceBonus: 0
