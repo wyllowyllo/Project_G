@@ -358,15 +358,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: ProjectG::Monster.Feedback.MonsterSoundPlayer
   _audioSource: {fileID: 0}
   _sfxVolume: 1
-  _hitSound: {fileID: 0}
-  _criticalHitSound: {fileID: 0}
-  _deathSound: {fileID: 0}
+  _hitSound: {fileID: 8300000, guid: 1038b8b8dabf92842853a3becf4875e5, type: 3}
+  _criticalHitSound: {fileID: 8300000, guid: 1038b8b8dabf92842853a3becf4875e5, type: 3}
+  _deathSound: {fileID: 8300000, guid: b8d7cb4cb93661b4ab02e7b0f14066bb, type: 3}
   _idleSounds: []
   _idleSoundMinInterval: 3
   _idleSoundMaxInterval: 8
   _alertSound: {fileID: 8300000, guid: a820e4530837ab042a9f64f0c1da3fa5, type: 3}
-  _normalAttackSound: {fileID: 0}
-  _heavyAttackSound: {fileID: 0}
+  _normalAttackSound: {fileID: 8300000, guid: 5f755631ee77822419eaad4c78ab2f61, type: 3}
+  _heavyAttackSound: {fileID: 8300000, guid: 5df34e8dcf61c58439eec2793249d02f, type: 3}
   _footstepSound: {fileID: 0}
 --- !u!1 &5438919209877003581
 GameObject:
