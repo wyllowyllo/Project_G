@@ -23625,7 +23625,7 @@ MonoBehaviour:
   OnAllMonstersDefeated:
     m_PersistentCalls:
       m_Calls: []
-  _showDebugInfo: 1
+  _showDebugInfo: 0
 --- !u!1001 &1069836875
 PrefabInstance:
   m_ObjectHideFlags: 0

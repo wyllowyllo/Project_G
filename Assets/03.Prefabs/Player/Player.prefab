@@ -1176,7 +1176,7 @@ MonoBehaviour:
   _qSkillKey: 113
   _eSkillKey: 101
   _rSkillKey: 114
-  _useMouseForAim: 0
+  _useMouseForAim: 1
   _aimKey: 102
 --- !u!114 &6603312808622251180
 MonoBehaviour:
@@ -1266,6 +1266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProjectG::PlayerHpBarUI
   _playerCombatant: {fileID: 0}
+  _playerEquipment: {fileID: 0}
   HpSlider: {fileID: 0}
   BackSlider: {fileID: 0}
   _hpFillImage: {fileID: 0}
@@ -1701,8 +1702,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3, y: 2, z: 3}
-  m_Center: {x: -1.3060352e-13, y: 0.13, z: -1.2510099e-13}
+  m_Size: {x: 5, y: 3, z: 5}
+  m_Center: {x: -1.3060352e-13, y: 0.25, z: -1.2510099e-13}
 --- !u!114 &1310565458384622291
 MonoBehaviour:
   m_ObjectHideFlags: 0

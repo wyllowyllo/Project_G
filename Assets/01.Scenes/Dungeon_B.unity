@@ -10039,7 +10039,7 @@ MonoBehaviour:
   OnAllMonstersDefeated:
     m_PersistentCalls:
       m_Calls: []
-  _showDebugInfo: 1
+  _showDebugInfo: 0
 --- !u!1 &1014010132
 GameObject:
   m_ObjectHideFlags: 0
